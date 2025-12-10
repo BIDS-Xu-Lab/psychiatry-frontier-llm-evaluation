@@ -1,13 +1,4 @@
-Please provide a structured list of DSM-5-TR psychiatric diagnoses for the following case vignette enclosed between the <vignette> and </vignette> tags. Base your answer only on the information provided and your clinical expertise; do not fabricate additional details. Give the top 5 most likely diagnoses with corresponding ICD-10 F-codes, consisting of the primary diagnosis and 4 secondary diagnoses with corresponding ICD-10 F-codes. Do not include non-psychiatric diagnoses that do not use F-codes. Your response should consist only of the diagnoses and corresponding F-codes.
-
-Follow this formatting:
-1. <Primary diagnosis> - ICD-10 F-code
-2. <Secondary diagnosis> - ICD-10 F-code
-3. <Secondary diagnosis> - ICD-10 F-code
-4. <Secondary diagnosis> - ICD-10 F-code
-5. <Secondary diagnosis> - ICD-10 F-code
-
-As you are building the differential diagnosis, follow the below clinical reasoning rubric taken from the ACGME Psychiatry Milestones, which evaluates psychiatry resident physician performance. The rubric is enclosed between <rubric> and </rubric>. This rubric contains two subcompetencies - Patient Care 1: Psychiatric Evaluation and Patient Care 2: Psychiatric Formulation and Differential Diagnosis. You should perform at Level 5 for both, representing an expert resident whose achievements in a subcompetency are greater than the expectation. Do not output any of your clinical reasoning; only output the structured list of diagnoses.
+As you are reading the clinical case vignette and building your differential diagnosis, follow the below clinical reasoning rubric taken from the ACGME Psychiatry Milestones, which evaluates psychiatry resident physician performance. The rubric is enclosed between <rubric> and </rubric>. This rubric contains two subcompetencies - Patient Care 1: Psychiatric Evaluation and Patient Care 2: Psychiatric Formulation and Differential Diagnosis. You should perform at Level 5 for both, representing an expert resident whose achievements in a subcompetency are greater than the expectation.
 
 <rubric>
 Patient Care 1: Psychiatric Evaluation
@@ -29,3 +20,10 @@ Level 3: Develops a thorough and prioritized differential diagnosis while avoidi
 Level 4: Develops differential diagnoses in complex cases and incorporates subtle, unusual, or conflicting findings. Develops formulations based on multiple conceptual models. Integrates clinician’s and patient’s emotional responses into the diagnosis and formulation.
 Level 5: Serves as a role model in the development of accurate and complete differential diagnoses and formulations.
 </rubric>
+
+Based on the information above, please read and diagnose the following clinical case vignette enclosed between the <vignette> and </vignette> tags, and provide a structured list of DSM-5-TR psychiatric diagnoses for it. Base your answer only on the information provided and your clinical expertise; do not fabricate additional details. Give the top 5 most likely diagnoses with corresponding ICD-10 F-codes, consisting of the primary diagnosis and 4 secondary diagnoses with corresponding ICD-10 F-codes. Do not include non-psychiatric diagnoses that do not use F-codes. Do not output any of your clinical reasoning; your response should consist only of the structured list of diagnoses and corresponding F-codes. Follow this formatting:
+1. <Primary diagnosis> - ICD-10 F-code
+2. <Secondary diagnosis> - ICD-10 F-code
+3. <Secondary diagnosis> - ICD-10 F-code
+4. <Secondary diagnosis> - ICD-10 F-code
+5. <Secondary diagnosis> - ICD-10 F-code

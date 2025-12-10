@@ -1,0 +1,92 @@
+[
+    {
+        "case_id": 1,
+        "case": "Patient A is a 27 year old female with no past medical or psychiatric history who presents after 2 days of new-onset paranoia. Two days ago, her husband states that the patient began speaking about her concerns that the neighbors were watching her and that they were out to get her. He also notes that it appears she was hallucinating and internally preoccupied. He states the patient has never done this in the past. On the exam, her thought process is illogical and disorganized, she appears to be responding to internal stimuli. She speaks about being concerned that people are out to get her and that she is worried about her safety. Lab work with CBC, CMP, UDS, UA, thyroid panel, B12, folate, HIV, syphilis are unremarkable. Psychiatry is consulted and starts her on a low dose of Seroquel. After one dose, the patient begins to have worsening psychotic symptoms and an acute dystonic reaction. Benadryl is given for acute dystonia and Seroquel is stopped. CT Head imaging is unremarkable. Suddenly, patient begins having a seizure and is admitted for further work up. EEG shows epileptiform discharges. CT A/P is done; there is suspicion for an ovarian teratoma which is confirmed with abdominal ultrasound. Neurology is consulted, LP is completed and CSF study for anti-NMDA antibody is positive. Pt is admitted to the Neurology service for PLEX.",
+        "diagnosis_dsm": "NMDA Encephalitis",
+        "diagnosis_icd": "Other encephalitis and encephalomyelitis (G04.81)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 2,
+        "case": "Patient B is a 60 year old male with past medical history of hypertension, hyperlipidemia, type 2 diabetes, newly diagnosed prostate cancer and a past psychiatric history of anxiety who was admitted to the hospital for cancer treatment. Psychiatry is consulted for depression. The patient has been hospitalized for 7 days now, and the course has been complicated by a DVT. On assessment, the pt appears dysphoric with a constricted affect. He shares that being in the hospital and receiving this new cancer diagnosis has caused a major disruption in his life. Previously, he was still working as a patent lawyer and running his own law firm. He states that since the diagnosis (which he received 1 month ago), his mood has been more depressed with anhedonia, hopelessness, helplessness, low energy, and low appetite which he attributes to the nausea caused by his chemotherapy. He feels constantly worried about his cancer and what will happen to him and his family. The patient is married to his wife for 30 years and has 2 children with 4 grandchildren. He is concerned about the finances, getting his estate planning in order, and worried about what will happen to his wife if he were to pass. He states prior to receiving this diagnosis, he did not have any difficulties with depression. He had a distant history of anxiety when he was in law school, but he states it has since been better controlled with therapy. He has never taken psychiatric medication and never seen a psychiatrist.",
+        "diagnosis_dsm": "Adjustment disorder with mixed anxiety and depression",
+        "diagnosis_icd": "Adjustment disorder with mixed anxiety and depression (F42.23)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 3,
+        "case": "Patient C is a 24 year old male with no past medical or psychiatric history who presents to an inpatient psychiatric hospital after his family filed an emergency detention order to have him hospitalized due to psychosis. The family state the patient has been steadily declining over the past 2 years. They share he was a high-achieving college student and graduated with a degree in electrical engineering. In the past 2 years, he has become more withdrawn, appears more depressed, and his hygiene has declined to the point where he no longer showers. He lost his job due to the fact he was unable to keep up with his duties. In the past 6 months, they’ve noticed the patient’s speech start to become rambled and illogical. They state “it looks like he’s talking to someone not there”. Family history is significant for schizophrenia in the patient’s paternal grandfather. On assessment with the patient, he appears internally preoccupied, withdrawn, and is difficult to engage. His speech is illogical, disorganized, and with increased latency. He is noted to be malodorous with poor hygiene. Lab work-up with CBC, CMP, thyroid panel, HIV, Syphilis, B12, and folate are negative. UDS is positive for marijuana. He is started on Risperidone. After 5 days on the medication, he is less internally preoccupied, able to state he was hearing voices that are still present, but less loud and comprehensible. However, his affect still is flat and he is still mostly withdrawn to his room. His hygiene has improved and he was able to take a shower. ",
+        "diagnosis_dsm": "Schizophrenia",
+        "diagnosis_icd": "Schizophrenia, unspecified (F20.9)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 4,
+        "case": "Patient D is a 16-year-old male with no past medical history and a past psychiatric history of DMDD and ODD who presents to the psychiatric ER after he assaulted his mother. He was brought in accompanied by police officers. The patient was calm, at times defiant towards the physician. When asked what happened, the patient explains that his mother had told him to clean his room, and he did not want to. He was playing video games and did not want to stop. His mother asked again, and he again ignored her. She attempted to take away his video game and, in the process, the patient punched her in the head. He states, “she was being a bitch”. The patient has a history of truancy of school and currently has pending charges for assaulting another student at school starting at age 14. Mother provides collateral history that pt endured sexual abuse at a young age by his biological father who is now in prison. She states that the patient has a problem with authority figures, frequently arguing with her and teachers. She states he will often skip school and run away from home. She mentions he seems “irritable all the time” and when he is told to do something he doesn’t want to, he “explodes”, this started at age 9 and has been on-going. Mother notes that his siblings fear him and shares that the patient frequently hits their household dog, sometimes “too hard”. UDS is positive for marijuana, pt admits to smoking marijuana daily for 1 year.",
+        "diagnosis_dsm": "Conduct disorder, Disruptive mood dysregulation disorder",
+        "diagnosis_icd": "Conduct disorder, adolescent-onset type (F91.1); Disruptive mood dysregulation disorder (F34.81)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 5,
+        "case": "Patient E is 25 year old female with past psychiatric history of anxiety and depression who presents to her PCP appointment for an annual follow-up. The PCP conducts a depression screening and patient endorses depressed mood, anhedonia, hopelessness, low energy, difficulty concentrating, and feelings of guilt/worthlessness. She states she has felt like this for most of the day, nearly every day for about 3 weeks now. Prior to these 3 weeks, the patient notes she felt like her mood was “normal”. When asked if she has ever had periods of abnormally elated mood or irritability, she notes that about 1 month ago she had a period where she felt “extremely happy”. States that she felt “the complete opposite” of how she felt currently. States this period lasted for approximately 5 days and she was “so so happy”. She also felt extremely productive during this time, cleaning her entire house in an evening, and that she was able to “take on more projects at work”. She also notes that she had increased energy, needing to only sleep about 2-3 hours a night during that time and feeling “amazing”. She has tried Zoloft in the past but discontinued the medication because it made her feel “hyper”. She currently is not taking any psychiatric medication. She has never been psychiatrically hospitalized before.",
+        "diagnosis_dsm": "Bipolar depression",
+        "diagnosis_icd": "Bipolar disorder with current depressed episode (F31.3)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 6,
+        "case": "Patient F is a 37 year old male with past medical history of hypertension and past psychiatric history of substance use disorder (marijuana, methamphetamine) and psychosis who presents after being brought in by police to the ED for aggression. The patient was reportedly at a gas station causing a disturbance, speaking about how everyone in there was the devil and throwing items off the shelves. When officers arrived, the patient was aggressive and had to be tased. On arrival, the patient had to receive emergency IM medications of Haldol, Ativan, and Benadryl due to agitation. Psychiatry was consulted for psychosis. On psychiatric assessment, the patient is drowsy after having just received the emergency IM medications. However, he is irritable and hostile, telling the physician to “fuck off” and that “the devil is out to get you”. He states he is “like a God” and that he was unfairly arrested. On chart review, he has a history of being prescribed antipsychotics, but currently pt denies taking any psychiatric medications. Assessment was limited due to the patient’s lack of engagement and hostility. Lab work was significant for UDS positive for marijuana, methamphetamine, and PCP. He started on a low-dose of scheduled Risperidone. The next day, he was reassessed by psychiatry. He is less hostile, but still irritable and asks if he can sleep. On limited assessment, pt denied thinking the devil was after him and did not make any grandiose statements about him being God. He did not appear internally preoccupied but was very sleepy. He was later assessed in the afternoon after he was repotedly asking to leave. He denied suicidal ideations, homicidal ideations, or auditory/visual hallucinations. While he was still irritable, he was more cooperative and states he does not recall being at a gas station. He does endorse to using marijuana, methamphetamine, and PCP “for 2 days straight”. He is currently homeless and wants to go to the shelter. He denies paranoia or any belief that he is God, states “that’s ridiculous” when asked that question. Patient was then discharged after spending 24 hours in the ED.",
+        "diagnosis_dsm": "Substance induced psychotic disorder, polysubstance use disorder",
+        "diagnosis_icd": "F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 7,
+        "case": "Patient G is a 29 year old male with no past medical or psychiatric history who presents to his PCP for problems with sleep. The patient was discharged from the military 1 year ago after sustaining a combat-related injury while in Afghanistan. Since returning, he has been unable to sleep at night. He states he has difficulty falling asleep and staying asleep. He states he has recurring nightmares of what he witnessed while he was in Afghanistan, and these prevent him from sleeping. He also endorses avoidance of any loud noises such as fireworks as it triggers memories for him. He endorses hyper vigilance and always feels like he has to be aware of his surroundings. He states his mood has been “mad” and that he’s “always angry” for no reason and that this has caused difficulties between him and his wife. He does not go into detail about what he witnessed while deployed but does state that he regrets what he did and that he’s “a horrible person”. With regards to substance use, he endorses smoking 1 pack per day of cigarettes and drinking 6-beers a day, denies any illicit substances. He started drinking 6-beers a day ever since he returned from active duty and states “I never miss a day, it’s the only thing that helps me”. Patient was started on Zoloft and Trazodone for sleep and referred to a psychiatrist by his PCP.",
+        "diagnosis_dsm": "PTSD, alcohol use disorder",
+        "diagnosis_icd": "Post-traumatic stress disorder, chronic (F43.1); Alcohol use disorder, unspecified (F10.9)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 8,
+        "case": "Patient H is a 36 year old female with a history of major depressive disorder (MDD) who presents to an inpatient psychiatric hospital for bizarre behavior. Her mother had called the police after she noticed the patient was acting bizarrely at home, not eating, staring blankly at the walls, and not attending to her hygiene. The patient was diagnosed with MDD when she was 20 years old and has been on Zoloft for years. However, she recently lost her insurance and has not been able to take her Zoloft for 6 months. The patient had previously worked full-time as an accountant and was married with 2 children. On assessment, the patient is mute with poor hygiene. Her face at times will scrunch during the interview. She sits motionless in a chair, not answering any questions. She stares blankly at the psychiatrist and is unable to engage. When asked if she can stick her tongue out, she does not follow the simple command. The psychiatrist conducts a musculoskeletal exam and when they move her arm, they are met initially with a large amount of resistance that slowly decreases with time. The psychiatrist moves the patient’s arm above her head, and the pt leaves it there after the psychiatrist lets go. ",
+        "diagnosis_dsm": "Catatonia",
+        "diagnosis_icd": "Cataonia associated with another mental disorder (F06.1)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 9,
+        "case": "Patient I is a 25 year old male with past medical history of hypertension and past psychiatric history of psychosis who presents to a psychiatric clinic for an initial evaluation due to hearing voices. The patient shares that he has been hearing voices for about 1 year. They initially started as incomprehensible whispers but have gradually become louder and more comprehensible. He states sometimes they will be bothersome and make negative remarks about him. He also states he has been isolating himself more and while he previously enjoyed spending time with his friends, he now has no desire to. He currently moved back in with his parents after being laid off from his job as an accountant due to missing multiple days of work unexcused. He denies any depression currently. When asked if he’s ever had episodes of an elated mood or irritability, he does state there was a period in the past year where he felt very happy. He says during this time he didn’t need to sleep as much, maybe 3-4 hours a night, had more energy, was productive, more sociable, and felt more motivated than before. He says people told him that he was “completely different” and people had a hard time understanding his speech, asking him to slow down. He says that lasted for a “couple weeks” and then it “went away”. He was still hearing voices at that time. His speech is tangential at times and he appears internally preoccupied. Hygiene is poor.",
+        "diagnosis_dsm": "Schizoaffective disorder, bipolar type",
+        "diagnosis_icd": "Schizoaffective disorder, bipolar type (F25.0)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    },
+    {
+        "case_id": 10,
+        "case": "Patient J is a 30 year old male with past medical history of hyperthyroidism and past psychiatric history of psychosis who presents to the inpatient psychiatric hospital after his family filed a community mental health warrant. Per his wife, the patient has not been sleeping for 2 weeks, not showering, yelling constantly at home, and took out their savings suddenly to open a restaurant. She states he has no restaurant experience and currently works as a plumber, never mentioning wanting to open a restaurant. She states he has been more violent at home, hitting her when she does not “do as he says” and endangering their 2 year old son. She gives an example of how he said that their son “should be able to bathe himself” and shut him in the bathroom by himself, not allowing the mother to enter. She also states he has been reaching out to multiple women on Instagram that he has never met before, asking them on a date and sending explicit photos to them. She has also noticed the patient talking to himself when no one is there. On assessment, the patient is irritable, loud, demanding to be released. Speech is rapid and pressured. He states, “nothing is wrong with me, I feel amazing, I am a God, I am the Messiah, you all are nothing”. He states that he has been “appointed” by God to “save humanity” and that he cannot do so while hospitalized. When asked about sleep, he states “I don’t need sleep, that is for the weak, I sleep maybe 1 hour and I feel amazing, I have good rest”. With regards to substance use, he denies cigarettes or alcohol use, does endorse buying delta 8 vapes from the smoke shop and smoking them. The wife states he started smoking these vapes about 6 months ago. He has seen a therapist before for depression but has never taken any psychiatric medications.",
+        "diagnosis_dsm": "Bipolar I disorder, current episode manic, with psychotic features",
+        "diagnosis_icd": "Bipolar disorder, current episode manic, severe, with psychotic features (F31.2)",
+        "reasoning": "",
+        "difficulty": "",
+        "source": "juliana_zhang"
+    }
+]
