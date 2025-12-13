@@ -1,24 +1,20 @@
-As you are reading the clinical case vignette and building your differential diagnosis, follow the below clinical reasoning rubric adapted from the ACGME Psychiatry Milestones, which evaluates psychiatry resident physician performance. The rubric is enclosed between <rubric> and </rubric>. This rubric contains two subcompetencies - Patient Care 1: Psychiatric Evaluation and Patient Care 2: Psychiatric Formulation and Differential Diagnosis. You should perform at Level 5 for both, representing an expert resident whose achievements in a subcompetency are greater than the expectation.
+As you are reading the clinical case vignette and building your differential diagnosis, follow the below clinical reasoning rubric adapted from the ACGME Psychiatry Milestones, which evaluates psychiatry resident physician performance. The rubric is enclosed between <rubric> and </rubric>. This rubric contains two subcompetencies - Data Extraction and Organization, and Diagnostic Reasoning and Differential Diagnosis. You should perform at Level 5 for both, representing an expert resident whose achievements in a subcompetency are greater than the expectation.
 
 <rubric>
-Patient Care 1: Psychiatric Evaluation
-Overall Intent: To gather and organize findings from the patient interview; mental status and cognitive exams; targeted physical and neurologic exams; data from collateral sources including information gathered from the medical record, family members, other treaters; and laboratory and imaging results; to screen for risk, and integrate risk assessment into the patient evaluation.
-Level 1: Collects general medical and psychiatric history and completes a mental status examination. Collects relevant information from collateral
-sources. Screens for risk of harm to self, to others, or by others.
-Level 2: Efficiently acquires an accurate and relevant history and performs a targeted examination customized to the patient's presentation. Selects appropriate laboratory and diagnostic tests. Engages in a basic risk assessment and basic safety planning.
-Level 3: Uses hypothesis-driven information gathering to obtain complete, accurate, and relevant history. Interprets collateral information and test
-results to determine necessary additional steps. Incorporates risk and
-protective factors into the assessment of imminent, short, and long-term patient safety and the safety of others.
-Level 4: Elicits and observes subtle and unusual findings. Interprets collateral information and test results to determine necessary additional steps in the evaluation of complex conditions. Incorporates risk and protective factors into the assessment of complex patient presentations, including eliciting information not readily offered by the patient.
-Level 5: Serves as a role model for gathering subtle and accurate findings from the patient and collateral sources. Serves as a role model for risk assessment.
+A - Data Extraction and Organization: Does the diagnostician effectively extract relevant information from the case vignette and organize it logically to support their reasoning? 
+1: Fails to identify key clinical details; the extracted information is inaccurate, irrelevant, or nonsensical.
+2: Identifies some basic symptoms but misses crucial contextual information (timeline, triggers, associated features, risk factors). Organization is poor or absent.
+3: Extracts most of the core symptoms and some contextual details. Presents the information in a basic structured format (e.g., lists symptoms, some history).
+4: Accurately extracts and organizes the key clinical information, including relevant history, mental status findings, and risk factors, in a clear and logical structure.
+5: Demonstrates a sophisticated ability to identify subtle cues, patterns, and relationships within the clinical data and organizes them in a way that clearly supports a nuanced understanding of the case.
 
-Patient Care 2: Psychiatric Formulation and Differential Diagnosis
-Overall Intent: To organize and summarize findings and generate differential diagnosis; identify contributing factors and contextual features and creates a formulation, and use the emotional responses of clinician and patient as diagnostic information.
-Level 1: Organizes and accurately summarizes information obtained from the patient evaluation to develop a clinical impression. Recognizes that biological, psychosocial, and developmental/life cycle factors play a role in a patient’s presentation. Recognizes that clinicians have emotional responses to patients.
-Level 2: Integrates information from the most relevant sources to develop a basic differential diagnosis for common patient presentations. Identifies the biological, psychosocial, and developmental/life cycle factors that contribute to a patient’s presentation. Recognizes that clinicians’ emotional responses have diagnostic value.
-Level 3: Develops a thorough and prioritized differential diagnosis while avoiding premature closure for a range of patient presentations. Synthesizes all information into a concise but comprehensive formulation, taking into account biological, psychosocial, and developmental/life cycle factors. Begins to use the clinician's emotional responses to the patient to aid formulation.
-Level 4: Develops differential diagnoses in complex cases and incorporates subtle, unusual, or conflicting findings. Develops formulations based on multiple conceptual models. Integrates clinician’s and patient’s emotional responses into the diagnosis and formulation.
-Level 5: Serves as a role model in the development of accurate and complete differential diagnoses and formulations.
+B - Diagnostic Reasoning and Differential Diagnosis: Does the diagnostician generate a plausible differential diagnosis and provide a logical rationale connecting the clinical information to its diagnostic considerations?
+1: Provides no diagnosis or a diagnosis that is completely unrelated to the clinical information presented. The reasoning is absent or entirely illogical.
+2: States a diagnosis with minimal or no justification, or the justification provided is weak, tautological, or contradicts the clinical data. Fails to consider alternative diagnoses.
+3: Generates a basic differential diagnosis that includes the most likely condition, with some attempt to link symptoms to diagnostic criteria. The reasoning is present but may be superficial or incomplete.
+4: Develops a reasonable differential diagnosis, prioritizing conditions based on the presented information. Provides a clear rationale, explicitly linking key clinical features to each diagnostic consideration. May briefly mention rule-outs.
+5: Constructs a sophisticated and nuanced differential diagnosis, considering less obvious possibilities and providing a well-articulated rationale that demonstrates a deep understanding of psychopathology and diagnostic principles. Clearly articulates the reasoning for prioritizing certain diagnoses and ruling out others.
+
 </rubric>
 
 Based on the information above, please read and diagnose the following clinical case vignette enclosed between the <vignette> and </vignette> tags, and provide a structured list of DSM-5-TR psychiatric diagnoses for it. Base your answer only on the information provided and your clinical expertise; do not fabricate additional details. Give the top 5 most likely diagnoses with corresponding ICD-10 F-codes, consisting of the primary diagnosis and 4 secondary diagnoses with corresponding ICD-10 F-codes. Do not include non-psychiatric diagnoses that do not use F-codes. Do not output any of your clinical reasoning; your response should consist only of the structured list of diagnoses and corresponding F-codes. Follow this formatting:
