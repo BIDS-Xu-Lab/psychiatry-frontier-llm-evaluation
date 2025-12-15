@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=openai
+#SBATCH --job-name=anthropic
 #SBATCH --time=1-
 #SBATCH --mail-type=ALL
 #SBATCH --mem=32G
@@ -11,4 +11,4 @@ module reset
 module load miniconda
 conda activate mh-eval
 
-python 2_generate_diagnoses_openai.py
+python 3_generate_diagnoses_anthropic.py

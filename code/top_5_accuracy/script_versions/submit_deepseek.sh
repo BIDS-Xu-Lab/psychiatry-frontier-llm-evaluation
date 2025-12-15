@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=openai
+#SBATCH --job-name=deepseek
 #SBATCH --time=1-
 #SBATCH --mail-type=ALL
 #SBATCH --mem=32G
@@ -11,4 +11,4 @@ module reset
 module load miniconda
 conda activate mh-eval
 
-python 2_generate_diagnoses_openai.py
+python 4_generate_diagnoses_deepseek.py
