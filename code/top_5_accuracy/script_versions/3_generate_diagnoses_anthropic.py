@@ -25,7 +25,7 @@ with open("../../prompts/top_5_accuracy/user_prompt.txt") as f:
 
 
 # Generate differential diagnosis for one case using Claude Opus 4.5
-def generate_top5_diagnoses(client, model, system_prompt, user_prompt, vignette, temperature):
+def generate_top5_diagnoses(client, model, system_prompt, user_prompt, vignette):
     # Prepare API call parameters
     # Anthropic Claude: Make API call and create response object
     if model.startswith("claude"):

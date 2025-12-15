@@ -1,5 +1,4 @@
 # Generate top-5 differential diagnoses (n=196) using Gemini 3 Pro
-
 import json
 import pandas as pd
 from tqdm import tqdm

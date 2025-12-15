@@ -41,6 +41,10 @@ def generate_top5_diagnoses(client, model: str, system_prompt: str, user_prompt:
             },
             input=[
                 {
+                    "role": "developer",
+                    "content": system_prompt
+                },
+                {
                     "role": "user",
                     "content": user_prompt + "\n<vignette>\n" + vignette + "\n</vignette>"
                 }

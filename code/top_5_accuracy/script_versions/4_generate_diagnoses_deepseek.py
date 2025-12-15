@@ -1,6 +1,7 @@
 # Generate top-5 differential diagnoses (n=196) using Claude Opus 4.5
 import json
 import pandas as pd
+import os
 from tqdm import tqdm
 from openai import OpenAI
 from dotenv import load_dotenv
