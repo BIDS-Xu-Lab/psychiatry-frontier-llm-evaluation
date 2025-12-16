@@ -40,13 +40,18 @@ def generate_top5_diagnoses(client, model, system_prompt, user_prompt, vignette,
                 ),
             )
     # Iterate through response object
-    for part in response.parts:
-        if not part.text:
-            continue
-        if part.thought:
-            reasoning = part.text  # Extract thought summary
-        else:
-            answer = part.text  # Extract differential diagnosis list
+    try:
+        for part in response.parts:
+            if not part.text:
+                continue
+            if part.thought:
+                reasoning = part.text  # Extract thought summary
+            else:
+                answer = part.text  # Extract differential diagnosis list
+    # Handle when API returns NoneType error due to missing parts
+    except TypeError:
+        reasoning = "Error: No response generated."
+        answer = "Error: No response generated."
 
     return reasoning, answer
 
