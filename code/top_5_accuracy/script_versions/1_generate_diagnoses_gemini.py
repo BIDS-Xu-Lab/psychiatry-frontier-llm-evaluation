@@ -39,19 +39,23 @@ def generate_top5_diagnoses(client, model, system_prompt, user_prompt, vignette,
                     temperature=temperature  # Model temperature
                 ),
             )
-    # Iterate through response object
-    try:
-        for part in response.parts:
-            if not part.text:
-                continue
-            if part.thought:
-                reasoning = part.text  # Extract thought summary
-            else:
-                answer = part.text  # Extract differential diagnosis list
-    # Handle when API returns NoneType error due to missing parts
-    except TypeError:
-        reasoning = "Error: No response generated."
-        answer = "Error: No response generated."
+
+    # Handle content filter triggering
+    if response.prompt_feedback.block_reason:
+        print(f"Content filter triggered: {response.prompt_feedback.block_reason.name}")
+        print("Skipping case...")
+        reasoning = "Content filter triggered."
+        answer = "Content filter triggered."
+        return reasoning, answer
+
+    # Iterate through response object to extract thought summary and differential diagnosis list
+    for part in response.parts:
+        if not part.text:
+            continue
+        if part.thought:
+            reasoning = part.text  # Extract thought summary
+        else:
+            answer = part.text  # Extract differential diagnosis list
 
     return reasoning, answer
 
@@ -75,6 +79,11 @@ for index, row in pbar:
                                                 row["vignette"],
                                                 1,  # Google advises keeping temperature at 1 for Gemini 3 to avoid messing with reasoning behavior
                                                 )
+    if "Content filter triggered." in reasoning or "Content filter triggered." in answer:
+        dataset.loc[index, "model_thoughts"] = reasoning
+        dataset.loc[index, "model_diagnosis"] = answer
+        print(f"Content filter triggered for case {index + 1} out of {dataset.shape[0]} (case {row['case_id']}).")
+        continue
     dataset.loc[index, "model_thoughts"] = reasoning
     dataset.loc[index, "model_diagnosis"] = answer
     print(f"Completed case {index + 1} out of {dataset.shape[0]} (case {row['case_id']}).")
