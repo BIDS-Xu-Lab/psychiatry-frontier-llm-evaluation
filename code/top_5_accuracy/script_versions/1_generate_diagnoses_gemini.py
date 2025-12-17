@@ -41,8 +41,12 @@ def generate_top5_diagnoses(client, model, system_prompt, user_prompt, vignette,
             )
 
     # Handle content filter triggering
-    if response.prompt_feedback.block_reason:
-        print(f"Content filter triggered: {response.prompt_feedback.block_reason.name}")
+    prompt_feedback = getattr(response, "prompt_feedback", None)  # Check if prompt_feedback exists
+
+    if prompt_feedback and getattr(prompt_feedback, "block_reason", None):  # If block_reason exists within prompt_feedback
+        block_reason = prompt_feedback.block_reason  # Get the block_reason object
+        block_name = block_reason.name if getattr(block_reason, "name", None) else str(block_reason)  # Safely get the name attribute or convert to string
+        print("Content filter triggered:", block_name)
         print("Skipping case...")
         reasoning = "Content filter triggered."
         answer = "Content filter triggered."
@@ -79,14 +83,16 @@ for index, row in pbar:
                                                 row["vignette"],
                                                 1,  # Google advises keeping temperature at 1 for Gemini 3 to avoid messing with reasoning behavior
                                                 )
+
     if "Content filter triggered." in reasoning or "Content filter triggered." in answer:
         dataset.loc[index, "model_thoughts"] = reasoning
         dataset.loc[index, "model_diagnosis"] = answer
         print(f"Content filter triggered for case {index + 1} out of {dataset.shape[0]} (case {row['case_id']}).")
-        continue
-    dataset.loc[index, "model_thoughts"] = reasoning
-    dataset.loc[index, "model_diagnosis"] = answer
-    print(f"Completed case {index + 1} out of {dataset.shape[0]} (case {row['case_id']}).")
+
+    else:
+        dataset.loc[index, "model_thoughts"] = reasoning
+        dataset.loc[index, "model_diagnosis"] = answer
+        print(f"Completed case {index + 1} out of {dataset.shape[0]} (case {row['case_id']}).")
 
 # Save to a JSON file
 output_path = f"../../../results/top_5_accuracy/predicted_diagnoses/predicted_diagnoses_{model}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
