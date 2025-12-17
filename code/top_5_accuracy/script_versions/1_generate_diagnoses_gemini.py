@@ -42,7 +42,6 @@ def generate_top5_diagnoses(client, model, system_prompt, user_prompt, vignette,
 
     # Handle content filter triggering
     prompt_feedback = getattr(response, "prompt_feedback", None)  # Check if prompt_feedback exists
-
     if prompt_feedback and getattr(prompt_feedback, "block_reason", None):  # If block_reason exists within prompt_feedback
         block_reason = prompt_feedback.block_reason  # Get the block_reason object
         block_name = block_reason.name if getattr(block_reason, "name", None) else str(block_reason)  # Safely get the name attribute or convert to string
