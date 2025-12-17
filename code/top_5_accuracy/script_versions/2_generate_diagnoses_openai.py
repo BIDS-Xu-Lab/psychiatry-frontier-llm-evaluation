@@ -51,6 +51,14 @@ def generate_top5_diagnoses(client, model: str, system_prompt: str, user_prompt:
             ]
         )
 
+    # Handle content filter triggering
+    prompt_feedback = getattr(response, "incomplete_details", None)
+    if prompt_feedback and getattr(prompt_feedback, "reason", None):
+        block_reason = prompt_feedback.reason
+        block_name = block_reason.name if getattr(block_reason, "name", None) else str(block_reason)
+        print("Content filter triggered:", block_name)
+
+    # Extract reasoning and answer from response object
     # Handle different output array lengths dynamically
     if len(response.output) == 1:
         # Only differential diagnosis present
