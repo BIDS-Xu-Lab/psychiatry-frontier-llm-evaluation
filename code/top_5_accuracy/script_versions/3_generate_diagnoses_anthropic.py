@@ -76,7 +76,7 @@ print(f"Processing model {model} on dataset {dataset_name}...")
 pbar = tqdm(dataset.iterrows(), total=dataset.shape[0])  # Progress bar for tracking
 
 for index, row in pbar:
-    pbar.set_description(f"Generating diagnostic reasoning trace {index + 1} out of {dataset.shape[0]} (case {row['case_id']})")
+    pbar.set_description(f"Generating differential diagnoses for case {index + 1} out of {dataset.shape[0]} (case {row['case_id']})")
     reasoning, answer = generate_top5_diagnoses(anthropic_client,
                                                 model,
                                                 system_prompt,
