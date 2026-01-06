@@ -86,7 +86,7 @@
     {
         "case_id": 13,
         "case": "Ben is a 12 month old infant that presented for a well check to their new pediatrician. Ben’s father indicates the Ben has been without any recent infections or sick exposures, and is up-to-date on immunizations. Ben’s father does recount that “Ben looks very different from our other children. His eyes seem to be space father apart, and his ears look much lower than his siblings when they were babies.” Ben’s father also indicates, “we have a hard time leaving him alone for more than 1 minute before he starts crying loudly; his cry sounds very much like a cat.” Ben was born at 4 lbs 5 oz and had to spend about 1 week in the neonatal intensive care unit for what Ben’s dad reports was “something to do with his heart; it was the wrong shape or something.” Ben has had to meet with a pediatric gastroenterologist since birth for problems related to feeding. Ben’s father reports they met with a geneticist about 2 weeks ago, and they are awaiting the results from that testing. On direct exam by pediatrician, the patient is noted to have rather diffuse hypotonia, excessive drooling, a small head and jaw, and a fixed splitting of the second heart sound.",
-        "diagnosis": "Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0)",
+        "diagnosis": "Cri-du-chat Syndrome (Q93.4); Unspecified neurodevelopmental disorder (F89.0)",
         "difficulty": "Hard. While this diagnosis can be made with the aforementioned clinical signs, confirmation is typically done by genetic testing, which is yet to be determined here.",
         "source": "judah_weathers"
     },
