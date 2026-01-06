@@ -1,6 +1,7 @@
 library(gt)
 library(gtsummary)
 library(tidyverse)
+library(webshot2)
 
 # Read in CSV files
 setwd("~/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/top_5_accuracy/accuracy_metrics/summarized_results")
@@ -101,5 +102,8 @@ gt_results <-
     style = cell_text(weight = "bold"),
     locations = list(cells_stubhead(), cells_column_labels())
   )
-
 gt_results
+
+# Export as PNG
+setwd("~/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/analysis")
+gtsave(gt_results, filename = "table_1.png")
