@@ -225,7 +225,7 @@ for model in models:
 
     # 1. Aggregate Statistics
     stats = {
-        "Metric": ["Top-1 Accuracy", "Top-5 Hit Rate", "Recall@5", "MRR"],
+        "Metric": ["Top-1 Accuracy", "Top-5 Hit Rate", "Recall@5", "Mean Reciprocal Rank"],
         "Score": [
             results_df['hybrid_top1'].mean(),
             results_df['hybrid_hit_rate'].mean(),
