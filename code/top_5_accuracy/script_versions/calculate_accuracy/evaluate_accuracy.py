@@ -239,9 +239,10 @@ for model in models:
     print("\n=== FINAL DIAGNOSTIC PERFORMANCE (Mean Scores) ===")
     stats_df.style.format({"Score": "{:.2%}"})
 
-    # Export stats to CSV
-    stats_df.to_csv(f"{model}_diagnostic_performance_summary.csv", index=False)
-    print(f"\nSaved performance summary to '{model}_diagnostic_performance_summary.csv'")
+    # Export summary statistics to CSV
+    summary_stats_path = "../../../../results/top_5_accuracy/accuracy_metrics/summarized_results"
+    stats_df.to_csv(f"{summary_stats_path}{model}_diagnostic_performance_summary.csv", index=False)
+    print(f"\nSaved performance summary to '{summary_stats_path}{model}_diagnostic_performance_summary.csv'")
 
     # 2. Inspecting Failures
     # Return rows where Hit Rate was 0 (Total Misses)
@@ -251,6 +252,7 @@ for model in models:
         print("Example Miss:")
         print(misses[[COL_TRUE, COL_PRED]].iloc[0])
 
-    # 3. Export to CSV
-    final_df.to_csv(f"{model}_diagnostic_evaluation_results_detailed.csv", index=False)
-    print(f"\nSaved detailed results to '{model}_diagnostic_evaluation_results_detailed.csv'")
+    # 3. Export detailed results to CSV
+    detailed_results_path = "../../../../results/top_5_accuracy/accuracy_metrics/detailed_results/"
+    final_df.to_csv(f"{detailed_results_path}{model}_diagnostic_evaluation_results_detailed.csv", index=False)
+    print(f"\nSaved detailed results to '{detailed_results_path}{model}_diagnostic_evaluation_results_detailed.csv'")
