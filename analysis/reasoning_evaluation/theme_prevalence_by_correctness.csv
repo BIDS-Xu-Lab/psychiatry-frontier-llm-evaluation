@@ -1,0 +1,10 @@
+diagnosis_match_num,theme_name,n,prop_within_correctness
+0,Coherent and well-reasoned,13,0.14772727272727273
+0,Failed to rank diagnoses appropriately,14,0.1590909090909091
+0,Largely coherent reasoning with minor issues,3,0.03409090909090909
+0,Questionable differential diagnoses,49,0.5568181818181818
+0,Sparse reasoning or missing explanations,9,0.10227272727272728
+1,Coherent and well-reasoned,42,0.23333333333333334
+1,Largely coherent reasoning with minor issues,18,0.1
+1,Questionable differential diagnoses,109,0.6055555555555555
+1,Sparse reasoning or missing explanations,11,0.06111111111111111
