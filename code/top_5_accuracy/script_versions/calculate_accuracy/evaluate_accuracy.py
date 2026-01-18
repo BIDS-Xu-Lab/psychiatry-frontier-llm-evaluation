@@ -109,7 +109,7 @@ class HybridEvaluator:
         # Define prompt for LLM-as-a-judge
         prompt = f"""
 
-        Your task is to as a strict medical adjudicator specializing in psychiatry and identify whether the predicted diagnosis is clinically equivalent to (or a valid subclass of) the true diagnosis. Your standards are exacting, and you must consider the nuances of each diagnosis carefully. As much as possible, adhere to the diagnostic language laid out in the DSM-5-TR, and utilize the included ICD-10 F-codes to aid your determination.
+        Your task is to act as a strict medical adjudicator specializing in psychiatry and identify whether the predicted diagnosis is clinically equivalent to (or a valid subclass of) the true diagnosis. Your standards are exacting, and you must consider the nuances of each diagnosis carefully. As much as possible, adhere to the diagnostic language laid out in the DSM-5-TR, and utilize the included ICD-10 F-codes to aid your determination.
 
         True Diagnosis: "{t}"
         Predicted Diagnosis: "{p}"
