@@ -1,0 +1,8 @@
+theme_name,Anthropic Claude Opus 4.5,DeepSeek-V3.2,Google Gemini 3 Pro,OpenAI GPT-5.2
+Coherent but sparse reasoning,3 (30.0%),4 (28.6%),4 (26.7%),9 (40.9%)
+Coherent reasoning but wrong diagnosis,1 (10.0%),2 (14.3%),4 (26.7%),2 (9.1%)
+Conclusion-driven (post-hoc) reasoning,1 (10.0%),0 (0.0%),1 (6.7%),6 (27.3%)
+Failure to distinguish disorder subtypes,2 (20.0%),1 (7.1%),2 (13.3%),2 (9.1%)
+Insufficient justification for differentials,0 (0.0%),3 (21.4%),2 (13.3%),2 (9.1%)
+Incoherent reasoning that trails off,1 (10.0%),3 (21.4%),1 (6.7%),1 (4.5%)
+Improper ranking of diagnoses,2 (20.0%),1 (7.1%),1 (6.7%),0 (0.0%)
