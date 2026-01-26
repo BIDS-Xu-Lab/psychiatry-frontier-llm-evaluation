@@ -11,7 +11,7 @@ import datetime
 load_dotenv()
 
 # Import the vignette dataset
-dataset_path = "../../../datasets/combined/combined_jama.json"
+dataset_path = "../../../../../datasets/combined/medical_literature_only.json"
 dataset_name = str(dataset_path).split("/")[-1].split(".")[0]  # Extract the dataset name
 with open(dataset_path, "r") as f:
     combined = json.load(f)
@@ -152,7 +152,7 @@ print(f"\nCompleted after {iteration} iteration(s).")
 
 
 # Save to a JSON file
-output_path = f"../../../results/top_5_accuracy/predicted_diagnoses/predicted_diagnoses_{model}_{dataset_name}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+output_path = f"../../../../../results/top_5_accuracy/predicted_diagnoses/predicted_diagnoses_{model}_{dataset_name}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 dataset.to_json(output_path, orient="records", indent=2)
 print("***********************************************")
 print(f"{model} predicted diagnoses for calculation of top-5 accuracy saved to JSON.")
