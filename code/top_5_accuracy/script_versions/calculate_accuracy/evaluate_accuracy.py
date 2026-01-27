@@ -141,7 +141,7 @@ class HybridEvaluator:
 
 
 # Load cases from JSON to Pandas DataFrame
-model_results_path = "../../../../results/top_5_accuracy/predicted_diagnoses/"
+model_results_path = "../../../../results/top_5_accuracy/predicted_diagnoses/memorization_experiment/"
 models = os.listdir(model_results_path)
 
 # Evaluate all models inside the folder
@@ -240,7 +240,7 @@ for model in models:
     stats_df.style.format({"Score": "{:.2%}"})
 
     # Export summary statistics to CSV
-    summary_stats_path = "../../../../results/top_5_accuracy/accuracy_metrics/summarized_results"
+    summary_stats_path = "../../../../results/top_5_accuracy/accuracy_metrics/memorization_experiment/summarized_results"
     stats_df.to_csv(f"{summary_stats_path}{model}_diagnostic_performance_summary.csv", index=False)
     print(f"\nSaved performance summary to '{summary_stats_path}{model}_diagnostic_performance_summary.csv'")
 
@@ -253,6 +253,6 @@ for model in models:
         print(misses[[COL_TRUE, COL_PRED]].iloc[0])
 
     # 3. Export detailed results to CSV
-    detailed_results_path = "../../../../results/top_5_accuracy/accuracy_metrics/detailed_results/"
+    detailed_results_path = "../../../../results/top_5_accuracy/accuracy_metrics/memorization_experiment/detailed_results/"
     final_df.to_csv(f"{detailed_results_path}{model}_diagnostic_evaluation_results_detailed.csv", index=False)
     print(f"\nSaved detailed results to '{detailed_results_path}{model}_diagnostic_evaluation_results_detailed.csv'")
