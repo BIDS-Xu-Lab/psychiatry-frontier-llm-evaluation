@@ -1,0 +1,6 @@
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+Traceback (most recent call last):
+  File "/gpfs/radev/project/xu_hua/kwj9/psychiatry_llm/evaluation_of_sota/jama_submission_12152025/psychiatry-frontier-llm-evaluation/code/top_5_accuracy/script_versions/generate_diagnoses/memorization_accuracy_comparison/medical_literature_only/4_generate_diagnoses_deepseek.py", line 16, in <module>
+    with open(dataset_path, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../../../../../datasets/combined/medical_literature_only.json'

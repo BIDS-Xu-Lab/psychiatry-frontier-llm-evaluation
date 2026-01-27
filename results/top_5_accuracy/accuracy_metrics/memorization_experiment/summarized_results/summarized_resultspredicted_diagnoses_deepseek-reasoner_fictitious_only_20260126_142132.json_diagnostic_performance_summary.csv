@@ -1,0 +1,5 @@
+Metric,Score
+Top-1 Accuracy,0.4857142857142857
+Top-5 Accuracy,0.7714285714285715
+Recall@5,0.618095238095238
+Mean Reciprocal Rank,0.6119047619047618
