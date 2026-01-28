@@ -8,19 +8,19 @@ setwd("~/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier
 
 # Filemap
 files_by_model <- list(
-  "DeepSeek-Reasoner" = list(
+  "DeepSeek-V3.2 (DeepSeek)" = list(
     fictitious = "predicted_diagnoses_deepseek-reasoner_fictitious_only_20260126_142132.json_diagnostic_evaluation_results_detailed.csv",
     literature = "predicted_diagnoses_deepseek-reasoner_medical_literature_only_20260126_145408.json_diagnostic_evaluation_results_detailed.csv"
   ),
-  "Claude-Opus-4.5" = list(
+  "Claude Opus 4.5 (Anthropic)" = list(
     fictitious = "predicted_diagnoses_claude-opus-4-5-20251101_fictitious_only_20260126_201438.json_diagnostic_evaluation_results_detailed.csv",
     literature = "predicted_diagnoses_claude-opus-4-5-20251101_medical_literature_only_20260126_212746.json_diagnostic_evaluation_results_detailed.csv"
   ),
-  "GPT-5.2" = list(
+  "GPT-5.2 (OpenAI)" = list(
     fictitious = "predicted_diagnoses_gpt-5.2_fictitious_only_20260126_180947.json_diagnostic_evaluation_results_detailed.csv",
     literature = "predicted_diagnoses_gpt-5.2_medical_literature_only_20260127_013541.json_diagnostic_evaluation_results_detailed.csv"
   ),
-  "Gemini-3-Pro" = list(
+  "Gemini 3 Pro (Google)" = list(
     fictitious = "predicted_diagnoses_gemini-3-pro-preview_fictitious_only_20260126_151138.json_diagnostic_evaluation_results_detailed.csv",
     literature = "predicted_diagnoses_gemini-3-pro-preview_medical_literature_only_20260126_163757.json_diagnostic_evaluation_results_detailed.csv"
   )
@@ -117,6 +117,7 @@ for (mn in levels(df_all$model_name)) {
 reg_table <- bind_rows(reg_rows)
 print(reg_table)
 
+setwd("~/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/analysis/memorization")
 write.csv(reg_table, "supplement_source_effect_top1_by_model.csv", row.names = FALSE)
 
 # -----------------------------
@@ -180,8 +181,9 @@ p <- ggplot(acc, aes(x = vignette_source, y = acc)) +
   labs(
     x = "Vignette source",
     y = "Top-1 accuracy (95% CI)",
-    title = "Top-1 diagnostic accuracy by vignette source"
+    title = "Top-1 diagnostic accuracy of LLMs by vignette source"
   ) +
+  scale_x_discrete(labels = c("Fictitious", "Medical Literature")) +
   theme_bw() +
   theme(
     plot.title = element_text(hjust = 0.5),

@@ -1,5 +1,5 @@
 "model_name","OR_literature_vs_fictitious","CI_low","CI_high","p_value"
-"DeepSeek-Reasoner",1.69,0.798,3.577,0.17
-"Claude-Opus-4.5",1.071,0.495,2.315,0.862
-"GPT-5.2",1.225,0.579,2.589,0.595
-"Gemini-3-Pro",0.517,0.241,1.111,0.0908
+"DeepSeek-V3.2 (DeepSeek)",1.354,0.735,2.496,0.331
+"Claude Opus 4.5 (Anthropic)",1.022,0.544,1.92,0.945
+"GPT-5.2 (OpenAI)",0.88,0.473,1.639,0.688
+"Gemini 3 Pro (Google)",0.568,0.307,1.05,0.0711
