@@ -139,13 +139,13 @@ m_int <- glmer(
 lrt <- anova(m_noint, m_int, test = "LRT")
 print(lrt)
 
-lrt_out <- data.frame(
-  comparison = "no_interaction vs interaction",
-  Chisq = lrt$Chisq[2],
-  df = lrt$`Chi Df`[2],
-  p_value = lrt$`Pr(>Chisq)`[2]
-)
-write.csv(lrt_out, "supplement_source_effect_top1_interaction_LRT.csv", row.names = FALSE)
+# lrt_out <- data.frame(
+#   comparison = "no_interaction vs interaction",
+#   Chisq = lrt$Chisq[2],
+#   df = lrt$`Chi Df`[2],
+#   p_value = lrt$`Pr(>Chisq)`[2]
+# )
+# write.csv(lrt_out, "supplement_source_effect_top1_interaction_LRT.csv", row.names = FALSE)
 
 # -----------------------------
 # 4) Accuracy table + 95% CI plot (Wilson)

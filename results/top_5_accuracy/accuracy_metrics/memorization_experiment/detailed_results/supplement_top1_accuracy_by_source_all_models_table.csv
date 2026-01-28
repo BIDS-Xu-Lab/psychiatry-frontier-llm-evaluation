@@ -1,0 +1,9 @@
+"model_name","vignette_source","correct","n","acc","ci_low","ci_high"
+"DeepSeek-Reasoner","fictitious",33,61,0.541,0.417,0.66
+"DeepSeek-Reasoner","medical_literature",83,135,0.615,0.531,0.693
+"Claude-Opus-4.5","fictitious",39,61,0.639,0.514,0.748
+"Claude-Opus-4.5","medical_literature",87,135,0.644,0.561,0.72
+"GPT-5.2","fictitious",38,61,0.623,0.497,0.734
+"GPT-5.2","medical_literature",80,135,0.593,0.508,0.672
+"Gemini-3-Pro","fictitious",37,61,0.607,0.481,0.719
+"Gemini-3-Pro","medical_literature",63,135,0.467,0.385,0.551
