@@ -141,7 +141,7 @@ class HybridEvaluator:
 
 
 # Load cases from JSON to Pandas DataFrame
-model_results_path = "../../../../results/top_5_accuracy/predicted_diagnoses/memorization_experiment/"
+model_results_path = "../../../../results/top_5_accuracy/predicted_diagnoses/memorization_experiment/fictitious_only"
 models = os.listdir(model_results_path)
 
 # Evaluate all models inside the folder
@@ -162,6 +162,9 @@ for model in models:
     # Iterate through DataFrame
     print(f"Starting evaluation for {model}...")
     for index, row in tqdm(cases_df.iterrows(), total=len(cases_df)):
+
+        # Sanity check: Ensure no missing ground-truth diagnoses
+        assert cases_df["diagnosis"].notna().all(), "Missing ground-truth diagnoses detected"
 
         # 1. Parse Data
         y_true = parse_ground_truth_diagnoses(row[COL_TRUE])
@@ -219,8 +222,7 @@ for model in models:
         })
 
     results_df = pd.DataFrame(results)
-    final_df = pd.concat([cases_df.reset_index(drop=True), results_df], axis=1)
-
+    final_df = cases_df.merge(results_df, on="case_id", how="left", suffixes=("", "_eval"))
     print(f"Done! Made {evaluator.llm_calls} calls to LLM.")
 
     # 1. Aggregate Statistics
@@ -240,7 +242,7 @@ for model in models:
     stats_df.style.format({"Score": "{:.2%}"})
 
     # Export summary statistics to CSV
-    summary_stats_path = "../../../../results/top_5_accuracy/accuracy_metrics/memorization_experiment/summarized_results"
+    summary_stats_path = "../../../../results/top_5_accuracy/accuracy_metrics/memorization_experiment/summarized_results/"
     stats_df.to_csv(f"{summary_stats_path}{model}_diagnostic_performance_summary.csv", index=False)
     print(f"\nSaved performance summary to '{summary_stats_path}{model}_diagnostic_performance_summary.csv'")
 
