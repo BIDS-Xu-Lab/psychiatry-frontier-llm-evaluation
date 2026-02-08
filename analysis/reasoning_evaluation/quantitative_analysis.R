@@ -119,7 +119,7 @@ ggplot(pred_by_model, aes(x, predicted, color = group)) +
         legend.position=c(.85,.25))
 
 plot_path <- "~/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/analysis"
-ggsave("figure_2.png",  path = plot_path)
+ggsave("figure_2.eps",  path = plot_path)
 
 # Boxplots by correctness
 ggplot(full_list, aes(factor(diagnosis_match), reasoning_diagnosis_score)) +
