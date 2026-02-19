@@ -1,111 +1,0 @@
-Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
-
-CondaError: Run 'conda init' before 'conda deactivate'
-
-***********************************************
-Processing model gpt-5.2 on dataset fictitious_only...
-  0%|          | 0/61 [00:00<?, ?it/s]Generating differential diagnoses for case 1 out of 61 (case 1001):   0%|          | 0/61 [00:00<?, ?it/s]Generating differential diagnoses for case 1 out of 61 (case 1001):   2%|▏         | 1/61 [05:03<5:03:07, 303.13s/it]Generating differential diagnoses for case 2 out of 61 (case 1002):   2%|▏         | 1/61 [05:03<5:03:07, 303.13s/it]Generating differential diagnoses for case 2 out of 61 (case 1002):   3%|▎         | 2/61 [14:14<7:21:56, 449.43s/it]Generating differential diagnoses for case 3 out of 61 (case 1003):   3%|▎         | 2/61 [14:14<7:21:56, 449.43s/it]Generating differential diagnoses for case 3 out of 61 (case 1003):   5%|▍         | 3/61 [18:49<5:57:02, 369.36s/it]Generating differential diagnoses for case 4 out of 61 (case 1004):   5%|▍         | 3/61 [18:49<5:57:02, 369.36s/it]Generating differential diagnoses for case 4 out of 61 (case 1004):   7%|▋         | 4/61 [23:10<5:10:21, 326.70s/it]Generating differential diagnoses for case 5 out of 61 (case 1005):   7%|▋         | 4/61 [23:10<5:10:21, 326.70s/it]Generating differential diagnoses for case 5 out of 61 (case 1005):   8%|▊         | 5/61 [28:30<5:02:51, 324.49s/it]Generating differential diagnoses for case 6 out of 61 (case 1006):   8%|▊         | 5/61 [28:30<5:02:51, 324.49s/it]Generating differential diagnoses for case 6 out of 61 (case 1006):  10%|▉         | 6/61 [34:58<5:17:04, 345.90s/it]Generating differential diagnoses for case 7 out of 61 (case 1007):  10%|▉         | 6/61 [34:58<5:17:04, 345.90s/it]Generating differential diagnoses for case 7 out of 61 (case 1007):  11%|█▏        | 7/61 [39:11<4:43:55, 315.47s/it]Generating differential diagnoses for case 8 out of 61 (case 1008):  11%|█▏        | 7/61 [39:11<4:43:55, 315.47s/it]Generating differential diagnoses for case 8 out of 61 (case 1008):  13%|█▎        | 8/61 [44:27<4:38:48, 315.63s/it]Generating differential diagnoses for case 9 out of 61 (case 1009):  13%|█▎        | 8/61 [44:27<4:38:48, 315.63s/it]Generating differential diagnoses for case 9 out of 61 (case 1009):  15%|█▍        | 9/61 [47:55<4:04:21, 281.95s/it]Generating differential diagnoses for case 10 out of 61 (case 1010):  15%|█▍        | 9/61 [47:55<4:04:21, 281.95s/it]Generating differential diagnoses for case 10 out of 61 (case 1010):  16%|█▋        | 10/61 [52:02<3:50:30, 271.19s/it]Generating differential diagnoses for case 11 out of 61 (case 1011):  16%|█▋        | 10/61 [52:02<3:50:30, 271.19s/it]Generating differential diagnoses for case 11 out of 61 (case 1011):  18%|█▊        | 11/61 [58:18<4:12:53, 303.47s/it]Generating differential diagnoses for case 12 out of 61 (case 1012):  18%|█▊        | 11/61 [58:18<4:12:53, 303.47s/it]Generating differential diagnoses for case 12 out of 61 (case 1012):  20%|█▉        | 12/61 [1:07:22<5:07:36, 376.66s/it]Generating differential diagnoses for case 13 out of 61 (case 1013):  20%|█▉        | 12/61 [1:07:22<5:07:36, 376.66s/it]Generating differential diagnoses for case 13 out of 61 (case 1013):  21%|██▏       | 13/61 [1:10:05<4:09:25, 311.78s/it]Generating differential diagnoses for case 14 out of 61 (case 1014):  21%|██▏       | 13/61 [1:10:05<4:09:25, 311.78s/it]Generating differential diagnoses for case 14 out of 61 (case 1014):  23%|██▎       | 14/61 [1:13:39<3:41:02, 282.17s/it]Generating differential diagnoses for case 15 out of 61 (case 1015):  23%|██▎       | 14/61 [1:13:39<3:41:02, 282.17s/it]Generating differential diagnoses for case 15 out of 61 (case 1015):  25%|██▍       | 15/61 [1:14:46<2:46:45, 217.52s/it]Generating differential diagnoses for case 16 out of 61 (case 1016):  25%|██▍       | 15/61 [1:14:46<2:46:45, 217.52s/it]Generating differential diagnoses for case 16 out of 61 (case 1016):  26%|██▌       | 16/61 [1:19:27<2:57:24, 236.54s/it]Generating differential diagnoses for case 17 out of 61 (case 1017):  26%|██▌       | 16/61 [1:19:27<2:57:24, 236.54s/it]Generating differential diagnoses for case 17 out of 61 (case 1017):  28%|██▊       | 17/61 [1:21:06<2:23:06, 195.16s/it]Generating differential diagnoses for case 18 out of 61 (case 1018):  28%|██▊       | 17/61 [1:21:06<2:23:06, 195.16s/it]Generating differential diagnoses for case 18 out of 61 (case 1018):  30%|██▉       | 18/61 [1:22:43<1:58:45, 165.71s/it]Generating differential diagnoses for case 19 out of 61 (case 1019):  30%|██▉       | 18/61 [1:22:43<1:58:45, 165.71s/it]Generating differential diagnoses for case 19 out of 61 (case 1019):  31%|███       | 19/61 [1:26:07<2:03:58, 177.12s/it]Generating differential diagnoses for case 20 out of 61 (case 1020):  31%|███       | 19/61 [1:26:07<2:03:58, 177.12s/it]Generating differential diagnoses for case 20 out of 61 (case 1020):  33%|███▎      | 20/61 [1:28:05<1:48:58, 159.47s/it]Generating differential diagnoses for case 21 out of 61 (case 1021):  33%|███▎      | 20/61 [1:28:05<1:48:58, 159.47s/it]Generating differential diagnoses for case 21 out of 61 (case 1021):  34%|███▍      | 21/61 [1:31:09<1:51:13, 166.84s/it]Generating differential diagnoses for case 22 out of 61 (case 1022):  34%|███▍      | 21/61 [1:31:09<1:51:13, 166.84s/it]Generating differential diagnoses for case 22 out of 61 (case 1022):  36%|███▌      | 22/61 [1:34:20<1:53:12, 174.17s/it]Generating differential diagnoses for case 23 out of 61 (case 1023):  36%|███▌      | 22/61 [1:34:20<1:53:12, 174.17s/it]Generating differential diagnoses for case 23 out of 61 (case 1023):  38%|███▊      | 23/61 [1:38:09<2:00:35, 190.41s/it]Generating differential diagnoses for case 24 out of 61 (case 1024):  38%|███▊      | 23/61 [1:38:09<2:00:35, 190.41s/it]Generating differential diagnoses for case 24 out of 61 (case 1024):  39%|███▉      | 24/61 [1:40:33<1:48:56, 176.66s/it]Generating differential diagnoses for case 25 out of 61 (case 1025):  39%|███▉      | 24/61 [1:40:33<1:48:56, 176.66s/it]Generating differential diagnoses for case 25 out of 61 (case 1025):  41%|████      | 25/61 [1:43:30<1:46:03, 176.75s/it]Generating differential diagnoses for case 26 out of 61 (case 1026):  41%|████      | 25/61 [1:43:30<1:46:03, 176.75s/it]Generating differential diagnoses for case 26 out of 61 (case 1026):  43%|████▎     | 26/61 [1:49:26<2:14:22, 230.37s/it]Generating differential diagnoses for case 27 out of 61 (case 1027):  43%|████▎     | 26/61 [1:49:26<2:14:22, 230.37s/it]Generating differential diagnoses for case 27 out of 61 (case 1027):  44%|████▍     | 27/61 [1:56:23<2:42:16, 286.36s/it]Generating differential diagnoses for case 28 out of 61 (case 1028):  44%|████▍     | 27/61 [1:56:23<2:42:16, 286.36s/it]Generating differential diagnoses for case 28 out of 61 (case 1028):  46%|████▌     | 28/61 [1:59:51<2:24:35, 262.88s/it]Generating differential diagnoses for case 29 out of 61 (case 1029):  46%|████▌     | 28/61 [1:59:51<2:24:35, 262.88s/it]Generating differential diagnoses for case 29 out of 61 (case 1029):  48%|████▊     | 29/61 [2:09:30<3:10:50, 357.82s/it]Generating differential diagnoses for case 30 out of 61 (case 1030):  48%|████▊     | 29/61 [2:09:30<3:10:50, 357.82s/it]Generating differential diagnoses for case 30 out of 61 (case 1030):  49%|████▉     | 30/61 [2:10:34<2:19:15, 269.52s/it]Generating differential diagnoses for case 31 out of 61 (case 1031):  49%|████▉     | 30/61 [2:10:34<2:19:15, 269.52s/it]Generating differential diagnoses for case 31 out of 61 (case 1031):  51%|█████     | 31/61 [2:14:00<2:05:19, 250.66s/it]Generating differential diagnoses for case 32 out of 61 (case 1032):  51%|█████     | 31/61 [2:14:00<2:05:19, 250.66s/it]Generating differential diagnoses for case 32 out of 61 (case 1032):  52%|█████▏    | 32/61 [2:17:36<1:56:04, 240.17s/it]Generating differential diagnoses for case 33 out of 61 (case 1033):  52%|█████▏    | 32/61 [2:17:36<1:56:04, 240.17s/it]Generating differential diagnoses for case 33 out of 61 (case 1033):  54%|█████▍    | 33/61 [2:18:34<1:26:36, 185.60s/it]Generating differential diagnoses for case 34 out of 61 (case 1034):  54%|█████▍    | 33/61 [2:18:34<1:26:36, 185.60s/it]Generating differential diagnoses for case 34 out of 61 (case 1034):  56%|█████▌    | 34/61 [2:20:04<1:10:35, 156.86s/it]Generating differential diagnoses for case 35 out of 61 (case 1035):  56%|█████▌    | 34/61 [2:20:04<1:10:35, 156.86s/it]Generating differential diagnoses for case 35 out of 61 (case 1035):  57%|█████▋    | 35/61 [2:22:56<1:09:52, 161.25s/it]Generating differential diagnoses for case 36 out of 61 (case 1036):  57%|█████▋    | 35/61 [2:22:56<1:09:52, 161.25s/it]Generating differential diagnoses for case 36 out of 61 (case 1036):  59%|█████▉    | 36/61 [2:26:01<1:10:10, 168.42s/it]Generating differential diagnoses for case 37 out of 61 (case 1037):  59%|█████▉    | 36/61 [2:26:01<1:10:10, 168.42s/it]Generating differential diagnoses for case 37 out of 61 (case 1037):  61%|██████    | 37/61 [2:31:31<1:26:50, 217.12s/it]Generating differential diagnoses for case 38 out of 61 (case 1038):  61%|██████    | 37/61 [2:31:31<1:26:50, 217.12s/it]Generating differential diagnoses for case 38 out of 61 (case 1038):  62%|██████▏   | 38/61 [2:34:50<1:21:04, 211.52s/it]Generating differential diagnoses for case 39 out of 61 (case 1039):  62%|██████▏   | 38/61 [2:34:50<1:21:04, 211.52s/it]Generating differential diagnoses for case 39 out of 61 (case 1039):  64%|██████▍   | 39/61 [2:38:26<1:18:05, 212.98s/it]Generating differential diagnoses for case 40 out of 61 (case 1040):  64%|██████▍   | 39/61 [2:38:26<1:18:05, 212.98s/it]Generating differential diagnoses for case 40 out of 61 (case 1040):  66%|██████▌   | 40/61 [2:42:51<1:20:01, 228.62s/it]Generating differential diagnoses for case 41 out of 61 (case 1041):  66%|██████▌   | 40/61 [2:42:51<1:20:01, 228.62s/it]Generating differential diagnoses for case 41 out of 61 (case 1041):  67%|██████▋   | 41/61 [2:44:00<1:00:13, 180.66s/it]Generating differential diagnoses for case 42 out of 61 (case 1042):  67%|██████▋   | 41/61 [2:44:00<1:00:13, 180.66s/it]Generating differential diagnoses for case 42 out of 61 (case 1042):  69%|██████▉   | 42/61 [2:47:13<58:22, 184.33s/it]  Generating differential diagnoses for case 43 out of 61 (case 1043):  69%|██████▉   | 42/61 [2:47:13<58:22, 184.33s/it]Generating differential diagnoses for case 43 out of 61 (case 1043):  70%|███████   | 43/61 [2:49:22<50:21, 167.86s/it]Generating differential diagnoses for case 44 out of 61 (case 1044):  70%|███████   | 43/61 [2:49:22<50:21, 167.86s/it]Generating differential diagnoses for case 44 out of 61 (case 1044):  72%|███████▏  | 44/61 [2:53:25<53:56, 190.36s/it]Generating differential diagnoses for case 45 out of 61 (case 1045):  72%|███████▏  | 44/61 [2:53:25<53:56, 190.36s/it]Generating differential diagnoses for case 45 out of 61 (case 1045):  74%|███████▍  | 45/61 [2:58:21<59:10, 221.93s/it]Generating differential diagnoses for case 46 out of 61 (case 1046):  74%|███████▍  | 45/61 [2:58:21<59:10, 221.93s/it]Generating differential diagnoses for case 46 out of 61 (case 1046):  75%|███████▌  | 46/61 [3:00:36<48:57, 195.80s/it]Generating differential diagnoses for case 47 out of 61 (case 1047):  75%|███████▌  | 46/61 [3:00:36<48:57, 195.80s/it]Generating differential diagnoses for case 47 out of 61 (case 1047):  77%|███████▋  | 47/61 [3:05:56<54:25, 233.26s/it]Generating differential diagnoses for case 48 out of 61 (case 1048):  77%|███████▋  | 47/61 [3:05:56<54:25, 233.26s/it]Generating differential diagnoses for case 48 out of 61 (case 1048):  79%|███████▊  | 48/61 [3:09:16<48:21, 223.20s/it]Generating differential diagnoses for case 49 out of 61 (case 1049):  79%|███████▊  | 48/61 [3:09:16<48:21, 223.20s/it]Generating differential diagnoses for case 49 out of 61 (case 1049):  80%|████████  | 49/61 [3:18:29<1:04:25, 322.10s/it]Generating differential diagnoses for case 50 out of 61 (case 1050):  80%|████████  | 49/61 [3:18:29<1:04:25, 322.10s/it]Generating differential diagnoses for case 50 out of 61 (case 1050):  82%|████████▏ | 50/61 [3:21:19<50:41, 276.50s/it]  Generating differential diagnoses for case 51 out of 61 (case 1051):  82%|████████▏ | 50/61 [3:21:19<50:41, 276.50s/it]Generating differential diagnoses for case 51 out of 61 (case 1051):  84%|████████▎ | 51/61 [3:24:56<43:06, 258.65s/it]Generating differential diagnoses for case 52 out of 61 (case 1052):  84%|████████▎ | 51/61 [3:24:56<43:06, 258.65s/it]Generating differential diagnoses for case 52 out of 61 (case 1052):  85%|████████▌ | 52/61 [3:26:53<32:25, 216.19s/it]Generating differential diagnoses for case 53 out of 61 (case 1053):  85%|████████▌ | 52/61 [3:26:53<32:25, 216.19s/it]Generating differential diagnoses for case 53 out of 61 (case 1053):  87%|████████▋ | 53/61 [3:30:12<28:08, 211.09s/it]Generating differential diagnoses for case 54 out of 61 (case 1054):  87%|████████▋ | 53/61 [3:30:12<28:08, 211.09s/it]Generating differential diagnoses for case 54 out of 61 (case 1054):  89%|████████▊ | 54/61 [3:35:23<28:06, 240.95s/it]Generating differential diagnoses for case 55 out of 61 (case 1055):  89%|████████▊ | 54/61 [3:35:23<28:06, 240.95s/it]Generating differential diagnoses for case 55 out of 61 (case 1055):  90%|█████████ | 55/61 [3:36:40<19:10, 191.78s/it]Generating differential diagnoses for case 56 out of 61 (case 1056):  90%|█████████ | 55/61 [3:36:40<19:10, 191.78s/it]Generating differential diagnoses for case 56 out of 61 (case 1056):  92%|█████████▏| 56/61 [3:39:28<15:23, 184.70s/it]Generating differential diagnoses for case 57 out of 61 (case 1057):  92%|█████████▏| 56/61 [3:39:28<15:23, 184.70s/it]Generating differential diagnoses for case 57 out of 61 (case 1057):  93%|█████████▎| 57/61 [3:40:33<09:55, 148.84s/it]Generating differential diagnoses for case 58 out of 61 (case 1058):  93%|█████████▎| 57/61 [3:40:33<09:55, 148.84s/it]Generating differential diagnoses for case 58 out of 61 (case 1058):  95%|█████████▌| 58/61 [3:44:00<08:18, 166.09s/it]Generating differential diagnoses for case 59 out of 61 (case 1059):  95%|█████████▌| 58/61 [3:44:00<08:18, 166.09s/it]Generating differential diagnoses for case 59 out of 61 (case 1059):  97%|█████████▋| 59/61 [3:45:17<04:39, 139.56s/it]Generating differential diagnoses for case 60 out of 61 (case 1060):  97%|█████████▋| 59/61 [3:45:17<04:39, 139.56s/it]Generating differential diagnoses for case 60 out of 61 (case 1060):  98%|█████████▊| 60/61 [3:47:36<02:19, 139.38s/it]Generating differential diagnoses for case 61 out of 61 (case 1061):  98%|█████████▊| 60/61 [3:47:36<02:19, 139.38s/it]Generating differential diagnoses for case 61 out of 61 (case 1061): 100%|██████████| 61/61 [3:49:35<00:00, 133.18s/it]Generating differential diagnoses for case 61 out of 61 (case 1061): 100%|██████████| 61/61 [3:49:35<00:00, 225.83s/it]
-Completed case 1 out of 61 (case 1001).
-Completed case 2 out of 61 (case 1002).
-Completed case 3 out of 61 (case 1003).
-Completed case 4 out of 61 (case 1004).
-Completed case 5 out of 61 (case 1005).
-Completed case 6 out of 61 (case 1006).
-Completed case 7 out of 61 (case 1007).
-Completed case 8 out of 61 (case 1008).
-Completed case 9 out of 61 (case 1009).
-Completed case 10 out of 61 (case 1010).
-Completed case 11 out of 61 (case 1011).
-Completed case 12 out of 61 (case 1012).
-Completed case 13 out of 61 (case 1013).
-Completed case 14 out of 61 (case 1014).
-Completed case 15 out of 61 (case 1015).
-Completed case 16 out of 61 (case 1016).
-Completed case 17 out of 61 (case 1017).
-Completed case 18 out of 61 (case 1018).
-Completed case 19 out of 61 (case 1019).
-Completed case 20 out of 61 (case 1020).
-Completed case 21 out of 61 (case 1021).
-Completed case 22 out of 61 (case 1022).
-Completed case 23 out of 61 (case 1023).
-Completed case 24 out of 61 (case 1024).
-Completed case 25 out of 61 (case 1025).
-Completed case 26 out of 61 (case 1026).
-Completed case 27 out of 61 (case 1027).
-Completed case 28 out of 61 (case 1028).
-Completed case 29 out of 61 (case 1029).
-Completed case 30 out of 61 (case 1030).
-Completed case 31 out of 61 (case 1031).
-Completed case 32 out of 61 (case 1032).
-Completed case 33 out of 61 (case 1033).
-Completed case 34 out of 61 (case 1034).
-Completed case 35 out of 61 (case 1035).
-Completed case 36 out of 61 (case 1036).
-Completed case 37 out of 61 (case 1037).
-Completed case 38 out of 61 (case 1038).
-Completed case 39 out of 61 (case 1039).
-Completed case 40 out of 61 (case 1040).
-Completed case 41 out of 61 (case 1041).
-Completed case 42 out of 61 (case 1042).
-Completed case 43 out of 61 (case 1043).
-Completed case 44 out of 61 (case 1044).
-Completed case 45 out of 61 (case 1045).
-Completed case 46 out of 61 (case 1046).
-Completed case 47 out of 61 (case 1047).
-Completed case 48 out of 61 (case 1048).
-Completed case 49 out of 61 (case 1049).
-Completed case 50 out of 61 (case 1050).
-Completed case 51 out of 61 (case 1051).
-Completed case 52 out of 61 (case 1052).
-Completed case 53 out of 61 (case 1053).
-Completed case 54 out of 61 (case 1054).
-Completed case 55 out of 61 (case 1055).
-Completed case 56 out of 61 (case 1056).
-Completed case 57 out of 61 (case 1057).
-Completed case 58 out of 61 (case 1058).
-Completed case 59 out of 61 (case 1059).
-Completed case 60 out of 61 (case 1060).
-Completed case 61 out of 61 (case 1061).
-
-=== Iteration 1 ===
-Missing or empty values found in 6 cases:
-    case_id model_thoughts                                    model_diagnosis
-24     1025                 1. Obsessive-compulsive disorder - F42  \n2. O...
-29     1030                 1. Narcissistic Personality Disorder - F60.81 ...
-32     1033                 1. Oppositional Defiant Disorder - F91.3  \n2....
-51     1052                 1. Adjustment disorder with mixed anxiety and ...
-56     1057                 1. Excoriation (Skin-Picking) Disorder - F42.4...
-58     1059                 1. Posttraumatic stress disorder (PTSD) - F43....
-Rerunning 6 cases with missing data: [24, 29, 32, 51, 56, 58]
-
-Rerunning case 24 (case_id: 1025)
-Successfully completed case 24
-
-Rerunning case 29 (case_id: 1030)
-Successfully completed case 29
-
-Rerunning case 32 (case_id: 1033)
-Successfully completed case 32
-
-Rerunning case 51 (case_id: 1052)
-Successfully completed case 51
-
-Rerunning case 56 (case_id: 1057)
-Successfully completed case 56
-
-Rerunning case 58 (case_id: 1059)
-Successfully completed case 58
-
-=== Iteration 2 ===
-Missing or empty values found in 1 cases:
-    case_id model_thoughts                                    model_diagnosis
-29     1030                 1. Narcissistic Personality Disorder - ICD-10 ...
-Rerunning 1 cases with missing data: [29]
-
-Rerunning case 29 (case_id: 1030)
-Successfully completed case 29
-No missing or empty values found in the results.
-
-Completed after 2 iteration(s).
-***********************************************
-gpt-5.2 predicted diagnoses for calculation of top-5 accuracy saved to JSON.

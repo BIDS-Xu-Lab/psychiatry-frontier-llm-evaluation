@@ -1,139 +1,0 @@
-Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
-***********************************************
-Processing model gpt-5.2 on dataset combined_jama...
-  0%|          | 0/196 [00:00<?, ?it/s]  1%|          | 1/196 [19:30<63:25:21, 1170.88s/it]  1%|          | 2/196 [22:37<31:53:13, 591.72s/it]   2%|▏         | 3/196 [32:02<31:04:32, 579.65s/it]  2%|▏         | 4/196 [48:30<39:30:42, 740.85s/it]  3%|▎         | 5/196 [49:41<26:29:13, 499.24s/it]  3%|▎         | 6/196 [54:47<22:53:04, 433.60s/it]  4%|▎         | 7/196 [1:11:09<32:10:15, 612.78s/it]  4%|▍         | 8/196 [1:14:59<25:38:06, 490.88s/it]  5%|▍         | 9/196 [1:21:28<23:51:13, 459.22s/it]  5%|▌         | 10/196 [1:24:33<19:20:48, 374.45s/it]  6%|▌         | 11/196 [1:34:13<22:29:11, 437.57s/it]  6%|▌         | 12/196 [1:47:35<28:01:52, 548.44s/it]  7%|▋         | 13/196 [1:49:32<21:13:42, 417.61s/it]  7%|▋         | 14/196 [1:52:17<17:15:30, 341.38s/it]  8%|▊         | 15/196 [2:00:56<19:51:08, 394.85s/it]  8%|▊         | 16/196 [2:07:34<19:47:35, 395.86s/it]  9%|▊         | 17/196 [2:10:55<16:45:50, 337.15s/it]  9%|▉         | 18/196 [2:13:14<13:43:16, 277.51s/it] 10%|▉         | 19/196 [2:16:12<12:10:35, 247.66s/it] 10%|█         | 20/196 [2:22:15<13:48:17, 282.37s/it] 11%|█         | 21/196 [2:27:42<14:23:04, 295.91s/it] 11%|█         | 22/196 [2:29:41<11:43:55, 242.73s/it] 12%|█▏        | 23/196 [2:33:40<11:36:06, 241.43s/it] 12%|█▏        | 24/196 [2:38:56<12:36:25, 263.87s/it] 13%|█▎        | 25/196 [2:45:04<14:01:26, 295.24s/it] 13%|█▎        | 26/196 [2:47:11<11:33:45, 244.86s/it] 14%|█▍        | 27/196 [2:51:51<11:59:05, 255.30s/it] 14%|█▍        | 28/196 [2:55:22<11:17:09, 241.84s/it] 15%|█▍        | 29/196 [3:00:57<12:31:09, 269.88s/it] 15%|█▌        | 30/196 [3:07:59<14:33:19, 315.66s/it] 16%|█▌        | 31/196 [3:10:46<12:24:58, 270.90s/it] 16%|█▋        | 32/196 [3:11:28<9:12:40, 202.20s/it]  17%|█▋        | 33/196 [3:14:41<9:02:22, 199.64s/it] 17%|█▋        | 34/196 [3:18:09<9:05:47, 202.14s/it] 18%|█▊        | 35/196 [3:22:07<9:31:04, 212.82s/it] 18%|█▊        | 36/196 [3:26:32<10:08:54, 228.34s/it] 19%|█▉        | 37/196 [3:32:01<11:25:30, 258.68s/it] 19%|█▉        | 38/196 [3:36:24<11:24:51, 260.07s/it] 20%|█▉        | 39/196 [3:46:00<15:27:51, 354.60s/it] 20%|██        | 40/196 [3:50:49<14:31:24, 335.15s/it] 21%|██        | 41/196 [3:53:07<11:52:54, 275.96s/it] 21%|██▏       | 42/196 [4:01:18<14:33:52, 340.47s/it] 22%|██▏       | 43/196 [4:02:45<11:14:06, 264.36s/it] 22%|██▏       | 44/196 [4:11:44<14:38:05, 346.61s/it] 23%|██▎       | 45/196 [4:14:31<12:17:22, 293.00s/it] 23%|██▎       | 46/196 [4:19:19<12:08:27, 291.39s/it] 24%|██▍       | 47/196 [4:26:43<13:56:57, 337.03s/it] 24%|██▍       | 48/196 [4:28:47<11:13:44, 273.14s/it] 25%|██▌       | 49/196 [4:33:15<11:05:21, 271.58s/it] 26%|██▌       | 50/196 [4:36:00<9:43:06, 239.63s/it]  26%|██▌       | 51/196 [4:40:25<9:57:34, 247.28s/it] 27%|██▋       | 52/196 [4:45:20<10:28:12, 261.76s/it] 27%|██▋       | 53/196 [4:46:41<8:14:29, 207.48s/it]  28%|██▊       | 54/196 [4:51:52<9:24:17, 238.43s/it] 28%|██▊       | 55/196 [4:57:33<10:32:26, 269.13s/it] 29%|██▊       | 56/196 [4:59:48<8:54:20, 229.01s/it]  29%|██▉       | 57/196 [5:04:03<9:08:37, 236.81s/it] 30%|██▉       | 58/196 [5:05:34<7:23:55, 193.01s/it] 30%|███       | 59/196 [5:11:21<9:06:08, 239.18s/it] 31%|███       | 60/196 [5:16:11<9:36:56, 254.53s/it] 31%|███       | 61/196 [5:19:09<8:40:51, 231.50s/it] 32%|███▏      | 62/196 [5:22:17<8:08:06, 218.55s/it] 32%|███▏      | 63/196 [5:29:20<10:20:01, 279.71s/it] 33%|███▎      | 64/196 [5:42:35<15:55:51, 434.48s/it] 33%|███▎      | 65/196 [5:51:06<16:38:27, 457.31s/it] 34%|███▎      | 66/196 [5:58:29<16:21:22, 452.94s/it] 34%|███▍      | 67/196 [6:01:48<13:30:04, 376.78s/it] 35%|███▍      | 68/196 [6:06:32<12:24:50, 349.14s/it] 35%|███▌      | 69/196 [6:10:09<10:54:59, 309.44s/it] 36%|███▌      | 70/196 [6:16:47<11:45:46, 336.08s/it] 36%|███▌      | 71/196 [6:20:41<10:35:54, 305.23s/it] 37%|███▋      | 72/196 [6:26:30<10:58:01, 318.40s/it] 37%|███▋      | 73/196 [6:32:01<11:00:39, 322.27s/it] 38%|███▊      | 74/196 [6:40:52<13:02:24, 384.79s/it] 38%|███▊      | 75/196 [6:45:01<11:34:20, 344.30s/it] 39%|███▉      | 76/196 [6:49:33<10:45:13, 322.62s/it] 39%|███▉      | 77/196 [6:52:34<9:15:26, 280.05s/it]  40%|███▉      | 78/196 [6:57:22<9:15:06, 282.26s/it] 40%|████      | 79/196 [7:03:26<9:58:12, 306.77s/it] 41%|████      | 80/196 [7:05:47<8:17:27, 257.30s/it] 41%|████▏     | 81/196 [7:08:41<7:25:11, 232.27s/it] 42%|████▏     | 82/196 [7:10:42<6:17:54, 198.90s/it] 42%|████▏     | 83/196 [7:13:47<6:06:39, 194.69s/it] 43%|████▎     | 84/196 [7:15:40<5:17:30, 170.09s/it] 43%|████▎     | 85/196 [7:20:21<6:16:00, 203.25s/it] 44%|████▍     | 86/196 [7:25:39<7:15:54, 237.77s/it] 44%|████▍     | 87/196 [7:30:37<7:44:54, 255.91s/it] 45%|████▍     | 88/196 [7:34:10<7:17:24, 243.00s/it] 45%|████▌     | 89/196 [7:41:00<8:42:42, 293.11s/it] 46%|████▌     | 90/196 [7:46:36<9:00:32, 305.96s/it] 46%|████▋     | 91/196 [7:53:33<9:53:56, 339.39s/it] 47%|████▋     | 92/196 [8:02:38<11:35:03, 400.99s/it] 47%|████▋     | 93/196 [8:07:18<10:25:52, 364.59s/it] 48%|████▊     | 94/196 [8:10:20<8:47:01, 310.02s/it]  48%|████▊     | 95/196 [8:12:49<7:20:18, 261.57s/it] 49%|████▉     | 96/196 [8:17:13<7:17:01, 262.21s/it] 49%|████▉     | 97/196 [8:21:28<7:09:25, 260.25s/it] 50%|█████     | 98/196 [8:25:09<6:45:48, 248.46s/it] 51%|█████     | 99/196 [8:28:49<6:27:31, 239.71s/it] 51%|█████     | 100/196 [8:32:36<6:17:29, 235.93s/it] 52%|█████▏    | 101/196 [8:41:12<8:26:47, 320.08s/it] 52%|█████▏    | 102/196 [8:48:55<9:28:31, 362.89s/it] 53%|█████▎    | 103/196 [8:55:21<9:33:06, 369.75s/it] 53%|█████▎    | 104/196 [9:01:37<9:29:49, 371.63s/it] 54%|█████▎    | 105/196 [9:06:40<8:52:24, 351.04s/it] 54%|█████▍    | 106/196 [9:14:44<9:46:22, 390.92s/it] 55%|█████▍    | 107/196 [9:20:37<9:23:15, 379.72s/it] 55%|█████▌    | 108/196 [9:25:48<8:46:29, 358.97s/it] 56%|█████▌    | 109/196 [9:33:24<9:22:50, 388.17s/it] 56%|█████▌    | 110/196 [9:40:29<9:32:23, 399.34s/it] 57%|█████▋    | 111/196 [9:47:23<9:31:55, 403.71s/it] 57%|█████▋    | 112/196 [9:55:08<9:50:37, 421.88s/it] 58%|█████▊    | 113/196 [10:02:55<10:02:16, 435.37s/it] 58%|█████▊    | 114/196 [10:06:20<8:20:38, 366.32s/it]  59%|█████▊    | 115/196 [10:12:26<8:14:42, 366.45s/it] 59%|█████▉    | 116/196 [10:17:54<7:53:10, 354.88s/it] 60%|█████▉    | 117/196 [10:20:31<6:29:09, 295.56s/it] 60%|██████    | 118/196 [10:25:19<6:20:58, 293.06s/it] 61%|██████    | 119/196 [10:34:14<7:49:19, 365.71s/it] 61%|██████    | 120/196 [10:39:04<7:14:40, 343.16s/it] 62%|██████▏   | 121/196 [10:41:58<6:05:27, 292.37s/it] 62%|██████▏   | 122/196 [10:47:27<6:14:07, 303.34s/it] 63%|██████▎   | 123/196 [10:49:09<4:55:17, 242.70s/it] 63%|██████▎   | 124/196 [10:51:42<4:19:10, 215.98s/it] 64%|██████▍   | 125/196 [10:55:10<4:12:47, 213.63s/it] 64%|██████▍   | 126/196 [11:01:19<5:03:29, 260.14s/it] 65%|██████▍   | 127/196 [11:06:24<5:14:35, 273.56s/it] 65%|██████▍   | 127/196 [11:06:54<6:02:20, 315.08s/it]
-Completed case 1 out of 196 (case 2).
-Completed case 2 out of 196 (case 4).
-Completed case 3 out of 196 (case 13).
-Completed case 4 out of 196 (case 14).
-Completed case 5 out of 196 (case 15).
-Completed case 6 out of 196 (case 17).
-Completed case 7 out of 196 (case 18).
-Completed case 8 out of 196 (case 19).
-Completed case 9 out of 196 (case 20).
-Completed case 10 out of 196 (case 21).
-Completed case 11 out of 196 (case 22).
-Completed case 12 out of 196 (case 23).
-Completed case 13 out of 196 (case 24).
-Completed case 14 out of 196 (case 25).
-Completed case 15 out of 196 (case 26).
-Completed case 16 out of 196 (case 27).
-Completed case 17 out of 196 (case 28).
-Completed case 18 out of 196 (case 30).
-Completed case 19 out of 196 (case 32).
-Completed case 20 out of 196 (case 33).
-Completed case 21 out of 196 (case 34).
-Completed case 22 out of 196 (case 35).
-Completed case 23 out of 196 (case 36).
-Completed case 24 out of 196 (case 37).
-Completed case 25 out of 196 (case 39).
-Completed case 26 out of 196 (case 40).
-Completed case 27 out of 196 (case 43).
-Completed case 28 out of 196 (case 44).
-Completed case 29 out of 196 (case 48).
-Completed case 30 out of 196 (case 50).
-Completed case 31 out of 196 (case 60).
-Completed case 32 out of 196 (case 62).
-Completed case 33 out of 196 (case 64).
-Completed case 34 out of 196 (case 66).
-Completed case 35 out of 196 (case 70).
-Completed case 36 out of 196 (case 72).
-Completed case 37 out of 196 (case 73).
-Completed case 38 out of 196 (case 77).
-Completed case 39 out of 196 (case 78).
-Completed case 40 out of 196 (case 80).
-Completed case 41 out of 196 (case 81).
-Completed case 42 out of 196 (case 82).
-Completed case 43 out of 196 (case 83).
-Completed case 44 out of 196 (case 85).
-Completed case 45 out of 196 (case 86).
-Completed case 46 out of 196 (case 87).
-Completed case 47 out of 196 (case 89).
-Completed case 48 out of 196 (case 90).
-Completed case 49 out of 196 (case 91).
-Completed case 50 out of 196 (case 92).
-Completed case 51 out of 196 (case 93).
-Completed case 52 out of 196 (case 94).
-Completed case 53 out of 196 (case 95).
-Completed case 54 out of 196 (case 96).
-Completed case 55 out of 196 (case 97).
-Completed case 56 out of 196 (case 99).
-Completed case 57 out of 196 (case 100).
-Completed case 58 out of 196 (case 101).
-Completed case 59 out of 196 (case 102).
-Completed case 60 out of 196 (case 103).
-Completed case 61 out of 196 (case 104).
-Completed case 62 out of 196 (case 105).
-Completed case 63 out of 196 (case 106).
-Completed case 64 out of 196 (case 107).
-Completed case 65 out of 196 (case 108).
-Completed case 66 out of 196 (case 109).
-Completed case 67 out of 196 (case 110).
-Completed case 68 out of 196 (case 111).
-Completed case 69 out of 196 (case 113).
-Completed case 70 out of 196 (case 114).
-Completed case 71 out of 196 (case 115).
-Completed case 72 out of 196 (case 116).
-Completed case 73 out of 196 (case 117).
-Completed case 74 out of 196 (case 118).
-Completed case 75 out of 196 (case 119).
-Completed case 76 out of 196 (case 120).
-Completed case 77 out of 196 (case 121).
-Completed case 78 out of 196 (case 122).
-Completed case 79 out of 196 (case 123).
-Completed case 80 out of 196 (case 124).
-Completed case 81 out of 196 (case 125).
-Completed case 82 out of 196 (case 126).
-Completed case 83 out of 196 (case 127).
-Completed case 84 out of 196 (case 128).
-Completed case 85 out of 196 (case 129).
-Completed case 86 out of 196 (case 130).
-Completed case 87 out of 196 (case 131).
-Completed case 88 out of 196 (case 132).
-Completed case 89 out of 196 (case 133).
-Completed case 90 out of 196 (case 134).
-Completed case 91 out of 196 (case 135).
-Completed case 92 out of 196 (case 136).
-Completed case 93 out of 196 (case 137).
-Completed case 94 out of 196 (case 138).
-Completed case 95 out of 196 (case 139).
-Completed case 96 out of 196 (case 141).
-Completed case 97 out of 196 (case 142).
-Completed case 98 out of 196 (case 144).
-Completed case 99 out of 196 (case 145).
-Completed case 100 out of 196 (case 146).
-Completed case 101 out of 196 (case 147).
-Completed case 102 out of 196 (case 148).
-Completed case 103 out of 196 (case 149).
-Completed case 104 out of 196 (case 150).
-Completed case 105 out of 196 (case 151).
-Completed case 106 out of 196 (case 152).
-Completed case 107 out of 196 (case 153).
-Completed case 108 out of 196 (case 154).
-Completed case 109 out of 196 (case 155).
-Completed case 110 out of 196 (case 156).
-Completed case 111 out of 196 (case 157).
-Completed case 112 out of 196 (case 158).
-Completed case 113 out of 196 (case 159).
-Completed case 114 out of 196 (case 160).
-Completed case 115 out of 196 (case 161).
-Completed case 116 out of 196 (case 162).
-Completed case 117 out of 196 (case 163).
-Completed case 118 out of 196 (case 165).
-Completed case 119 out of 196 (case 166).
-Completed case 120 out of 196 (case 167).
-Completed case 121 out of 196 (case 168).
-Completed case 122 out of 196 (case 169).
-Completed case 123 out of 196 (case 170).
-Completed case 124 out of 196 (case 171).
-Completed case 125 out of 196 (case 172).
-Completed case 126 out of 196 (case 173).
-Completed case 127 out of 196 (case 174).
-Traceback (most recent call last):
-  File "/gpfs/radev/project/xu_hua/kwj9/psychiatry_llm/evaluation_of_sota/jama_submission_12152025/psychiatry-frontier-llm-evaluation/code/top_5_accuracy/script_versions/2_generate_diagnoses_openai.py", line 84, in <module>
-    pbar.set_description(f"Generating diagnostic reasoning trace {index + 1} out of {dataset.shape[0]} (case {row['case_id']})")
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/gpfs/radev/project/xu_hua/kwj9/psychiatry_llm/evaluation_of_sota/jama_submission_12152025/psychiatry-frontier-llm-evaluation/code/top_5_accuracy/script_versions/2_generate_diagnoses_openai.py", line 58, in generate_top5_diagnoses
-    answer = response.output[0].content[0].text
-             ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
-TypeError: 'NoneType' object is not subscriptable

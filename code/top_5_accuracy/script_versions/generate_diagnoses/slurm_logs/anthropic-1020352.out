@@ -1,11 +1,0 @@
-Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
-
-CondaError: Run 'conda init' before 'conda deactivate'
-
-***********************************************
-Processing model claude-opus-4-5-20251101 on dataset combined_jama...
-  0%|          | 0/196 [00:00<?, ?it/s]  0%|          | 0/196 [00:00<?, ?it/s]
-Traceback (most recent call last):
-  File "/gpfs/radev/project/xu_hua/kwj9/psychiatry_llm/evaluation_of_sota/jama_submission_12152025/psychiatry-frontier-llm-evaluation/code/top_5_accuracy/script_versions/3_generate_diagnoses_anthropic.py", line 79, in <module>
-    reasoning, answer = generate_top5_diagnoses(anthropic_client,
-TypeError: generate_top5_diagnoses() missing 1 required positional argument: 'temperature'

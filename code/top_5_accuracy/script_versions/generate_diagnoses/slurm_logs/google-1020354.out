@@ -1,18 +1,0 @@
-Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
-
-CondaError: Run 'conda init' before 'conda deactivate'
-
-***********************************************
-Processing model gemini-3-pro-preview on dataset combined_jama...
-  0%|          | 0/196 [00:00<?, ?it/s]  0%|          | 0/196 [00:00<?, ?it/s]
-Traceback (most recent call last):
-  File "/gpfs/radev/project/xu_hua/kwj9/psychiatry_llm/evaluation_of_sota/jama_submission_12152025/psychiatry-frontier-llm-evaluation/code/top_5_accuracy/script_versions/1_generate_diagnoses_gemini.py", line 66, in <module>
-    reasoning, answer = generate_top5_diagnoses(google_client,
-  File "/gpfs/radev/project/xu_hua/kwj9/psychiatry_llm/evaluation_of_sota/jama_submission_12152025/psychiatry-frontier-llm-evaluation/code/top_5_accuracy/script_versions/1_generate_diagnoses_gemini.py", line 35, in generate_top5_diagnoses
-    thinking_config=types.ThinkingConfig(
-  File "/gpfs/radev/home/kwj9/.conda/envs/mh-eval/lib/python3.9/site-packages/pydantic/main.py", line 253, in __init__
-    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
-pydantic_core._pydantic_core.ValidationError: 1 validation error for ThinkingConfig
-thinking_level
-  Extra inputs are not permitted [type=extra_forbidden, input_value='high', input_type=str]
-    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden

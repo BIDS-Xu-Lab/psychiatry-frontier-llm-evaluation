@@ -1,5 +1,0 @@
-Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
-Traceback (most recent call last):
-  File "/gpfs/radev/project/xu_hua/kwj9/psychiatry_llm/evaluation_of_sota/jama_submission_12152025/psychiatry-frontier-llm-evaluation/code/top_5_accuracy/script_versions/4_generate_diagnoses_deepseek.py", line 6, in <module>
-    from openai import OpenAI
-ModuleNotFoundError: No module named 'openai'

@@ -1,9 +1,0 @@
-Submitting job: submit_anthropic.sh
-Submitted batch job 1105044
-Submitting job: submit_deepseek.sh
-Submitted batch job 1105045
-Submitting job: submit_gemini.sh
-Submitted batch job 1105046
-Submitting job: submit_openai.sh
-Submitted batch job 1105047
-Submitted 4 jobs with prefix 'submit_'.

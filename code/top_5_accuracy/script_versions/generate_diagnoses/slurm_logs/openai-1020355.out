@@ -1,7 +1,0 @@
-Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
-
-CondaError: Run 'conda init' before 'conda deactivate'
-
-***********************************************
-Processing model gpt-5.2 on dataset combined_jama...
-  0%|          | 0/196 [00:00<?, ?it/s]  1%|          | 1/196 [04:47<15:33:37, 287.27s/it]slurmstepd: error: *** JOB 1020355 ON r817u09n03 CANCELLED AT 2025-12-15T18:09:12 ***

@@ -1,5 +1,0 @@
-model_name,hallucination_rate,hallucination_n,hallucination_percent,irrelevant_differential_rate,irrelevant_differential_n,irrelevant_differential_percent,medical_omission_rate,medical_omission_n,medical_omission_percent,no_reasoning_rate,no_reasoning_n,no_reasoning_percent,mixed_or_partial_coherence_rate,mixed_or_partial_coherence_n,mixed_or_partial_coherence_percent,overflexible_rate,overflexible_n,overflexible_percent,anchoring_rigidity_rate,anchoring_rigidity_n,anchoring_rigidity_percent
-Anthropic Claude Opus 4.5,0.0,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,0,0.0,0.11333333333333333,17,11.333333333333332,0.0,0,0.0,0.0,0,0.0
-DeepSeek-V3.2,0.0,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,0,0.0,0.16666666666666666,25,16.666666666666664,0.0,0,0.0,0.0,0,0.0
-Google Gemini 3 Pro,0.0,0,0.0,0.0,0,0.0,0.006666666666666667,1,0.6666666666666667,0.02,3,2.0,0.14666666666666667,22,14.666666666666666,0.006666666666666667,1,0.6666666666666667,0.013333333333333334,2,1.3333333333333335
-OpenAI GPT-5.2,0.0,0,0.0,0.0,0,0.0,0.0,0,0.0,0.02,3,2.0,0.14666666666666667,22,14.666666666666666,0.0,0,0.0,0.0,0,0.0

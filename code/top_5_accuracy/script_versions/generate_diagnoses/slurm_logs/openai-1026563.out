@@ -1,316 +1,0 @@
-Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
-***********************************************
-Processing model gpt-5.2 on dataset combined_jama...
-  0%|          | 0/196 [00:00<?, ?it/s]Generating diagnostic reasoning trace 1 out of 196 (case 2):   0%|          | 0/196 [00:00<?, ?it/s]Generating diagnostic reasoning trace 1 out of 196 (case 2):   1%|          | 1/196 [03:48<12:21:41, 228.21s/it]Generating diagnostic reasoning trace 2 out of 196 (case 4):   1%|          | 1/196 [03:48<12:21:41, 228.21s/it]Generating diagnostic reasoning trace 2 out of 196 (case 4):   1%|          | 2/196 [05:24<8:06:20, 150.41s/it] Generating diagnostic reasoning trace 3 out of 196 (case 13):   1%|          | 2/196 [05:24<8:06:20, 150.41s/it]Generating diagnostic reasoning trace 3 out of 196 (case 13):   2%|▏         | 3/196 [10:56<12:31:07, 233.51s/it]Generating diagnostic reasoning trace 4 out of 196 (case 14):   2%|▏         | 3/196 [10:56<12:31:07, 233.51s/it]Generating diagnostic reasoning trace 4 out of 196 (case 14):   2%|▏         | 4/196 [17:01<15:12:38, 285.20s/it]Generating diagnostic reasoning trace 5 out of 196 (case 15):   2%|▏         | 4/196 [17:01<15:12:38, 285.20s/it]Generating diagnostic reasoning trace 5 out of 196 (case 15):   3%|▎         | 5/196 [19:03<12:01:29, 226.65s/it]Generating diagnostic reasoning trace 6 out of 196 (case 17):   3%|▎         | 5/196 [19:03<12:01:29, 226.65s/it]Generating diagnostic reasoning trace 6 out of 196 (case 17):   3%|▎         | 6/196 [21:44<10:46:38, 204.20s/it]Generating diagnostic reasoning trace 7 out of 196 (case 18):   3%|▎         | 6/196 [21:44<10:46:38, 204.20s/it]Generating diagnostic reasoning trace 7 out of 196 (case 18):   4%|▎         | 7/196 [29:24<15:06:25, 287.75s/it]Generating diagnostic reasoning trace 8 out of 196 (case 19):   4%|▎         | 7/196 [29:24<15:06:25, 287.75s/it]Generating diagnostic reasoning trace 8 out of 196 (case 19):   4%|▍         | 8/196 [32:38<13:28:28, 258.02s/it]Generating diagnostic reasoning trace 9 out of 196 (case 20):   4%|▍         | 8/196 [32:38<13:28:28, 258.02s/it]Generating diagnostic reasoning trace 9 out of 196 (case 20):   5%|▍         | 9/196 [35:43<12:13:08, 235.23s/it]Generating diagnostic reasoning trace 10 out of 196 (case 21):   5%|▍         | 9/196 [35:43<12:13:08, 235.23s/it]Generating diagnostic reasoning trace 10 out of 196 (case 21):   5%|▌         | 10/196 [43:08<15:29:24, 299.81s/it]Generating diagnostic reasoning trace 11 out of 196 (case 22):   5%|▌         | 10/196 [43:08<15:29:24, 299.81s/it]Generating diagnostic reasoning trace 11 out of 196 (case 22):   6%|▌         | 11/196 [48:16<15:32:06, 302.31s/it]Generating diagnostic reasoning trace 12 out of 196 (case 23):   6%|▌         | 11/196 [48:16<15:32:06, 302.31s/it]Generating diagnostic reasoning trace 12 out of 196 (case 23):   6%|▌         | 12/196 [52:36<14:47:46, 289.49s/it]Generating diagnostic reasoning trace 13 out of 196 (case 24):   6%|▌         | 12/196 [52:36<14:47:46, 289.49s/it]Generating diagnostic reasoning trace 13 out of 196 (case 24):   7%|▋         | 13/196 [54:33<12:04:12, 237.45s/it]Generating diagnostic reasoning trace 14 out of 196 (case 25):   7%|▋         | 13/196 [54:33<12:04:12, 237.45s/it]Generating diagnostic reasoning trace 14 out of 196 (case 25):   7%|▋         | 14/196 [58:26<11:55:28, 235.87s/it]Generating diagnostic reasoning trace 15 out of 196 (case 26):   7%|▋         | 14/196 [58:26<11:55:28, 235.87s/it]Generating diagnostic reasoning trace 15 out of 196 (case 26):   8%|▊         | 15/196 [1:06:14<15:22:39, 305.86s/it]Generating diagnostic reasoning trace 16 out of 196 (case 27):   8%|▊         | 15/196 [1:06:14<15:22:39, 305.86s/it]Generating diagnostic reasoning trace 16 out of 196 (case 27):   8%|▊         | 16/196 [1:08:47<12:59:43, 259.91s/it]Generating diagnostic reasoning trace 17 out of 196 (case 28):   8%|▊         | 16/196 [1:08:47<12:59:43, 259.91s/it]Generating diagnostic reasoning trace 17 out of 196 (case 28):   9%|▊         | 17/196 [1:10:08<10:14:45, 206.06s/it]Generating diagnostic reasoning trace 18 out of 196 (case 30):   9%|▊         | 17/196 [1:10:08<10:14:45, 206.06s/it]Generating diagnostic reasoning trace 18 out of 196 (case 30):   9%|▉         | 18/196 [1:12:41<9:24:14, 190.19s/it] Generating diagnostic reasoning trace 19 out of 196 (case 32):   9%|▉         | 18/196 [1:12:41<9:24:14, 190.19s/it]Generating diagnostic reasoning trace 19 out of 196 (case 32):  10%|▉         | 19/196 [1:15:15<8:49:18, 179.43s/it]Generating diagnostic reasoning trace 20 out of 196 (case 33):  10%|▉         | 19/196 [1:15:15<8:49:18, 179.43s/it]Generating diagnostic reasoning trace 20 out of 196 (case 33):  10%|█         | 20/196 [1:16:35<7:18:05, 149.35s/it]Generating diagnostic reasoning trace 21 out of 196 (case 34):  10%|█         | 20/196 [1:16:35<7:18:05, 149.35s/it]Generating diagnostic reasoning trace 21 out of 196 (case 34):  11%|█         | 21/196 [1:22:54<10:36:42, 218.30s/it]Generating diagnostic reasoning trace 22 out of 196 (case 35):  11%|█         | 21/196 [1:22:54<10:36:42, 218.30s/it]Generating diagnostic reasoning trace 22 out of 196 (case 35):  11%|█         | 22/196 [1:24:24<8:41:22, 179.79s/it] Generating diagnostic reasoning trace 23 out of 196 (case 36):  11%|█         | 22/196 [1:24:24<8:41:22, 179.79s/it]Generating diagnostic reasoning trace 23 out of 196 (case 36):  12%|█▏        | 23/196 [1:25:20<6:51:13, 142.62s/it]Generating diagnostic reasoning trace 24 out of 196 (case 37):  12%|█▏        | 23/196 [1:25:20<6:51:13, 142.62s/it]Generating diagnostic reasoning trace 24 out of 196 (case 37):  12%|█▏        | 24/196 [1:29:10<8:04:38, 169.06s/it]Generating diagnostic reasoning trace 25 out of 196 (case 39):  12%|█▏        | 24/196 [1:29:10<8:04:38, 169.06s/it]Generating diagnostic reasoning trace 25 out of 196 (case 39):  13%|█▎        | 25/196 [1:37:03<12:21:01, 260.01s/it]Generating diagnostic reasoning trace 26 out of 196 (case 40):  13%|█▎        | 25/196 [1:37:03<12:21:01, 260.01s/it]Generating diagnostic reasoning trace 26 out of 196 (case 40):  13%|█▎        | 26/196 [1:38:24<9:44:42, 206.37s/it] Generating diagnostic reasoning trace 27 out of 196 (case 43):  13%|█▎        | 26/196 [1:38:24<9:44:42, 206.37s/it]Generating diagnostic reasoning trace 27 out of 196 (case 43):  14%|█▍        | 27/196 [1:48:04<14:56:57, 318.45s/it]Generating diagnostic reasoning trace 28 out of 196 (case 44):  14%|█▍        | 27/196 [1:48:04<14:56:57, 318.45s/it]Generating diagnostic reasoning trace 28 out of 196 (case 44):  14%|█▍        | 28/196 [1:54:42<15:58:20, 342.27s/it]Generating diagnostic reasoning trace 29 out of 196 (case 48):  14%|█▍        | 28/196 [1:54:42<15:58:20, 342.27s/it]Generating diagnostic reasoning trace 29 out of 196 (case 48):  15%|█▍        | 29/196 [1:56:27<12:34:42, 271.15s/it]Generating diagnostic reasoning trace 30 out of 196 (case 50):  15%|█▍        | 29/196 [1:56:27<12:34:42, 271.15s/it]Generating diagnostic reasoning trace 30 out of 196 (case 50):  15%|█▌        | 30/196 [1:58:57<10:50:01, 234.95s/it]Generating diagnostic reasoning trace 31 out of 196 (case 60):  15%|█▌        | 30/196 [1:58:57<10:50:01, 234.95s/it]Generating diagnostic reasoning trace 31 out of 196 (case 60):  16%|█▌        | 31/196 [2:00:52<9:06:37, 198.77s/it] Generating diagnostic reasoning trace 32 out of 196 (case 62):  16%|█▌        | 31/196 [2:00:52<9:06:37, 198.77s/it]Generating diagnostic reasoning trace 32 out of 196 (case 62):  16%|█▋        | 32/196 [2:02:03<7:19:00, 160.61s/it]Generating diagnostic reasoning trace 33 out of 196 (case 64):  16%|█▋        | 32/196 [2:02:03<7:19:00, 160.61s/it]Generating diagnostic reasoning trace 33 out of 196 (case 64):  17%|█▋        | 33/196 [2:04:44<7:16:25, 160.65s/it]Generating diagnostic reasoning trace 34 out of 196 (case 66):  17%|█▋        | 33/196 [2:04:44<7:16:25, 160.65s/it]Generating diagnostic reasoning trace 34 out of 196 (case 66):  17%|█▋        | 34/196 [2:09:15<8:42:57, 193.69s/it]Generating diagnostic reasoning trace 35 out of 196 (case 70):  17%|█▋        | 34/196 [2:09:15<8:42:57, 193.69s/it]Generating diagnostic reasoning trace 35 out of 196 (case 70):  18%|█▊        | 35/196 [2:12:53<8:59:48, 201.17s/it]Generating diagnostic reasoning trace 36 out of 196 (case 72):  18%|█▊        | 35/196 [2:12:53<8:59:48, 201.17s/it]Generating diagnostic reasoning trace 36 out of 196 (case 72):  18%|█▊        | 36/196 [2:18:29<10:43:56, 241.48s/it]Generating diagnostic reasoning trace 37 out of 196 (case 73):  18%|█▊        | 36/196 [2:18:29<10:43:56, 241.48s/it]Generating diagnostic reasoning trace 37 out of 196 (case 73):  19%|█▉        | 37/196 [2:24:51<12:31:57, 283.76s/it]Generating diagnostic reasoning trace 38 out of 196 (case 77):  19%|█▉        | 37/196 [2:24:51<12:31:57, 283.76s/it]Generating diagnostic reasoning trace 38 out of 196 (case 77):  19%|█▉        | 38/196 [2:27:26<10:45:13, 245.02s/it]Generating diagnostic reasoning trace 39 out of 196 (case 78):  19%|█▉        | 38/196 [2:27:26<10:45:13, 245.02s/it]Generating diagnostic reasoning trace 39 out of 196 (case 78):  20%|█▉        | 39/196 [2:32:59<11:50:35, 271.56s/it]Generating diagnostic reasoning trace 40 out of 196 (case 80):  20%|█▉        | 39/196 [2:32:59<11:50:35, 271.56s/it]Generating diagnostic reasoning trace 40 out of 196 (case 80):  20%|██        | 40/196 [2:37:34<11:48:33, 272.52s/it]Generating diagnostic reasoning trace 41 out of 196 (case 81):  20%|██        | 40/196 [2:37:34<11:48:33, 272.52s/it]Generating diagnostic reasoning trace 41 out of 196 (case 81):  21%|██        | 41/196 [2:41:19<11:06:42, 258.08s/it]Generating diagnostic reasoning trace 42 out of 196 (case 82):  21%|██        | 41/196 [2:41:19<11:06:42, 258.08s/it]Generating diagnostic reasoning trace 42 out of 196 (case 82):  21%|██▏       | 42/196 [2:42:50<8:54:16, 208.16s/it] Generating diagnostic reasoning trace 43 out of 196 (case 83):  21%|██▏       | 42/196 [2:42:50<8:54:16, 208.16s/it]Generating diagnostic reasoning trace 43 out of 196 (case 83):  22%|██▏       | 43/196 [2:46:08<8:42:37, 204.95s/it]Generating diagnostic reasoning trace 44 out of 196 (case 85):  22%|██▏       | 43/196 [2:46:08<8:42:37, 204.95s/it]Generating diagnostic reasoning trace 44 out of 196 (case 85):  22%|██▏       | 44/196 [2:50:07<9:05:10, 215.20s/it]Generating diagnostic reasoning trace 45 out of 196 (case 86):  22%|██▏       | 44/196 [2:50:07<9:05:10, 215.20s/it]Generating diagnostic reasoning trace 45 out of 196 (case 86):  23%|██▎       | 45/196 [2:52:26<8:03:57, 192.30s/it]Generating diagnostic reasoning trace 46 out of 196 (case 87):  23%|██▎       | 45/196 [2:52:26<8:03:57, 192.30s/it]Generating diagnostic reasoning trace 46 out of 196 (case 87):  23%|██▎       | 46/196 [2:56:32<8:41:31, 208.61s/it]Generating diagnostic reasoning trace 47 out of 196 (case 89):  23%|██▎       | 46/196 [2:56:32<8:41:31, 208.61s/it]Generating diagnostic reasoning trace 47 out of 196 (case 89):  24%|██▍       | 47/196 [2:59:01<7:53:38, 190.73s/it]Generating diagnostic reasoning trace 48 out of 196 (case 90):  24%|██▍       | 47/196 [2:59:01<7:53:38, 190.73s/it]Generating diagnostic reasoning trace 48 out of 196 (case 90):  24%|██▍       | 48/196 [3:04:53<9:49:41, 239.06s/it]Generating diagnostic reasoning trace 49 out of 196 (case 91):  24%|██▍       | 48/196 [3:04:53<9:49:41, 239.06s/it]Generating diagnostic reasoning trace 49 out of 196 (case 91):  25%|██▌       | 49/196 [3:07:22<8:39:41, 212.12s/it]Generating diagnostic reasoning trace 50 out of 196 (case 92):  25%|██▌       | 49/196 [3:07:22<8:39:41, 212.12s/it]Generating diagnostic reasoning trace 50 out of 196 (case 92):  26%|██▌       | 50/196 [3:10:23<8:13:05, 202.64s/it]Generating diagnostic reasoning trace 51 out of 196 (case 93):  26%|██▌       | 50/196 [3:10:23<8:13:05, 202.64s/it]Generating diagnostic reasoning trace 51 out of 196 (case 93):  26%|██▌       | 51/196 [3:17:14<10:40:47, 265.16s/it]Generating diagnostic reasoning trace 52 out of 196 (case 94):  26%|██▌       | 51/196 [3:17:14<10:40:47, 265.16s/it]Generating diagnostic reasoning trace 52 out of 196 (case 94):  27%|██▋       | 52/196 [3:22:58<11:32:58, 288.74s/it]Generating diagnostic reasoning trace 53 out of 196 (case 95):  27%|██▋       | 52/196 [3:22:58<11:32:58, 288.74s/it]Generating diagnostic reasoning trace 53 out of 196 (case 95):  27%|██▋       | 53/196 [3:24:50<9:21:55, 235.78s/it] Generating diagnostic reasoning trace 54 out of 196 (case 96):  27%|██▋       | 53/196 [3:24:50<9:21:55, 235.78s/it]Generating diagnostic reasoning trace 54 out of 196 (case 96):  28%|██▊       | 54/196 [3:28:33<9:09:03, 232.00s/it]Generating diagnostic reasoning trace 55 out of 196 (case 97):  28%|██▊       | 54/196 [3:28:33<9:09:03, 232.00s/it]Generating diagnostic reasoning trace 55 out of 196 (case 97):  28%|██▊       | 55/196 [3:32:52<9:24:13, 240.10s/it]Generating diagnostic reasoning trace 56 out of 196 (case 99):  28%|██▊       | 55/196 [3:32:52<9:24:13, 240.10s/it]Generating diagnostic reasoning trace 56 out of 196 (case 99):  29%|██▊       | 56/196 [3:35:57<8:41:30, 223.50s/it]Generating diagnostic reasoning trace 57 out of 196 (case 100):  29%|██▊       | 56/196 [3:35:57<8:41:30, 223.50s/it]Generating diagnostic reasoning trace 57 out of 196 (case 100):  29%|██▉       | 57/196 [3:40:16<9:02:14, 234.06s/it]Generating diagnostic reasoning trace 58 out of 196 (case 101):  29%|██▉       | 57/196 [3:40:16<9:02:14, 234.06s/it]Generating diagnostic reasoning trace 58 out of 196 (case 101):  30%|██▉       | 58/196 [3:42:24<7:45:24, 202.35s/it]Generating diagnostic reasoning trace 59 out of 196 (case 102):  30%|██▉       | 58/196 [3:42:24<7:45:24, 202.35s/it]Generating diagnostic reasoning trace 59 out of 196 (case 102):  30%|███       | 59/196 [3:47:57<9:11:25, 241.50s/it]Generating diagnostic reasoning trace 60 out of 196 (case 103):  30%|███       | 59/196 [3:47:57<9:11:25, 241.50s/it]Generating diagnostic reasoning trace 60 out of 196 (case 103):  31%|███       | 60/196 [3:50:35<8:10:25, 216.36s/it]Generating diagnostic reasoning trace 61 out of 196 (case 104):  31%|███       | 60/196 [3:50:35<8:10:25, 216.36s/it]Generating diagnostic reasoning trace 61 out of 196 (case 104):  31%|███       | 61/196 [3:52:45<7:08:53, 190.62s/it]Generating diagnostic reasoning trace 62 out of 196 (case 105):  31%|███       | 61/196 [3:52:45<7:08:53, 190.62s/it]Generating diagnostic reasoning trace 62 out of 196 (case 105):  32%|███▏      | 62/196 [3:55:50<7:01:43, 188.83s/it]Generating diagnostic reasoning trace 63 out of 196 (case 106):  32%|███▏      | 62/196 [3:55:50<7:01:43, 188.83s/it]Generating diagnostic reasoning trace 63 out of 196 (case 106):  32%|███▏      | 63/196 [4:03:55<10:15:53, 277.84s/it]Generating diagnostic reasoning trace 64 out of 196 (case 107):  32%|███▏      | 63/196 [4:03:55<10:15:53, 277.84s/it]Generating diagnostic reasoning trace 64 out of 196 (case 107):  33%|███▎      | 64/196 [4:07:41<9:36:40, 262.12s/it] Generating diagnostic reasoning trace 65 out of 196 (case 108):  33%|███▎      | 64/196 [4:07:41<9:36:40, 262.12s/it]Generating diagnostic reasoning trace 65 out of 196 (case 108):  33%|███▎      | 65/196 [4:15:41<11:55:04, 327.52s/it]Generating diagnostic reasoning trace 66 out of 196 (case 109):  33%|███▎      | 65/196 [4:15:41<11:55:04, 327.52s/it]Generating diagnostic reasoning trace 66 out of 196 (case 109):  34%|███▎      | 66/196 [4:21:48<12:15:08, 339.30s/it]Generating diagnostic reasoning trace 67 out of 196 (case 110):  34%|███▎      | 66/196 [4:21:48<12:15:08, 339.30s/it]Generating diagnostic reasoning trace 67 out of 196 (case 110):  34%|███▍      | 67/196 [4:26:08<11:18:43, 315.68s/it]Generating diagnostic reasoning trace 68 out of 196 (case 111):  34%|███▍      | 67/196 [4:26:08<11:18:43, 315.68s/it]Generating diagnostic reasoning trace 68 out of 196 (case 111):  35%|███▍      | 68/196 [4:28:48<9:33:39, 268.90s/it] Generating diagnostic reasoning trace 69 out of 196 (case 113):  35%|███▍      | 68/196 [4:28:48<9:33:39, 268.90s/it]Generating diagnostic reasoning trace 69 out of 196 (case 113):  35%|███▌      | 69/196 [4:31:31<8:21:40, 237.01s/it]Generating diagnostic reasoning trace 70 out of 196 (case 114):  35%|███▌      | 69/196 [4:31:31<8:21:40, 237.01s/it]Generating diagnostic reasoning trace 70 out of 196 (case 114):  36%|███▌      | 70/196 [4:36:11<8:44:57, 249.98s/it]Generating diagnostic reasoning trace 71 out of 196 (case 115):  36%|███▌      | 70/196 [4:36:11<8:44:57, 249.98s/it]Generating diagnostic reasoning trace 71 out of 196 (case 115):  36%|███▌      | 71/196 [4:38:10<7:18:50, 210.64s/it]Generating diagnostic reasoning trace 72 out of 196 (case 116):  36%|███▌      | 71/196 [4:38:10<7:18:50, 210.64s/it]Generating diagnostic reasoning trace 72 out of 196 (case 116):  37%|███▋      | 72/196 [4:45:18<9:30:36, 276.10s/it]Generating diagnostic reasoning trace 73 out of 196 (case 117):  37%|███▋      | 72/196 [4:45:18<9:30:36, 276.10s/it]Generating diagnostic reasoning trace 73 out of 196 (case 117):  37%|███▋      | 73/196 [4:49:59<9:28:51, 277.49s/it]Generating diagnostic reasoning trace 74 out of 196 (case 118):  37%|███▋      | 73/196 [4:49:59<9:28:51, 277.49s/it]Generating diagnostic reasoning trace 74 out of 196 (case 118):  38%|███▊      | 74/196 [4:58:17<11:38:37, 343.59s/it]Generating diagnostic reasoning trace 75 out of 196 (case 119):  38%|███▊      | 74/196 [4:58:17<11:38:37, 343.59s/it]Generating diagnostic reasoning trace 75 out of 196 (case 119):  38%|███▊      | 75/196 [5:02:41<10:44:31, 319.60s/it]Generating diagnostic reasoning trace 76 out of 196 (case 120):  38%|███▊      | 75/196 [5:02:41<10:44:31, 319.60s/it]Generating diagnostic reasoning trace 76 out of 196 (case 120):  39%|███▉      | 76/196 [5:04:13<8:22:52, 251.44s/it] Generating diagnostic reasoning trace 77 out of 196 (case 121):  39%|███▉      | 76/196 [5:04:13<8:22:52, 251.44s/it]Generating diagnostic reasoning trace 77 out of 196 (case 121):  39%|███▉      | 77/196 [5:08:37<8:26:17, 255.27s/it]Generating diagnostic reasoning trace 78 out of 196 (case 122):  39%|███▉      | 77/196 [5:08:37<8:26:17, 255.27s/it]Generating diagnostic reasoning trace 78 out of 196 (case 122):  40%|███▉      | 78/196 [5:09:53<6:36:17, 201.50s/it]Generating diagnostic reasoning trace 79 out of 196 (case 123):  40%|███▉      | 78/196 [5:09:53<6:36:17, 201.50s/it]Generating diagnostic reasoning trace 79 out of 196 (case 123):  40%|████      | 79/196 [5:14:00<6:59:14, 214.99s/it]Generating diagnostic reasoning trace 80 out of 196 (case 124):  40%|████      | 79/196 [5:14:00<6:59:14, 214.99s/it]Generating diagnostic reasoning trace 80 out of 196 (case 124):  41%|████      | 80/196 [5:17:00<6:35:46, 204.71s/it]Generating diagnostic reasoning trace 81 out of 196 (case 125):  41%|████      | 80/196 [5:17:00<6:35:46, 204.71s/it]Generating diagnostic reasoning trace 81 out of 196 (case 125):  41%|████▏     | 81/196 [5:19:08<5:48:14, 181.69s/it]Generating diagnostic reasoning trace 82 out of 196 (case 126):  41%|████▏     | 81/196 [5:19:08<5:48:14, 181.69s/it]Generating diagnostic reasoning trace 82 out of 196 (case 126):  42%|████▏     | 82/196 [5:21:24<5:18:45, 167.77s/it]Generating diagnostic reasoning trace 83 out of 196 (case 127):  42%|████▏     | 82/196 [5:21:24<5:18:45, 167.77s/it]Generating diagnostic reasoning trace 83 out of 196 (case 127):  42%|████▏     | 83/196 [5:26:18<6:27:15, 205.63s/it]Generating diagnostic reasoning trace 84 out of 196 (case 128):  42%|████▏     | 83/196 [5:26:18<6:27:15, 205.63s/it]Generating diagnostic reasoning trace 84 out of 196 (case 128):  43%|████▎     | 84/196 [5:29:18<6:09:51, 198.14s/it]Generating diagnostic reasoning trace 85 out of 196 (case 129):  43%|████▎     | 84/196 [5:29:18<6:09:51, 198.14s/it]Generating diagnostic reasoning trace 85 out of 196 (case 129):  43%|████▎     | 85/196 [5:32:11<5:52:31, 190.55s/it]Generating diagnostic reasoning trace 86 out of 196 (case 130):  43%|████▎     | 85/196 [5:32:11<5:52:31, 190.55s/it]Generating diagnostic reasoning trace 86 out of 196 (case 130):  44%|████▍     | 86/196 [5:35:15<5:45:31, 188.47s/it]Generating diagnostic reasoning trace 87 out of 196 (case 131):  44%|████▍     | 86/196 [5:35:15<5:45:31, 188.47s/it]Generating diagnostic reasoning trace 87 out of 196 (case 131):  44%|████▍     | 87/196 [5:39:42<6:25:26, 212.17s/it]Generating diagnostic reasoning trace 88 out of 196 (case 132):  44%|████▍     | 87/196 [5:39:42<6:25:26, 212.17s/it]Generating diagnostic reasoning trace 88 out of 196 (case 132):  45%|████▍     | 88/196 [5:46:47<8:16:45, 275.98s/it]Generating diagnostic reasoning trace 89 out of 196 (case 133):  45%|████▍     | 88/196 [5:46:47<8:16:45, 275.98s/it]Generating diagnostic reasoning trace 89 out of 196 (case 133):  45%|████▌     | 89/196 [5:50:20<7:38:16, 256.97s/it]Generating diagnostic reasoning trace 90 out of 196 (case 134):  45%|████▌     | 89/196 [5:50:20<7:38:16, 256.97s/it]Generating diagnostic reasoning trace 90 out of 196 (case 134):  46%|████▌     | 90/196 [5:53:42<7:04:50, 240.47s/it]Generating diagnostic reasoning trace 91 out of 196 (case 135):  46%|████▌     | 90/196 [5:53:42<7:04:50, 240.47s/it]Generating diagnostic reasoning trace 91 out of 196 (case 135):  46%|████▋     | 91/196 [5:55:44<5:58:53, 205.08s/it]Generating diagnostic reasoning trace 92 out of 196 (case 136):  46%|████▋     | 91/196 [5:55:44<5:58:53, 205.08s/it]Generating diagnostic reasoning trace 92 out of 196 (case 136):  47%|████▋     | 92/196 [6:00:34<6:39:27, 230.45s/it]Generating diagnostic reasoning trace 93 out of 196 (case 137):  47%|████▋     | 92/196 [6:00:34<6:39:27, 230.45s/it]Generating diagnostic reasoning trace 93 out of 196 (case 137):  47%|████▋     | 93/196 [6:02:59<5:51:37, 204.83s/it]Generating diagnostic reasoning trace 94 out of 196 (case 138):  47%|████▋     | 93/196 [6:02:59<5:51:37, 204.83s/it]Generating diagnostic reasoning trace 94 out of 196 (case 138):  48%|████▊     | 94/196 [6:05:37<5:24:09, 190.68s/it]Generating diagnostic reasoning trace 95 out of 196 (case 139):  48%|████▊     | 94/196 [6:05:37<5:24:09, 190.68s/it]Generating diagnostic reasoning trace 95 out of 196 (case 139):  48%|████▊     | 95/196 [6:08:39<5:16:57, 188.29s/it]Generating diagnostic reasoning trace 96 out of 196 (case 141):  48%|████▊     | 95/196 [6:08:39<5:16:57, 188.29s/it]Generating diagnostic reasoning trace 96 out of 196 (case 141):  49%|████▉     | 96/196 [6:11:09<4:54:20, 176.61s/it]Generating diagnostic reasoning trace 97 out of 196 (case 142):  49%|████▉     | 96/196 [6:11:09<4:54:20, 176.61s/it]Generating diagnostic reasoning trace 97 out of 196 (case 142):  49%|████▉     | 97/196 [6:15:05<5:21:10, 194.65s/it]Generating diagnostic reasoning trace 98 out of 196 (case 144):  49%|████▉     | 97/196 [6:15:05<5:21:10, 194.65s/it]Generating diagnostic reasoning trace 98 out of 196 (case 144):  50%|█████     | 98/196 [6:20:45<6:29:08, 238.25s/it]Generating diagnostic reasoning trace 99 out of 196 (case 145):  50%|█████     | 98/196 [6:20:45<6:29:08, 238.25s/it]Generating diagnostic reasoning trace 99 out of 196 (case 145):  51%|█████     | 99/196 [6:24:07<6:07:30, 227.32s/it]Generating diagnostic reasoning trace 100 out of 196 (case 146):  51%|█████     | 99/196 [6:24:07<6:07:30, 227.32s/it]Generating diagnostic reasoning trace 100 out of 196 (case 146):  51%|█████     | 100/196 [6:27:02<5:38:41, 211.69s/it]Generating diagnostic reasoning trace 101 out of 196 (case 147):  51%|█████     | 100/196 [6:27:02<5:38:41, 211.69s/it]Generating diagnostic reasoning trace 101 out of 196 (case 147):  52%|█████▏    | 101/196 [6:32:24<6:27:08, 244.51s/it]Generating diagnostic reasoning trace 102 out of 196 (case 148):  52%|█████▏    | 101/196 [6:32:24<6:27:08, 244.51s/it]Generating diagnostic reasoning trace 102 out of 196 (case 148):  52%|█████▏    | 102/196 [6:41:46<8:52:20, 339.80s/it]Generating diagnostic reasoning trace 103 out of 196 (case 149):  52%|█████▏    | 102/196 [6:41:46<8:52:20, 339.80s/it]Generating diagnostic reasoning trace 103 out of 196 (case 149):  53%|█████▎    | 103/196 [6:48:05<9:04:56, 351.57s/it]Generating diagnostic reasoning trace 104 out of 196 (case 150):  53%|█████▎    | 103/196 [6:48:05<9:04:56, 351.57s/it]Generating diagnostic reasoning trace 104 out of 196 (case 150):  53%|█████▎    | 104/196 [6:53:44<8:53:16, 347.79s/it]Generating diagnostic reasoning trace 105 out of 196 (case 151):  53%|█████▎    | 104/196 [6:53:44<8:53:16, 347.79s/it]Generating diagnostic reasoning trace 105 out of 196 (case 151):  54%|█████▎    | 105/196 [6:58:10<8:10:16, 323.26s/it]Generating diagnostic reasoning trace 106 out of 196 (case 152):  54%|█████▎    | 105/196 [6:58:10<8:10:16, 323.26s/it]Generating diagnostic reasoning trace 106 out of 196 (case 152):  54%|█████▍    | 106/196 [7:01:54<7:20:11, 293.46s/it]Generating diagnostic reasoning trace 107 out of 196 (case 153):  54%|█████▍    | 106/196 [7:01:54<7:20:11, 293.46s/it]Generating diagnostic reasoning trace 107 out of 196 (case 153):  55%|█████▍    | 107/196 [7:06:21<7:03:36, 285.58s/it]Generating diagnostic reasoning trace 108 out of 196 (case 154):  55%|█████▍    | 107/196 [7:06:21<7:03:36, 285.58s/it]Generating diagnostic reasoning trace 108 out of 196 (case 154):  55%|█████▌    | 108/196 [7:09:30<6:16:18, 256.57s/it]Generating diagnostic reasoning trace 109 out of 196 (case 155):  55%|█████▌    | 108/196 [7:09:30<6:16:18, 256.57s/it]Generating diagnostic reasoning trace 109 out of 196 (case 155):  56%|█████▌    | 109/196 [7:13:25<6:02:38, 250.10s/it]Generating diagnostic reasoning trace 110 out of 196 (case 156):  56%|█████▌    | 109/196 [7:13:25<6:02:38, 250.10s/it]Generating diagnostic reasoning trace 110 out of 196 (case 156):  56%|█████▌    | 110/196 [7:17:41<6:01:07, 251.95s/it]Generating diagnostic reasoning trace 111 out of 196 (case 157):  56%|█████▌    | 110/196 [7:17:41<6:01:07, 251.95s/it]Generating diagnostic reasoning trace 111 out of 196 (case 157):  57%|█████▋    | 111/196 [7:26:38<7:58:14, 337.58s/it]Generating diagnostic reasoning trace 112 out of 196 (case 158):  57%|█████▋    | 111/196 [7:26:38<7:58:14, 337.58s/it]Generating diagnostic reasoning trace 112 out of 196 (case 158):  57%|█████▋    | 112/196 [7:32:28<7:57:41, 341.21s/it]Generating diagnostic reasoning trace 113 out of 196 (case 159):  57%|█████▋    | 112/196 [7:32:28<7:57:41, 341.21s/it]Generating diagnostic reasoning trace 113 out of 196 (case 159):  58%|█████▊    | 113/196 [7:40:38<8:53:38, 385.76s/it]Generating diagnostic reasoning trace 114 out of 196 (case 160):  58%|█████▊    | 113/196 [7:40:38<8:53:38, 385.76s/it]Generating diagnostic reasoning trace 114 out of 196 (case 160):  58%|█████▊    | 114/196 [7:42:46<7:01:45, 308.60s/it]Generating diagnostic reasoning trace 115 out of 196 (case 161):  58%|█████▊    | 114/196 [7:42:46<7:01:45, 308.60s/it]Generating diagnostic reasoning trace 115 out of 196 (case 161):  59%|█████▊    | 115/196 [7:45:08<5:49:12, 258.67s/it]Generating diagnostic reasoning trace 116 out of 196 (case 162):  59%|█████▊    | 115/196 [7:45:08<5:49:12, 258.67s/it]Generating diagnostic reasoning trace 116 out of 196 (case 162):  59%|█████▉    | 116/196 [7:49:37<5:48:59, 261.74s/it]Generating diagnostic reasoning trace 117 out of 196 (case 163):  59%|█████▉    | 116/196 [7:49:37<5:48:59, 261.74s/it]Generating diagnostic reasoning trace 117 out of 196 (case 163):  60%|█████▉    | 117/196 [7:53:26<5:31:25, 251.72s/it]Generating diagnostic reasoning trace 118 out of 196 (case 165):  60%|█████▉    | 117/196 [7:53:26<5:31:25, 251.72s/it]Generating diagnostic reasoning trace 118 out of 196 (case 165):  60%|██████    | 118/196 [8:01:21<6:54:28, 318.83s/it]Generating diagnostic reasoning trace 119 out of 196 (case 166):  60%|██████    | 118/196 [8:01:21<6:54:28, 318.83s/it]Generating diagnostic reasoning trace 119 out of 196 (case 166):  61%|██████    | 119/196 [8:06:13<6:38:44, 310.71s/it]Generating diagnostic reasoning trace 120 out of 196 (case 167):  61%|██████    | 119/196 [8:06:13<6:38:44, 310.71s/it]Generating diagnostic reasoning trace 120 out of 196 (case 167):  61%|██████    | 120/196 [8:10:28<6:12:34, 294.13s/it]Generating diagnostic reasoning trace 121 out of 196 (case 168):  61%|██████    | 120/196 [8:10:28<6:12:34, 294.13s/it]Generating diagnostic reasoning trace 121 out of 196 (case 168):  62%|██████▏   | 121/196 [8:13:44<5:30:39, 264.53s/it]Generating diagnostic reasoning trace 122 out of 196 (case 169):  62%|██████▏   | 121/196 [8:13:44<5:30:39, 264.53s/it]Generating diagnostic reasoning trace 122 out of 196 (case 169):  62%|██████▏   | 122/196 [8:19:11<5:49:16, 283.20s/it]Generating diagnostic reasoning trace 123 out of 196 (case 170):  62%|██████▏   | 122/196 [8:19:11<5:49:16, 283.20s/it]Generating diagnostic reasoning trace 123 out of 196 (case 170):  63%|██████▎   | 123/196 [8:20:38<4:33:12, 224.55s/it]Generating diagnostic reasoning trace 124 out of 196 (case 171):  63%|██████▎   | 123/196 [8:20:38<4:33:12, 224.55s/it]Generating diagnostic reasoning trace 124 out of 196 (case 171):  63%|██████▎   | 124/196 [8:24:00<4:21:08, 217.62s/it]Generating diagnostic reasoning trace 125 out of 196 (case 172):  63%|██████▎   | 124/196 [8:24:00<4:21:08, 217.62s/it]Generating diagnostic reasoning trace 125 out of 196 (case 172):  64%|██████▍   | 125/196 [8:25:04<3:23:11, 171.71s/it]Generating diagnostic reasoning trace 126 out of 196 (case 173):  64%|██████▍   | 125/196 [8:25:04<3:23:11, 171.71s/it]Generating diagnostic reasoning trace 126 out of 196 (case 173):  64%|██████▍   | 126/196 [8:32:20<4:52:52, 251.03s/it]Generating diagnostic reasoning trace 127 out of 196 (case 174):  64%|██████▍   | 126/196 [8:32:20<4:52:52, 251.03s/it]Generating diagnostic reasoning trace 127 out of 196 (case 174):  65%|██████▍   | 127/196 [8:35:02<4:17:39, 224.06s/it]Generating diagnostic reasoning trace 128 out of 196 (case 175):  65%|██████▍   | 127/196 [8:35:02<4:17:39, 224.06s/it]Generating diagnostic reasoning trace 128 out of 196 (case 175):  65%|██████▌   | 128/196 [8:36:35<3:29:29, 184.84s/it]Generating diagnostic reasoning trace 129 out of 196 (case 176):  65%|██████▌   | 128/196 [8:36:35<3:29:29, 184.84s/it]Generating diagnostic reasoning trace 129 out of 196 (case 176):  66%|██████▌   | 129/196 [8:39:25<3:21:24, 180.37s/it]Generating diagnostic reasoning trace 130 out of 196 (case 177):  66%|██████▌   | 129/196 [8:39:25<3:21:24, 180.37s/it]Generating diagnostic reasoning trace 130 out of 196 (case 177):  66%|██████▋   | 130/196 [8:40:51<2:47:13, 152.02s/it]Generating diagnostic reasoning trace 131 out of 196 (case 178):  66%|██████▋   | 130/196 [8:40:51<2:47:13, 152.02s/it]Generating diagnostic reasoning trace 131 out of 196 (case 178):  67%|██████▋   | 131/196 [8:43:44<2:51:38, 158.44s/it]Generating diagnostic reasoning trace 132 out of 196 (case 179):  67%|██████▋   | 131/196 [8:43:44<2:51:38, 158.44s/it]Generating diagnostic reasoning trace 132 out of 196 (case 179):  67%|██████▋   | 132/196 [8:46:01<2:42:13, 152.09s/it]Generating diagnostic reasoning trace 133 out of 196 (case 180):  67%|██████▋   | 132/196 [8:46:01<2:42:13, 152.09s/it]Generating diagnostic reasoning trace 133 out of 196 (case 180):  68%|██████▊   | 133/196 [8:51:19<3:31:55, 201.84s/it]Generating diagnostic reasoning trace 134 out of 196 (case 181):  68%|██████▊   | 133/196 [8:51:19<3:31:55, 201.84s/it]Generating diagnostic reasoning trace 134 out of 196 (case 181):  68%|██████▊   | 134/196 [8:56:28<4:01:46, 233.98s/it]Generating diagnostic reasoning trace 135 out of 196 (case 182):  68%|██████▊   | 134/196 [8:56:28<4:01:46, 233.98s/it]Generating diagnostic reasoning trace 135 out of 196 (case 182):  69%|██████▉   | 135/196 [8:58:22<3:21:09, 197.86s/it]Generating diagnostic reasoning trace 136 out of 196 (case 1001):  69%|██████▉   | 135/196 [8:58:22<3:21:09, 197.86s/it]Generating diagnostic reasoning trace 136 out of 196 (case 1001):  69%|██████▉   | 136/196 [9:06:45<4:49:25, 289.43s/it]Generating diagnostic reasoning trace 137 out of 196 (case 1002):  69%|██████▉   | 136/196 [9:06:45<4:49:25, 289.43s/it]Generating diagnostic reasoning trace 137 out of 196 (case 1002):  70%|██████▉   | 137/196 [9:10:27<4:24:44, 269.23s/it]Generating diagnostic reasoning trace 138 out of 196 (case 1003):  70%|██████▉   | 137/196 [9:10:27<4:24:44, 269.23s/it]Generating diagnostic reasoning trace 138 out of 196 (case 1003):  70%|███████   | 138/196 [9:13:17<3:51:21, 239.33s/it]Generating diagnostic reasoning trace 139 out of 196 (case 1004):  70%|███████   | 138/196 [9:13:17<3:51:21, 239.33s/it]Generating diagnostic reasoning trace 139 out of 196 (case 1004):  71%|███████   | 139/196 [9:16:03<3:26:32, 217.42s/it]Generating diagnostic reasoning trace 140 out of 196 (case 1005):  71%|███████   | 139/196 [9:16:03<3:26:32, 217.42s/it]Generating diagnostic reasoning trace 140 out of 196 (case 1005):  71%|███████▏  | 140/196 [9:19:36<3:21:47, 216.20s/it]Generating diagnostic reasoning trace 141 out of 196 (case 1006):  71%|███████▏  | 140/196 [9:19:36<3:21:47, 216.20s/it]Generating diagnostic reasoning trace 141 out of 196 (case 1006):  72%|███████▏  | 141/196 [9:24:08<3:33:25, 232.82s/it]Generating diagnostic reasoning trace 142 out of 196 (case 1007):  72%|███████▏  | 141/196 [9:24:08<3:33:25, 232.82s/it]Generating diagnostic reasoning trace 142 out of 196 (case 1007):  72%|███████▏  | 142/196 [9:33:49<5:03:35, 337.32s/it]Generating diagnostic reasoning trace 143 out of 196 (case 1008):  72%|███████▏  | 142/196 [9:33:49<5:03:35, 337.32s/it]Generating diagnostic reasoning trace 143 out of 196 (case 1008):  73%|███████▎  | 143/196 [9:37:30<4:27:06, 302.39s/it]Generating diagnostic reasoning trace 144 out of 196 (case 1009):  73%|███████▎  | 143/196 [9:37:30<4:27:06, 302.39s/it]Generating diagnostic reasoning trace 144 out of 196 (case 1009):  73%|███████▎  | 144/196 [9:41:52<4:11:37, 290.34s/it]Generating diagnostic reasoning trace 145 out of 196 (case 1010):  73%|███████▎  | 144/196 [9:41:52<4:11:37, 290.34s/it]Generating diagnostic reasoning trace 145 out of 196 (case 1010):  74%|███████▍  | 145/196 [9:45:23<3:46:27, 266.42s/it]Generating diagnostic reasoning trace 146 out of 196 (case 1011):  74%|███████▍  | 145/196 [9:45:23<3:46:27, 266.42s/it]Generating diagnostic reasoning trace 146 out of 196 (case 1011):  74%|███████▍  | 146/196 [9:53:43<4:40:30, 336.60s/it]Generating diagnostic reasoning trace 147 out of 196 (case 1012):  74%|███████▍  | 146/196 [9:53:43<4:40:30, 336.60s/it]Generating diagnostic reasoning trace 147 out of 196 (case 1012):  75%|███████▌  | 147/196 [9:58:01<4:15:37, 313.01s/it]Generating diagnostic reasoning trace 148 out of 196 (case 1013):  75%|███████▌  | 147/196 [9:58:01<4:15:37, 313.01s/it]Generating diagnostic reasoning trace 148 out of 196 (case 1013):  76%|███████▌  | 148/196 [10:01:33<3:46:07, 282.66s/it]Generating diagnostic reasoning trace 149 out of 196 (case 1014):  76%|███████▌  | 148/196 [10:01:33<3:46:07, 282.66s/it]Generating diagnostic reasoning trace 149 out of 196 (case 1014):  76%|███████▌  | 149/196 [10:03:54<3:08:05, 240.12s/it]Generating diagnostic reasoning trace 150 out of 196 (case 1015):  76%|███████▌  | 149/196 [10:03:54<3:08:05, 240.12s/it]Generating diagnostic reasoning trace 150 out of 196 (case 1015):  77%|███████▋  | 150/196 [10:06:56<2:50:51, 222.86s/it]Generating diagnostic reasoning trace 151 out of 196 (case 1016):  77%|███████▋  | 150/196 [10:06:56<2:50:51, 222.86s/it]Generating diagnostic reasoning trace 151 out of 196 (case 1016):  77%|███████▋  | 151/196 [10:12:01<3:05:37, 247.50s/it]Generating diagnostic reasoning trace 152 out of 196 (case 1017):  77%|███████▋  | 151/196 [10:12:01<3:05:37, 247.50s/it]Generating diagnostic reasoning trace 152 out of 196 (case 1017):  78%|███████▊  | 152/196 [10:13:44<2:29:32, 203.93s/it]Generating diagnostic reasoning trace 153 out of 196 (case 1018):  78%|███████▊  | 152/196 [10:13:44<2:29:32, 203.93s/it]Generating diagnostic reasoning trace 153 out of 196 (case 1018):  78%|███████▊  | 153/196 [10:17:42<2:33:28, 214.14s/it]Generating diagnostic reasoning trace 154 out of 196 (case 1019):  78%|███████▊  | 153/196 [10:17:42<2:33:28, 214.14s/it]Generating diagnostic reasoning trace 154 out of 196 (case 1019):  79%|███████▊  | 154/196 [10:32:46<4:54:56, 421.35s/it]Generating diagnostic reasoning trace 155 out of 196 (case 1020):  79%|███████▊  | 154/196 [10:32:46<4:54:56, 421.35s/it]Generating diagnostic reasoning trace 155 out of 196 (case 1020):  79%|███████▉  | 155/196 [10:33:21<3:28:41, 305.40s/it]Generating diagnostic reasoning trace 156 out of 196 (case 1021):  79%|███████▉  | 155/196 [10:33:21<3:28:41, 305.40s/it]Generating diagnostic reasoning trace 156 out of 196 (case 1021):  80%|███████▉  | 156/196 [10:36:51<3:04:32, 276.81s/it]Generating diagnostic reasoning trace 157 out of 196 (case 1022):  80%|███████▉  | 156/196 [10:36:51<3:04:32, 276.81s/it]Generating diagnostic reasoning trace 157 out of 196 (case 1022):  80%|████████  | 157/196 [10:39:33<2:37:28, 242.27s/it]Generating diagnostic reasoning trace 158 out of 196 (case 1023):  80%|████████  | 157/196 [10:39:33<2:37:28, 242.27s/it]Generating diagnostic reasoning trace 158 out of 196 (case 1023):  81%|████████  | 158/196 [10:42:41<2:23:11, 226.08s/it]Generating diagnostic reasoning trace 159 out of 196 (case 1024):  81%|████████  | 158/196 [10:42:41<2:23:11, 226.08s/it]Generating diagnostic reasoning trace 159 out of 196 (case 1024):  81%|████████  | 159/196 [10:44:30<1:57:36, 190.72s/it]Generating diagnostic reasoning trace 160 out of 196 (case 1025):  81%|████████  | 159/196 [10:44:30<1:57:36, 190.72s/it]Generating diagnostic reasoning trace 160 out of 196 (case 1025):  82%|████████▏ | 160/196 [10:47:06<1:48:17, 180.50s/it]Generating diagnostic reasoning trace 161 out of 196 (case 1026):  82%|████████▏ | 160/196 [10:47:06<1:48:17, 180.50s/it]Generating diagnostic reasoning trace 161 out of 196 (case 1026):  82%|████████▏ | 161/196 [10:55:31<2:42:06, 277.89s/it]Generating diagnostic reasoning trace 162 out of 196 (case 1027):  82%|████████▏ | 161/196 [10:55:31<2:42:06, 277.89s/it]Generating diagnostic reasoning trace 162 out of 196 (case 1027):  83%|████████▎ | 162/196 [11:03:05<3:07:18, 330.55s/it]Generating diagnostic reasoning trace 163 out of 196 (case 1028):  83%|████████▎ | 162/196 [11:03:05<3:07:18, 330.55s/it]Generating diagnostic reasoning trace 163 out of 196 (case 1028):  83%|████████▎ | 163/196 [11:03:41<2:13:11, 242.18s/it]Generating diagnostic reasoning trace 164 out of 196 (case 1029):  83%|████████▎ | 163/196 [11:03:41<2:13:11, 242.18s/it]Generating diagnostic reasoning trace 164 out of 196 (case 1029):  84%|████████▎ | 164/196 [11:06:55<2:01:33, 227.91s/it]Generating diagnostic reasoning trace 165 out of 196 (case 1030):  84%|████████▎ | 164/196 [11:06:55<2:01:33, 227.91s/it]Generating diagnostic reasoning trace 165 out of 196 (case 1030):  84%|████████▍ | 165/196 [11:09:30<1:46:20, 205.82s/it]Generating diagnostic reasoning trace 166 out of 196 (case 1031):  84%|████████▍ | 165/196 [11:09:30<1:46:20, 205.82s/it]Generating diagnostic reasoning trace 166 out of 196 (case 1031):  85%|████████▍ | 166/196 [11:12:18<1:37:18, 194.60s/it]Generating diagnostic reasoning trace 167 out of 196 (case 1032):  85%|████████▍ | 166/196 [11:12:18<1:37:18, 194.60s/it]Generating diagnostic reasoning trace 167 out of 196 (case 1032):  85%|████████▌ | 167/196 [11:14:57<1:28:50, 183.82s/it]Generating diagnostic reasoning trace 168 out of 196 (case 1033):  85%|████████▌ | 167/196 [11:14:57<1:28:50, 183.82s/it]Generating diagnostic reasoning trace 168 out of 196 (case 1033):  86%|████████▌ | 168/196 [11:16:22<1:12:00, 154.31s/it]Generating diagnostic reasoning trace 169 out of 196 (case 1034):  86%|████████▌ | 168/196 [11:16:22<1:12:00, 154.31s/it]Generating diagnostic reasoning trace 169 out of 196 (case 1034):  86%|████████▌ | 169/196 [11:18:34<1:06:25, 147.61s/it]Generating diagnostic reasoning trace 170 out of 196 (case 1035):  86%|████████▌ | 169/196 [11:18:34<1:06:25, 147.61s/it]Generating diagnostic reasoning trace 170 out of 196 (case 1035):  87%|████████▋ | 170/196 [11:21:35<1:08:15, 157.53s/it]Generating diagnostic reasoning trace 171 out of 196 (case 1036):  87%|████████▋ | 170/196 [11:21:35<1:08:15, 157.53s/it]Generating diagnostic reasoning trace 171 out of 196 (case 1036):  87%|████████▋ | 171/196 [11:24:30<1:07:48, 162.75s/it]Generating diagnostic reasoning trace 172 out of 196 (case 1037):  87%|████████▋ | 171/196 [11:24:30<1:07:48, 162.75s/it]Generating diagnostic reasoning trace 172 out of 196 (case 1037):  88%|████████▊ | 172/196 [11:29:26<1:21:10, 202.93s/it]Generating diagnostic reasoning trace 173 out of 196 (case 1038):  88%|████████▊ | 172/196 [11:29:26<1:21:10, 202.93s/it]Generating diagnostic reasoning trace 173 out of 196 (case 1038):  88%|████████▊ | 173/196 [11:31:56<1:11:37, 186.87s/it]Generating diagnostic reasoning trace 174 out of 196 (case 1039):  88%|████████▊ | 173/196 [11:31:56<1:11:37, 186.87s/it]Generating diagnostic reasoning trace 174 out of 196 (case 1039):  89%|████████▉ | 174/196 [11:35:30<1:11:29, 194.98s/it]Generating diagnostic reasoning trace 175 out of 196 (case 1040):  89%|████████▉ | 174/196 [11:35:30<1:11:29, 194.98s/it]Generating diagnostic reasoning trace 175 out of 196 (case 1040):  89%|████████▉ | 175/196 [11:38:01<1:03:41, 181.97s/it]Generating diagnostic reasoning trace 176 out of 196 (case 1041):  89%|████████▉ | 175/196 [11:38:01<1:03:41, 181.97s/it]Generating diagnostic reasoning trace 176 out of 196 (case 1041):  90%|████████▉ | 176/196 [11:40:08<55:07, 165.37s/it]  Generating diagnostic reasoning trace 177 out of 196 (case 1042):  90%|████████▉ | 176/196 [11:40:08<55:07, 165.37s/it]Generating diagnostic reasoning trace 177 out of 196 (case 1042):  90%|█████████ | 177/196 [11:41:20<43:31, 137.42s/it]Generating diagnostic reasoning trace 178 out of 196 (case 1043):  90%|█████████ | 177/196 [11:41:20<43:31, 137.42s/it]Generating diagnostic reasoning trace 178 out of 196 (case 1043):  91%|█████████ | 178/196 [11:42:39<35:54, 119.69s/it]Generating diagnostic reasoning trace 179 out of 196 (case 1044):  91%|█████████ | 178/196 [11:42:39<35:54, 119.69s/it]Generating diagnostic reasoning trace 179 out of 196 (case 1044):  91%|█████████▏| 179/196 [11:44:19<32:16, 113.91s/it]Generating diagnostic reasoning trace 180 out of 196 (case 1045):  91%|█████████▏| 179/196 [11:44:19<32:16, 113.91s/it]Generating diagnostic reasoning trace 180 out of 196 (case 1045):  92%|█████████▏| 180/196 [11:50:10<49:22, 185.17s/it]Generating diagnostic reasoning trace 181 out of 196 (case 1046):  92%|█████████▏| 180/196 [11:50:10<49:22, 185.17s/it]Generating diagnostic reasoning trace 181 out of 196 (case 1046):  92%|█████████▏| 181/196 [11:54:09<50:20, 201.34s/it]Generating diagnostic reasoning trace 182 out of 196 (case 1047):  92%|█████████▏| 181/196 [11:54:09<50:20, 201.34s/it]Generating diagnostic reasoning trace 182 out of 196 (case 1047):  93%|█████████▎| 182/196 [12:01:14<1:02:36, 268.34s/it]Generating diagnostic reasoning trace 183 out of 196 (case 1048):  93%|█████████▎| 182/196 [12:01:14<1:02:36, 268.34s/it]Generating diagnostic reasoning trace 183 out of 196 (case 1048):  93%|█████████▎| 183/196 [12:05:22<56:47, 262.11s/it]  Generating diagnostic reasoning trace 184 out of 196 (case 1049):  93%|█████████▎| 183/196 [12:05:22<56:47, 262.11s/it]Generating diagnostic reasoning trace 184 out of 196 (case 1049):  94%|█████████▍| 184/196 [12:08:34<48:14, 241.20s/it]Generating diagnostic reasoning trace 185 out of 196 (case 1050):  94%|█████████▍| 184/196 [12:08:34<48:14, 241.20s/it]Generating diagnostic reasoning trace 185 out of 196 (case 1050):  94%|█████████▍| 185/196 [12:10:58<38:51, 211.93s/it]Generating diagnostic reasoning trace 186 out of 196 (case 1051):  94%|█████████▍| 185/196 [12:10:58<38:51, 211.93s/it]Generating diagnostic reasoning trace 186 out of 196 (case 1051):  95%|█████████▍| 186/196 [12:13:11<31:23, 188.33s/it]Generating diagnostic reasoning trace 187 out of 196 (case 1052):  95%|█████████▍| 186/196 [12:13:11<31:23, 188.33s/it]Generating diagnostic reasoning trace 187 out of 196 (case 1052):  95%|█████████▌| 187/196 [12:14:46<24:02, 160.32s/it]Generating diagnostic reasoning trace 188 out of 196 (case 1053):  95%|█████████▌| 187/196 [12:14:46<24:02, 160.32s/it]Generating diagnostic reasoning trace 188 out of 196 (case 1053):  96%|█████████▌| 188/196 [12:18:09<23:06, 173.29s/it]Generating diagnostic reasoning trace 189 out of 196 (case 1054):  96%|█████████▌| 188/196 [12:18:09<23:06, 173.29s/it]Generating diagnostic reasoning trace 189 out of 196 (case 1054):  96%|█████████▋| 189/196 [12:20:50<19:45, 169.36s/it]Generating diagnostic reasoning trace 190 out of 196 (case 1055):  96%|█████████▋| 189/196 [12:20:50<19:45, 169.36s/it]Generating diagnostic reasoning trace 190 out of 196 (case 1055):  97%|█████████▋| 190/196 [12:24:25<18:19, 183.21s/it]Generating diagnostic reasoning trace 191 out of 196 (case 1056):  97%|█████████▋| 190/196 [12:24:25<18:19, 183.21s/it]Generating diagnostic reasoning trace 191 out of 196 (case 1056):  97%|█████████▋| 191/196 [12:27:30<15:19, 183.81s/it]Generating diagnostic reasoning trace 192 out of 196 (case 1057):  97%|█████████▋| 191/196 [12:27:30<15:19, 183.81s/it]Generating diagnostic reasoning trace 192 out of 196 (case 1057):  98%|█████████▊| 192/196 [12:31:14<13:02, 195.60s/it]Generating diagnostic reasoning trace 193 out of 196 (case 1058):  98%|█████████▊| 192/196 [12:31:14<13:02, 195.60s/it]Generating diagnostic reasoning trace 193 out of 196 (case 1058):  98%|█████████▊| 193/196 [12:34:44<09:59, 199.94s/it]Generating diagnostic reasoning trace 194 out of 196 (case 1059):  98%|█████████▊| 193/196 [12:34:44<09:59, 199.94s/it]Generating diagnostic reasoning trace 194 out of 196 (case 1059):  99%|█████████▉| 194/196 [12:37:44<06:28, 194.05s/it]Generating diagnostic reasoning trace 195 out of 196 (case 1060):  99%|█████████▉| 194/196 [12:37:44<06:28, 194.05s/it]Generating diagnostic reasoning trace 195 out of 196 (case 1060):  99%|█████████▉| 195/196 [12:40:57<03:13, 193.78s/it]Generating diagnostic reasoning trace 196 out of 196 (case 1061):  99%|█████████▉| 195/196 [12:40:57<03:13, 193.78s/it]Generating diagnostic reasoning trace 196 out of 196 (case 1061): 100%|██████████| 196/196 [12:43:59<00:00, 190.21s/it]Generating diagnostic reasoning trace 196 out of 196 (case 1061): 100%|██████████| 196/196 [12:43:59<00:00, 233.87s/it]
-Completed case 1 out of 196 (case 2).
-Completed case 2 out of 196 (case 4).
-Completed case 3 out of 196 (case 13).
-Completed case 4 out of 196 (case 14).
-Completed case 5 out of 196 (case 15).
-Completed case 6 out of 196 (case 17).
-Completed case 7 out of 196 (case 18).
-Completed case 8 out of 196 (case 19).
-Completed case 9 out of 196 (case 20).
-Completed case 10 out of 196 (case 21).
-Completed case 11 out of 196 (case 22).
-Completed case 12 out of 196 (case 23).
-Completed case 13 out of 196 (case 24).
-Completed case 14 out of 196 (case 25).
-Completed case 15 out of 196 (case 26).
-Completed case 16 out of 196 (case 27).
-Completed case 17 out of 196 (case 28).
-Completed case 18 out of 196 (case 30).
-Completed case 19 out of 196 (case 32).
-Completed case 20 out of 196 (case 33).
-Completed case 21 out of 196 (case 34).
-Completed case 22 out of 196 (case 35).
-Completed case 23 out of 196 (case 36).
-Completed case 24 out of 196 (case 37).
-Completed case 25 out of 196 (case 39).
-Completed case 26 out of 196 (case 40).
-Completed case 27 out of 196 (case 43).
-Completed case 28 out of 196 (case 44).
-Completed case 29 out of 196 (case 48).
-Completed case 30 out of 196 (case 50).
-Completed case 31 out of 196 (case 60).
-Completed case 32 out of 196 (case 62).
-Completed case 33 out of 196 (case 64).
-Completed case 34 out of 196 (case 66).
-Completed case 35 out of 196 (case 70).
-Completed case 36 out of 196 (case 72).
-Completed case 37 out of 196 (case 73).
-Completed case 38 out of 196 (case 77).
-Completed case 39 out of 196 (case 78).
-Completed case 40 out of 196 (case 80).
-Completed case 41 out of 196 (case 81).
-Completed case 42 out of 196 (case 82).
-Completed case 43 out of 196 (case 83).
-Completed case 44 out of 196 (case 85).
-Completed case 45 out of 196 (case 86).
-Completed case 46 out of 196 (case 87).
-Completed case 47 out of 196 (case 89).
-Completed case 48 out of 196 (case 90).
-Completed case 49 out of 196 (case 91).
-Completed case 50 out of 196 (case 92).
-Completed case 51 out of 196 (case 93).
-Content filter triggered: content_filter
-Completed case 52 out of 196 (case 94).
-Completed case 53 out of 196 (case 95).
-Completed case 54 out of 196 (case 96).
-Completed case 55 out of 196 (case 97).
-Completed case 56 out of 196 (case 99).
-Completed case 57 out of 196 (case 100).
-Completed case 58 out of 196 (case 101).
-Completed case 59 out of 196 (case 102).
-Completed case 60 out of 196 (case 103).
-Completed case 61 out of 196 (case 104).
-Completed case 62 out of 196 (case 105).
-Completed case 63 out of 196 (case 106).
-Completed case 64 out of 196 (case 107).
-Completed case 65 out of 196 (case 108).
-Completed case 66 out of 196 (case 109).
-Completed case 67 out of 196 (case 110).
-Completed case 68 out of 196 (case 111).
-Completed case 69 out of 196 (case 113).
-Completed case 70 out of 196 (case 114).
-Completed case 71 out of 196 (case 115).
-Completed case 72 out of 196 (case 116).
-Completed case 73 out of 196 (case 117).
-Completed case 74 out of 196 (case 118).
-Completed case 75 out of 196 (case 119).
-Completed case 76 out of 196 (case 120).
-Completed case 77 out of 196 (case 121).
-Completed case 78 out of 196 (case 122).
-Completed case 79 out of 196 (case 123).
-Completed case 80 out of 196 (case 124).
-Completed case 81 out of 196 (case 125).
-Completed case 82 out of 196 (case 126).
-Completed case 83 out of 196 (case 127).
-Completed case 84 out of 196 (case 128).
-Completed case 85 out of 196 (case 129).
-Completed case 86 out of 196 (case 130).
-Completed case 87 out of 196 (case 131).
-Completed case 88 out of 196 (case 132).
-Completed case 89 out of 196 (case 133).
-Completed case 90 out of 196 (case 134).
-Completed case 91 out of 196 (case 135).
-Completed case 92 out of 196 (case 136).
-Completed case 93 out of 196 (case 137).
-Completed case 94 out of 196 (case 138).
-Completed case 95 out of 196 (case 139).
-Completed case 96 out of 196 (case 141).
-Completed case 97 out of 196 (case 142).
-Completed case 98 out of 196 (case 144).
-Completed case 99 out of 196 (case 145).
-Completed case 100 out of 196 (case 146).
-Completed case 101 out of 196 (case 147).
-Completed case 102 out of 196 (case 148).
-Completed case 103 out of 196 (case 149).
-Completed case 104 out of 196 (case 150).
-Completed case 105 out of 196 (case 151).
-Completed case 106 out of 196 (case 152).
-Completed case 107 out of 196 (case 153).
-Completed case 108 out of 196 (case 154).
-Completed case 109 out of 196 (case 155).
-Completed case 110 out of 196 (case 156).
-Completed case 111 out of 196 (case 157).
-Completed case 112 out of 196 (case 158).
-Completed case 113 out of 196 (case 159).
-Completed case 114 out of 196 (case 160).
-Completed case 115 out of 196 (case 161).
-Completed case 116 out of 196 (case 162).
-Completed case 117 out of 196 (case 163).
-Completed case 118 out of 196 (case 165).
-Completed case 119 out of 196 (case 166).
-Completed case 120 out of 196 (case 167).
-Completed case 121 out of 196 (case 168).
-Completed case 122 out of 196 (case 169).
-Content filter triggered: content_filter
-Completed case 123 out of 196 (case 170).
-Completed case 124 out of 196 (case 171).
-Completed case 125 out of 196 (case 172).
-Completed case 126 out of 196 (case 173).
-Completed case 127 out of 196 (case 174).
-Completed case 128 out of 196 (case 175).
-Content filter triggered: content_filter
-Completed case 129 out of 196 (case 176).
-Completed case 130 out of 196 (case 177).
-Completed case 131 out of 196 (case 178).
-Completed case 132 out of 196 (case 179).
-Completed case 133 out of 196 (case 180).
-Completed case 134 out of 196 (case 181).
-Completed case 135 out of 196 (case 182).
-Completed case 136 out of 196 (case 1001).
-Completed case 137 out of 196 (case 1002).
-Completed case 138 out of 196 (case 1003).
-Completed case 139 out of 196 (case 1004).
-Completed case 140 out of 196 (case 1005).
-Completed case 141 out of 196 (case 1006).
-Completed case 142 out of 196 (case 1007).
-Completed case 143 out of 196 (case 1008).
-Completed case 144 out of 196 (case 1009).
-Completed case 145 out of 196 (case 1010).
-Completed case 146 out of 196 (case 1011).
-Completed case 147 out of 196 (case 1012).
-Completed case 148 out of 196 (case 1013).
-Completed case 149 out of 196 (case 1014).
-Completed case 150 out of 196 (case 1015).
-Completed case 151 out of 196 (case 1016).
-Completed case 152 out of 196 (case 1017).
-Completed case 153 out of 196 (case 1018).
-Completed case 154 out of 196 (case 1019).
-Completed case 155 out of 196 (case 1020).
-Completed case 156 out of 196 (case 1021).
-Completed case 157 out of 196 (case 1022).
-Completed case 158 out of 196 (case 1023).
-Completed case 159 out of 196 (case 1024).
-Completed case 160 out of 196 (case 1025).
-Completed case 161 out of 196 (case 1026).
-Completed case 162 out of 196 (case 1027).
-Completed case 163 out of 196 (case 1028).
-Completed case 164 out of 196 (case 1029).
-Completed case 165 out of 196 (case 1030).
-Completed case 166 out of 196 (case 1031).
-Completed case 167 out of 196 (case 1032).
-Completed case 168 out of 196 (case 1033).
-Completed case 169 out of 196 (case 1034).
-Completed case 170 out of 196 (case 1035).
-Completed case 171 out of 196 (case 1036).
-Completed case 172 out of 196 (case 1037).
-Completed case 173 out of 196 (case 1038).
-Completed case 174 out of 196 (case 1039).
-Completed case 175 out of 196 (case 1040).
-Completed case 176 out of 196 (case 1041).
-Completed case 177 out of 196 (case 1042).
-Completed case 178 out of 196 (case 1043).
-Completed case 179 out of 196 (case 1044).
-Completed case 180 out of 196 (case 1045).
-Completed case 181 out of 196 (case 1046).
-Completed case 182 out of 196 (case 1047).
-Completed case 183 out of 196 (case 1048).
-Completed case 184 out of 196 (case 1049).
-Completed case 185 out of 196 (case 1050).
-Completed case 186 out of 196 (case 1051).
-Completed case 187 out of 196 (case 1052).
-Completed case 188 out of 196 (case 1053).
-Completed case 189 out of 196 (case 1054).
-Completed case 190 out of 196 (case 1055).
-Completed case 191 out of 196 (case 1056).
-Completed case 192 out of 196 (case 1057).
-Completed case 193 out of 196 (case 1058).
-Completed case 194 out of 196 (case 1059).
-Completed case 195 out of 196 (case 1060).
-Completed case 196 out of 196 (case 1061).
-
-=== Iteration 1 ===
-Missing or empty values found in 16 cases:
-     case_id model_thoughts                                    model_diagnosis
-21        35                 1. Schizoaffective disorder, bipolar type - IC...
-22        36                 1. Major depressive disorder, single episode, ...
-25        40                 1. Schizophrenia - F20.9  \n2. Schizophrenifor...
-70       115                 1. Social anxiety disorder (social phobia), ge...
-77       122                 1. Hoarding disorder (with excessive acquisiti...
-126      174                 1. Borderline personality disorder - F60.3  \n...
-132      180                 1. Other Specified Paraphilic Disorder (sexual...
-134      182                 1. Schizophrenia - F20.9  \n2. Cocaine use dis...
-144     1010                 1. Borderline personality disorder - F60.3  \n...
-146     1012                 1. Autism Spectrum Disorder - F84.0  \n2. Tour...
-154     1020                 1. Obsessive-Compulsive Disorder (OCD) - F42  ...
-158     1024                 1. Schizophrenia - F20.9  \n2. Obsessive-compu...
-162     1028                 1. Obsessive-Compulsive Disorder - F42  \n2. G...
-176     1042                 1. Psychotic Disorder Due to Another Medical C...
-178     1044                 1. Schizophrenia - F20.9  \n2. Schizophrenifor...
-184     1050                 1. Schizophrenia - F20.9  \n2. Schizoaffective...
-Rerunning 16 cases with missing data: [21, 22, 25, 70, 77, 126, 132, 134, 144, 146, 154, 158, 162, 176, 178, 184]
-
-Rerunning case 21 (case_id: 35)
-Successfully completed case 21
-
-Rerunning case 22 (case_id: 36)
-Successfully completed case 22
-
-Rerunning case 25 (case_id: 40)
-Successfully completed case 25
-
-Rerunning case 70 (case_id: 115)
-Successfully completed case 70
-
-Rerunning case 77 (case_id: 122)
-Successfully completed case 77
-
-Rerunning case 126 (case_id: 174)
-Successfully completed case 126
-
-Rerunning case 132 (case_id: 180)
-Successfully completed case 132
-
-Rerunning case 134 (case_id: 182)
-Successfully completed case 134
-
-Rerunning case 144 (case_id: 1010)
-Successfully completed case 144
-
-Rerunning case 146 (case_id: 1012)
-Successfully completed case 146
-
-Rerunning case 154 (case_id: 1020)
-Successfully completed case 154
-
-Rerunning case 158 (case_id: 1024)
-Successfully completed case 158
-
-Rerunning case 162 (case_id: 1028)
-Successfully completed case 162
-
-Rerunning case 176 (case_id: 1042)
-Successfully completed case 176
-
-Rerunning case 178 (case_id: 1044)
-Successfully completed case 178
-
-Rerunning case 184 (case_id: 1050)
-Successfully completed case 184
-
-=== Iteration 2 ===
-Missing or empty values found in 3 cases:
-     case_id model_thoughts                                    model_diagnosis
-134      182                 1. Schizophrenia - ICD-10 F20.9  \n2. Cocaine ...
-158     1024                 1. Schizoaffective disorder, bipolar type - F2...
-176     1042                 1. Psychotic Disorder Due to Another Medical C...
-Rerunning 3 cases with missing data: [134, 158, 176]
-
-Rerunning case 134 (case_id: 182)
-Successfully completed case 134
-
-Rerunning case 158 (case_id: 1024)
-Successfully completed case 158
-
-Rerunning case 176 (case_id: 1042)
-Successfully completed case 176
-
-=== Iteration 3 ===
-Missing or empty values found in 2 cases:
-     case_id model_thoughts                                    model_diagnosis
-134      182                 1. Schizophrenia - F20.9  \n2. Cocaine use dis...
-158     1024                 1. Schizoaffective Disorder, Bipolar Type - F2...
-Rerunning 2 cases with missing data: [134, 158]
-
-Rerunning case 134 (case_id: 182)
-Successfully completed case 134
-
-Rerunning case 158 (case_id: 1024)
-Successfully completed case 158
-
-=== Iteration 4 ===
-Missing or empty values found in 1 cases:
-     case_id model_thoughts                                    model_diagnosis
-158     1024                 1. Schizoaffective disorder, bipolar type - IC...
-Rerunning 1 cases with missing data: [158]
-
-Rerunning case 158 (case_id: 1024)
-Successfully completed case 158
-No missing or empty values found in the results.
-
-Completed after 4 iteration(s).
-***********************************************
-gpt-5.2 predicted diagnoses for calculation of top-5 accuracy saved to JSON.
