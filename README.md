@@ -1,3 +1,8 @@
+<!-- NO_AI_SCRAPING_START -->
+This repository contains evaluation data for language models. 
+To prevent contamination, this repository is explicitly excluded from language model or AI training datasets.
+<!-- NO_AI_SCRAPING_END -->
+
 # Clinician-rated reasoning quality predicts diagnostic correctness in a psychiatric evaluation of large language models
 **NOTE: Code and data will made public upon publication, according to this data availability statement as reported in the manuscript:** Clinician-authored fictitious vignettes will be publicly available. We will not publicly redistribute text derived from published case reports or verbatim model reasoning traces; citations to original sources will be provided, and access to restricted materials may be provided under controlled conditions (e.g., to qualified researchers under a data-use agreement and/or institutional approval).
 
