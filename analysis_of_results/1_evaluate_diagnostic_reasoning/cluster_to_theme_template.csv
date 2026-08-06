@@ -1,0 +1,13 @@
+cluster_id,n,suggested_theme_name,theme_name,theme_description,top_terms
+4,8,,Conclusion-driven (post-hoc) reasoning,Coherent narratives that select a diagnosis first and justify it retrospectively with limited engagement with clinical details or ambiguity.,
+9,8,,Coherent but sparse reasoning,,
+0,6,,Coherent but sparse reasoning,,
+7,6,,Coherent but sparse reasoning,,
+10,6,,Incoherent reasoning that trails off,,
+2,5,,Coherent reasoning but wrong diagnosis,,
+1,4,,Coherent reasoning but wrong diagnosis,,
+3,4,,Failure to distinguish disorder subtypes,,
+5,4,,Improper ranking of diagnoses,,
+8,4,,Insufficient justification for differentials,,
+6,3,,Insufficient justification for differentials,,
+11,3,,Failure to distinguish disorder subtypes,,

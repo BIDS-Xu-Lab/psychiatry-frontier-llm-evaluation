@@ -1,0 +1,121 @@
+case_id,model_name,Caesa Nagpal,Carolyn Rodriguez,Pooja Chaudhary,Salih Selek,Stan Mathis
+17,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+17,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+17,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+17,OpenAI GPT-5.2,No,No,No,No,No
+23,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+23,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+23,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+23,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+32,Anthropic Claude Opus 4.5,Yes,No,No,Yes,No
+32,DeepSeek-V3.2,No,No,No,No,No
+32,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+32,OpenAI GPT-5.2,Yes,No,Yes,Yes,No
+62,Anthropic Claude Opus 4.5,Yes,Yes,No,Yes,No
+62,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+62,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+62,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+80,Anthropic Claude Opus 4.5,Yes,No,Yes,Yes,Yes
+80,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+80,Google Gemini 3 Pro,Yes,No,Yes,Yes,Yes
+80,OpenAI GPT-5.2,Yes,Yes,No,No,No
+85,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+85,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+85,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+85,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+94,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+94,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+94,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+94,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+97,Anthropic Claude Opus 4.5,No,No,No,No,No
+97,DeepSeek-V3.2,No,No,No,No,No
+97,Google Gemini 3 Pro,No,No,Yes,No,No
+97,OpenAI GPT-5.2,No,No,No,No,No
+99,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+99,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+99,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+99,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+104,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+104,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+104,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+104,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+108,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+108,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+108,Google Gemini 3 Pro,Yes,No,Yes,Yes,No
+108,OpenAI GPT-5.2,No,No,No,No,No
+109,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+109,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+109,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+109,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+115,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+115,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+115,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+115,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+118,Anthropic Claude Opus 4.5,Yes,No,Yes,Yes,Yes
+118,DeepSeek-V3.2,Yes,No,No,Yes,No
+118,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+118,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+155,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+155,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+155,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+155,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+159,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+159,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+159,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+159,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+169,Anthropic Claude Opus 4.5,No,No,Yes,Yes,No
+169,DeepSeek-V3.2,No,Yes,No,Yes,No
+169,Google Gemini 3 Pro,Yes,Yes,No,Yes,No
+169,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+178,Anthropic Claude Opus 4.5,Yes,No,Yes,Yes,Yes
+178,DeepSeek-V3.2,Yes,No,Yes,Yes,Yes
+178,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+178,OpenAI GPT-5.2,Yes,No,Yes,Yes,Yes
+181,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+181,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+181,Google Gemini 3 Pro,No,No,No,No,No
+181,OpenAI GPT-5.2,No,No,No,No,No
+1003,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1003,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1003,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+1003,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+1009,Anthropic Claude Opus 4.5,Yes,No,No,No,No
+1009,DeepSeek-V3.2,Yes,No,Yes,Yes,Yes
+1009,Google Gemini 3 Pro,Yes,No,No,No,No
+1009,OpenAI GPT-5.2,Yes,No,No,Yes,No
+1012,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1012,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1012,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+1012,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+1013,Anthropic Claude Opus 4.5,No,No,No,Yes,No
+1013,DeepSeek-V3.2,No,No,No,Yes,No
+1013,Google Gemini 3 Pro,No,No,No,No,No
+1013,OpenAI GPT-5.2,Yes,No,Yes,Yes,No
+1020,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1020,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1020,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+1020,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+1021,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1021,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1021,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+1021,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+1032,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1032,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1032,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+1032,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+1033,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1033,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1033,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+1033,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+1047,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1047,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1047,Google Gemini 3 Pro,No,Yes,Yes,Yes,Yes
+1047,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes
+1049,Anthropic Claude Opus 4.5,Yes,No,No,Yes,Yes
+1049,DeepSeek-V3.2,Yes,No,No,No,No
+1049,Google Gemini 3 Pro,Yes,No,No,No,Yes
+1049,OpenAI GPT-5.2,Yes,No,No,No,No
+1056,Anthropic Claude Opus 4.5,Yes,Yes,Yes,Yes,Yes
+1056,DeepSeek-V3.2,Yes,Yes,Yes,Yes,Yes
+1056,Google Gemini 3 Pro,Yes,Yes,Yes,Yes,Yes
+1056,OpenAI GPT-5.2,Yes,Yes,Yes,Yes,Yes

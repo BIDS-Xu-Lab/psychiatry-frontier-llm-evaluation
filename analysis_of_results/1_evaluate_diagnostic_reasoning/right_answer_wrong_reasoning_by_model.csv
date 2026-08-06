@@ -1,0 +1,5 @@
+model_name,n_correct,correct_but_poor_reasoning_rate
+Anthropic Claude Opus 4.5,124,0.08870967741935484
+DeepSeek-V3.2,124,0.16129032258064516
+Google Gemini 3 Pro,123,0.2032520325203252
+OpenAI GPT-5.2,115,0.24347826086956523

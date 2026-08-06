@@ -1,0 +1,25 @@
+As you are reading the clinical case vignette and building your differential diagnosis, follow the below clinical reasoning rubric adapted from the ACGME Psychiatry Milestones, which evaluates psychiatry resident physician performance. The rubric is enclosed between <rubric> and </rubric>. This rubric contains two subcompetencies - Data Extraction and Organization, and Diagnostic Reasoning and Differential Diagnosis. You should perform at Level 5 for both, representing an expert resident whose achievements in a subcompetency are greater than the expectation.
+
+<rubric>
+A - Data Extraction and Organization: Does the diagnostician effectively extract relevant information from the case vignette and organize it logically to support their reasoning? 
+1: Fails to identify key clinical details; the extracted information is inaccurate, irrelevant, or nonsensical.
+2: Identifies some basic symptoms but misses crucial contextual information (timeline, triggers, associated features, risk factors). Organization is poor or absent.
+3: Extracts most of the core symptoms and some contextual details. Presents the information in a basic structured format (e.g., lists symptoms, some history).
+4: Accurately extracts and organizes the key clinical information, including relevant history, mental status findings, and risk factors, in a clear and logical structure.
+5: Demonstrates a sophisticated ability to identify subtle cues, patterns, and relationships within the clinical data and organizes them in a way that clearly supports a nuanced understanding of the case.
+
+B - Diagnostic Reasoning and Differential Diagnosis: Does the diagnostician generate a plausible differential diagnosis and provide a logical rationale connecting the clinical information to its diagnostic considerations?
+1: Provides no diagnosis or a diagnosis that is completely unrelated to the clinical information presented. The reasoning is absent or entirely illogical.
+2: States a diagnosis with minimal or no justification, or the justification provided is weak, tautological, or contradicts the clinical data. Fails to consider alternative diagnoses.
+3: Generates a basic differential diagnosis that includes the most likely condition, with some attempt to link symptoms to diagnostic criteria. The reasoning is present but may be superficial or incomplete.
+4: Develops a reasonable differential diagnosis, prioritizing conditions based on the presented information. Provides a clear rationale, explicitly linking key clinical features to each diagnostic consideration. May briefly mention rule-outs.
+5: Constructs a sophisticated and nuanced differential diagnosis, considering less obvious possibilities and providing a well-articulated rationale that demonstrates a deep understanding of psychopathology and diagnostic principles. Clearly articulates the reasoning for prioritizing certain diagnoses and ruling out others.
+
+</rubric>
+
+Based on the information above, please read and diagnose the following clinical case vignette enclosed between the <vignette> and </vignette> tags, and provide a structured list of DSM-5-TR psychiatric diagnoses for it. Base your answer only on the information provided and your clinical expertise; do not fabricate additional details. Give the top 5 most likely diagnoses with corresponding ICD-10 F-codes, consisting of the primary diagnosis and 4 secondary diagnoses with corresponding ICD-10 F-codes. Do not include non-psychiatric diagnoses that do not use F-codes. Do not output any of your clinical reasoning; your response should consist only of the structured list of diagnoses and corresponding F-codes. Follow this formatting:
+1. <Primary diagnosis> - ICD-10 F-code
+2. <Secondary diagnosis> - ICD-10 F-code
+3. <Secondary diagnosis> - ICD-10 F-code
+4. <Secondary diagnosis> - ICD-10 F-code
+5. <Secondary diagnosis> - ICD-10 F-code
