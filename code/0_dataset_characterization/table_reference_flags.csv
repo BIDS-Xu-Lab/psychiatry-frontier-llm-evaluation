@@ -1,0 +1,7 @@
+f,Clinician-authored,Literature,Total
+alternatives in reference (or / vs / +/-),3,4,7
+one reference string spans 2+ chapters (check: may be several diagnoses scored as one),5,12,17
+parsing anomaly (admission/final or two patients),0,2,2
+primary reference is not a mental disorder,3,12,15
+provisional / rule-out / history,0,4,4
+Total,11,34,45

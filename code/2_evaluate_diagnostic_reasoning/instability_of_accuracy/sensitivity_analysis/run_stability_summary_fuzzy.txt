@@ -1,0 +1,36 @@
+RUN-TO-RUN STABILITY — study hybrid evaluator (fuzzy>=100, then gpt-5-mini)
+======================================================================
+
+Claude Opus 4.5   (n=30 scorable, 0 excluded)
+  Top-1     : run1 0.700   run2 0.633   flipped 4/30 (13.3%)
+  Top-5/hit : run1 0.867   run2 0.800   flipped 2/30 (6.7%)
+  Recall@5  : run1 0.760   run2 0.710
+  MRR       : run1 0.772   run2 0.706
+
+DeepSeek-V3.2   (n=30 scorable, 0 excluded)
+  Top-1     : run1 0.667   run2 0.633   flipped 7/30 (23.3%)
+  Top-5/hit : run1 0.833   run2 0.733   flipped 7/30 (23.3%)
+  Recall@5  : run1 0.752   run2 0.619
+  MRR       : run1 0.739   run2 0.672
+
+GPT-5.2   (n=29 scorable, 1 excluded)
+  Top-1     : run1 0.586   run2 0.586   flipped 6/29 (20.7%)
+  Top-5/hit : run1 0.828   run2 0.828   flipped 6/29 (20.7%)
+  Recall@5  : run1 0.728   run2 0.764
+  MRR       : run1 0.687   run2 0.678
+
+Gemini 3 Pro   (n=30 scorable, 0 excluded)
+  Top-1     : run1 0.633   run2 0.667   flipped 1/30 (3.3%)
+  Top-5/hit : run1 0.733   run2 0.800   flipped 4/30 (13.3%)
+  Recall@5  : run1 0.643   run2 0.681
+  MRR       : run1 0.678   run2 0.722
+
+OVERALL
+  Top-1 flipped     : 18/119 (15.1%)
+  Top-5 flipped     : 19/119 (16.0%)
+
+ADJUDICATION TIERS
+  Matches from fuzzy tier : 41
+  Matches from LLM tier   : 90
+  LLM calls made          : 913
+  LLM errors              : 10   <-- scored as non-match; the original pipeline did this silently

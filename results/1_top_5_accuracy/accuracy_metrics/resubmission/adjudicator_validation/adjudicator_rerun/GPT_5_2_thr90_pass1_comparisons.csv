@@ -1,0 +1,248 @@
+model,pass_id,case_id,rank,ref_index,reference,prediction,fuzzy_score,tier,verdict,from_cache,llm_raw,llm_error,attempts,fuzzy_threshold
+GPT-5.2,1,181,1,0,Fetishistic disorder,Transvestic Disorder - F65.1,66.67,LLM,False,False,"{""match"": false}",,2,90
+GPT-5.2,1,181,2,0,Fetishistic disorder,Adjustment Disorder With Anxiety - F43.22,57.14,LLM,False,False,"{""match"": false}",,2,90
+GPT-5.2,1,181,3,0,Fetishistic disorder,Fetishistic Disorder - F65.0,100.0,FUZZY,True,False,,,0,90
+GPT-5.2,1,181,4,0,Fetishistic disorder,Generalized Anxiety Disorder - F41.1,57.14,LLM,False,False,"{""match"":false}",,3,90
+GPT-5.2,1,181,5,0,Fetishistic disorder,Unspecified Paraphilic Disorder - F65.9,57.14,LLM_ERROR,,False,,"ValidationError: 1 validation error for DiagnosisMatch
+  Invalid JSON: expected ident at line 1 column 2 [type=json_invalid, input_value=""I'm sorry, but I cannot ...sist with that request."", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/json_invalid",4,90
+GPT-5.2,1,62,1,0,Functional seizures.,"Functional neurological symptom disorder (conversion disorder), with attacks or seizures (psychogenic nonepileptic seizures) - F44.5",66.67,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,62,2,0,Functional seizures.,"Posttraumatic stress disorder, chronic - F43.12",29.85,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,62,3,0,Functional seizures.,Panic disorder - F41.0,23.81,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,62,4,0,Functional seizures.,Agoraphobia - F40.00,20.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,62,5,0,Functional seizures.,"Major depressive disorder, unspecified - F32.9",24.24,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,169,1,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance - F02.81",97.04,FUZZY,True,False,,,0,90
+GPT-5.2,1,169,1,1,Alcohol use disorder,"Major neurocognitive disorder due to traumatic brain injury, with behavioral disturbance - F02.81",57.14,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,169,2,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance",Personality change due to another medical condition (traumatic brain injury) - F07.0,50.29,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,169,2,1,Alcohol use disorder,Personality change due to another medical condition (traumatic brain injury) - F07.0,25.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,169,3,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance",Alcohol use disorder - F10.20,43.24,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,169,3,1,Alcohol use disorder,Alcohol use disorder - F10.20,100.0,FUZZY,True,False,,,0,90
+GPT-5.2,1,169,4,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance",Cannabis use disorder - F12.10,42.11,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,169,4,1,Alcohol use disorder,Cannabis use disorder - F12.10,75.0,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,169,5,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance",Cocaine use disorder - F14.10,43.24,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,169,5,1,Alcohol use disorder,Cocaine use disorder - F14.10,75.0,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,155,1,0,Intermittent explosive disorder,Intermittent Explosive Disorder - F63.81,100.0,FUZZY,True,False,,,0,90
+GPT-5.2,1,155,2,0,Intermittent explosive disorder,Borderline Personality Disorder - F60.3,51.43,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,155,3,0,Intermittent explosive disorder,Antisocial Personality Disorder - F60.2,45.71,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,155,4,0,Intermittent explosive disorder,Unspecified Bipolar and Related Disorder - F31.9,43.04,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,155,5,0,Intermittent explosive disorder,"Alcohol Use Disorder, mild - F10.10",39.39,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,32,1,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Posttraumatic Stress Disorder (PTSD) - F43.10,88.89,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,32,2,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Dissociative Amnesia - F44.0,26.09,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,32,3,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Intermittent Explosive Disorder - F63.81,34.67,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,32,4,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Autism Spectrum Disorder - F84.0,85.71,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,32,5,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Adjustment Disorder with Mixed Disturbance of Emotions and Conduct - F43.25,41.08,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1013,1,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Global developmental delay - F88,37.84,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1013,2,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Avoidant/Restrictive Food Intake Disorder - F50.82,35.66,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1013,3,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Unspecified intellectual disability (intellectual developmental disorder) - F79,48.1,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1013,4,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Other specified motor disorder - F82,46.96,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1013,5,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Autism spectrum disorder - F84.0,40.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,94,1,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Bipolar II disorder, current episode depressed - F31.81",79.12,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,94,1,1,Unspecified anxiety disorder,"Bipolar II disorder, current episode depressed - F31.81",40.96,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,94,2,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide",Borderline personality disorder - F60.3,37.7,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,94,2,1,Unspecified anxiety disorder,Borderline personality disorder - F60.3,44.78,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,94,3,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Major depressive disorder, recurrent, severe, without psychotic features - F33.2",45.4,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,94,3,1,Unspecified anxiety disorder,"Major depressive disorder, recurrent, severe, without psychotic features - F33.2",33.33,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,94,4,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide",Other specified anxiety disorder (panic attacks) - F41.8,38.85,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,94,4,1,Unspecified anxiety disorder,Other specified anxiety disorder (panic attacks) - F41.8,72.73,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,94,5,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide",Depersonalization/derealization disorder - F48.1,33.59,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,94,5,1,Unspecified anxiety disorder,Depersonalization/derealization disorder - F48.1,44.44,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1032,1,0,Disruptive mood dysregulation disorder (F34.81),Disruptive Mood Dysregulation Disorder - F34.81,95.74,FUZZY,True,False,,,0,90
+GPT-5.2,1,1032,2,0,Disruptive mood dysregulation disorder (F34.81),Oppositional Defiant Disorder - F91.3,45.24,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1032,3,0,Disruptive mood dysregulation disorder (F34.81),Intermittent Explosive Disorder - F63.81,48.28,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1032,4,0,Disruptive mood dysregulation disorder (F34.81),"Conduct Disorder, childhood-onset type - F91.1",32.26,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1032,5,0,Disruptive mood dysregulation disorder (F34.81),"Attention-Deficit/Hyperactivity Disorder, predominantly hyperactive/impulsive presentation - F90.1",35.86,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1003,1,0,"Bipolar disorder, current episode manic (F31.2)","Bipolar I disorder, current episode manic, severe, without psychotic features - F31.13",82.5,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1003,2,0,"Bipolar disorder, current episode manic (F31.2)",Disruptive mood dysregulation disorder - F34.81,36.17,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1003,3,0,"Bipolar disorder, current episode manic (F31.2)",Oppositional defiant disorder - F91.3,45.24,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1003,4,0,"Bipolar disorder, current episode manic (F31.2)","Attention-deficit/hyperactivity disorder, combined presentation - F90.2",38.98,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1003,5,0,"Bipolar disorder, current episode manic (F31.2)",Intermittent explosive disorder - F63.81,39.08,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,80,1,0,"Intellectual developmental disorder (intellectual disability), severe","Intellectual Disability (Intellectual Developmental Disorder), Moderate - F71",87.67,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,80,1,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Intellectual Disability (Intellectual Developmental Disorder), Moderate - F71",41.27,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,80,2,0,"Intellectual developmental disorder (intellectual disability), severe",Autism Spectrum Disorder - F84.0,40.0,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,80,2,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome",Autism Spectrum Disorder - F84.0,63.83,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,80,3,0,"Intellectual developmental disorder (intellectual disability), severe","Stereotypic Movement Disorder, with self-injurious behavior - F98.4",35.29,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,80,3,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Stereotypic Movement Disorder, with self-injurious behavior - F98.4",41.34,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,80,4,0,"Intellectual developmental disorder (intellectual disability), severe","Unspecified Disruptive, Impulse-Control, and Conduct Disorder - F91.9",44.93,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,80,4,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Unspecified Disruptive, Impulse-Control, and Conduct Disorder - F91.9",43.09,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,80,5,0,"Intellectual developmental disorder (intellectual disability), severe",Unspecified Depressive Disorder - F32.A,40.74,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,80,5,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome",Unspecified Depressive Disorder - F32.A,33.11,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,109,1,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode","Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive-like episode - F06.32",95.2,FUZZY,True,False,,,0,90
+GPT-5.2,1,109,1,1,Rapid eye movement sleep behavior disorder,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive-like episode - F06.32",33.54,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,109,2,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode","Major depressive disorder, single episode - F32.9",65.75,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,109,2,1,Rapid eye movement sleep behavior disorder,"Major depressive disorder, single episode - F32.9",48.35,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,109,3,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Other specified parasomnia (dream enactment behavior consistent with REM sleep behavior disorder) - F51.8,40.78,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,109,3,1,Rapid eye movement sleep behavior disorder,Other specified parasomnia (dream enactment behavior consistent with REM sleep behavior disorder) - F51.8,52.17,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,109,4,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Insomnia disorder (nonorganic insomnia) - F51.0,38.22,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,109,4,1,Rapid eye movement sleep behavior disorder,Insomnia disorder (nonorganic insomnia) - F51.0,42.7,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,109,5,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Other specified neurocognitive disorder - F09,38.71,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,109,5,1,Rapid eye movement sleep behavior disorder,Other specified neurocognitive disorder - F09,45.98,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,118,1,0,"Alcohol use disorder, moderate, in early remission",Substance/Medication-Induced Anxiety Disorder (corticosteroid-induced) - F19.980,38.46,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,118,1,1,Medication-induced anxiety disorder (steroids),Substance/Medication-Induced Anxiety Disorder (corticosteroid-induced) - F19.980,71.43,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,118,2,0,"Alcohol use disorder, moderate, in early remission",Alcohol Use Disorder - F10.20,55.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,118,2,1,Medication-induced anxiety disorder (steroids),Alcohol Use Disorder - F10.20,43.24,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,118,3,0,"Alcohol use disorder, moderate, in early remission",Adjustment Disorder with Anxiety - F43.22,32.97,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,118,3,1,Medication-induced anxiety disorder (steroids),Adjustment Disorder with Anxiety - F43.22,56.14,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,118,4,0,"Alcohol use disorder, moderate, in early remission","Sedative, Hypnotic, or Anxiolytic Intoxication (alprazolam) - F13.929",36.97,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,118,4,1,Medication-induced anxiety disorder (steroids),"Sedative, Hypnotic, or Anxiolytic Intoxication (alprazolam) - F13.929",40.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,118,5,0,"Alcohol use disorder, moderate, in early remission",Mild Neurocognitive Disorder due to Another Medical Condition - F06.7,43.7,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,118,5,1,Medication-induced anxiety disorder (steroids),Mild Neurocognitive Disorder due to Another Medical Condition - F06.7,48.7,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,159,1,0,Opioid use disorder,"Opioid use disorder, severe (hydrocodone/acetaminophen) - F11.20",68.97,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,159,1,1,Tobacco use disorder,"Opioid use disorder, severe (hydrocodone/acetaminophen) - F11.20",35.71,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,1,2,"Alcohol use disorder, in remission","Opioid use disorder, severe (hydrocodone/acetaminophen) - F11.20",55.32,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,1,3,Major depressive disorder,"Opioid use disorder, severe (hydrocodone/acetaminophen) - F11.20",38.2,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,2,0,Opioid use disorder,Opioid withdrawal - F11.23,48.0,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,159,2,1,Tobacco use disorder,Opioid withdrawal - F11.23,26.09,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,159,2,2,"Alcohol use disorder, in remission",Opioid withdrawal - F11.23,23.33,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,159,2,3,Major depressive disorder,Opioid withdrawal - F11.23,27.45,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,159,3,0,Opioid use disorder,"Major depressive disorder, recurrent - F33.9",41.27,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,3,1,Tobacco use disorder,"Major depressive disorder, recurrent - F33.9",43.75,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,3,2,"Alcohol use disorder, in remission","Major depressive disorder, recurrent - F33.9",51.28,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,159,3,3,Major depressive disorder,"Major depressive disorder, recurrent - F33.9",78.05,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,159,4,0,Opioid use disorder,"Tobacco use disorder (nicotine dependence, cigarettes) - F17.210",77.42,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,4,1,Tobacco use disorder,"Tobacco use disorder (nicotine dependence, cigarettes) - F17.210",100.0,FUZZY,True,False,,,0,90
+GPT-5.2,1,159,4,2,"Alcohol use disorder, in remission","Tobacco use disorder (nicotine dependence, cigarettes) - F17.210",36.73,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,159,4,3,Major depressive disorder,"Tobacco use disorder (nicotine dependence, cigarettes) - F17.210",48.48,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,5,0,Opioid use disorder,"Alcohol use disorder, in sustained remission - F10.21",47.22,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,5,1,Tobacco use disorder,"Alcohol use disorder, in sustained remission - F10.21",41.1,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,159,5,2,"Alcohol use disorder, in remission","Alcohol use disorder, in sustained remission - F10.21",100.0,FUZZY,True,False,,,0,90
+GPT-5.2,1,159,5,3,Major depressive disorder,"Alcohol use disorder, in sustained remission - F10.21",30.77,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1021,1,0,Obsessive-compulsive disorder (F42.2),Obsessive-compulsive disorder (OCD) - F42,87.88,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1021,1,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Obsessive-compulsive disorder (OCD) - F42,33.64,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1021,1,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Obsessive-compulsive disorder (OCD) - F42,38.89,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1021,2,0,Obsessive-compulsive disorder (F42.2),"Anorexia nervosa, restricting type (in partial remission) - F50.01",31.07,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1021,2,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)","Anorexia nervosa, restricting type (in partial remission) - F50.01",90.91,FUZZY,True,False,,,0,90
+GPT-5.2,1,1021,2,2,"Major depressive disorder, recurrent, in partial remission (F33.41)","Anorexia nervosa, restricting type (in partial remission) - F50.01",45.11,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1021,3,0,Obsessive-compulsive disorder (F42.2),"Major depressive disorder, single episode (in partial remission) - F32.4",36.7,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1021,3,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)","Major depressive disorder, single episode (in partial remission) - F32.4",50.72,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1021,3,2,"Major depressive disorder, recurrent, in partial remission (F33.41)","Major depressive disorder, single episode (in partial remission) - F32.4",73.38,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1021,4,0,Obsessive-compulsive disorder (F42.2),Unspecified anxiety disorder - F41.9,49.32,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1021,4,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Unspecified anxiety disorder - F41.9,33.33,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1021,4,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Unspecified anxiety disorder - F41.9,36.89,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1021,5,0,Obsessive-compulsive disorder (F42.2),Obsessive-compulsive personality disorder - F60.5,87.88,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1021,5,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Obsessive-compulsive personality disorder - F60.5,33.04,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1021,5,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Obsessive-compulsive personality disorder - F60.5,37.93,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,104,1,0,"Major depressive disorder, single episode, moderate, with psychotic features","Major depressive disorder, single episode, severe, with mood-congruent psychotic features - F32.3",92.96,FUZZY,True,False,,,0,90
+GPT-5.2,1,104,2,0,"Major depressive disorder, single episode, moderate, with psychotic features","Major depressive disorder, single episode, severe, without psychotic features - F32.2",89.05,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,104,3,0,"Major depressive disorder, single episode, moderate, with psychotic features","Delusional disorder, persecutory type - F22",43.7,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,104,4,0,"Major depressive disorder, single episode, moderate, with psychotic features","Bipolar I disorder, current episode depressed, severe, with psychotic features - F31.5",69.14,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,104,5,0,"Major depressive disorder, single episode, moderate, with psychotic features","Schizoaffective disorder, depressive type - F25.1",57.97,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1049,1,0,Cataonia associated with another mental disorder (F06.1),"Major depressive disorder, recurrent episode, severe, with catatonic features - F33.2",39.72,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1049,2,0,Cataonia associated with another mental disorder (F06.1),Catatonia associated with another mental disorder - F06.1,86.73,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1049,3,0,Cataonia associated with another mental disorder (F06.1),Schizophrenia (with catatonia) - F20.9,42.55,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1049,4,0,Cataonia associated with another mental disorder (F06.1),"Bipolar I disorder, current episode depressed, severe - F31.4",39.32,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1049,5,0,Cataonia associated with another mental disorder (F06.1),"Schizoaffective disorder, depressive type - F25.1",40.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,1,0,"Social anxiety disorder, severe",Social Anxiety Disorder (Social Phobia) - F40.11,62.22,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,115,1,1,"Posttraumatic stress disorder, moderate",Social Anxiety Disorder (Social Phobia) - F40.11,34.48,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,1,2,"Agoraphobia, severe",Social Anxiety Disorder (Social Phobia) - F40.11,32.84,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,2,0,"Social anxiety disorder, severe",Agoraphobia - F40.00,23.53,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,2,1,"Posttraumatic stress disorder, moderate",Agoraphobia - F40.00,27.12,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,2,2,"Agoraphobia, severe",Agoraphobia - F40.00,61.54,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,115,3,0,"Social anxiety disorder, severe",Posttraumatic Stress Disorder - F43.10,40.58,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,115,3,1,"Posttraumatic stress disorder, moderate",Posttraumatic Stress Disorder - F43.10,77.92,LLM,True,False,"{""match"":true}",,1,90
+GPT-5.2,1,115,3,2,"Agoraphobia, severe",Posttraumatic Stress Disorder - F43.10,31.58,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,115,4,0,"Social anxiety disorder, severe",Persistent Depressive Disorder (Dysthymia) - F34.1,41.98,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,4,1,"Posttraumatic stress disorder, moderate",Persistent Depressive Disorder (Dysthymia) - F34.1,38.2,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,115,4,2,"Agoraphobia, severe",Persistent Depressive Disorder (Dysthymia) - F34.1,26.09,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,115,5,0,"Social anxiety disorder, severe",Selective Mutism - F94.0,32.73,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,5,1,"Posttraumatic stress disorder, moderate",Selective Mutism - F94.0,28.57,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,115,5,2,"Agoraphobia, severe",Selective Mutism - F94.0,27.91,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1009,1,0,"Anorexia nervosa, restrictive type (F50.01)","Anorexia nervosa, binge-eating/purging type - F50.02",67.69,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1009,2,0,"Anorexia nervosa, restrictive type (F50.01)","Anorexia nervosa, restricting type - F50.01",90.7,FUZZY,True,False,,,0,90
+GPT-5.2,1,1009,3,0,"Anorexia nervosa, restrictive type (F50.01)",Other specified feeding or eating disorder (atypical anorexia nervosa) - F50.89,47.54,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1009,4,0,"Anorexia nervosa, restrictive type (F50.01)",Other specified feeding or eating disorder (purging disorder) - F50.89,30.09,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1009,5,0,"Anorexia nervosa, restrictive type (F50.01)",Unspecified feeding or eating disorder - F50.9,33.71,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,99,1,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Bipolar I disorder, current episode manic, with psychotic features, with peripartum onset - **F31.2**",95.45,FUZZY,True,False,,,0,90
+GPT-5.2,1,99,2,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Brief psychotic disorder, with postpartum onset - **F23**",68.97,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,99,3,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Schizoaffective disorder, bipolar type - **F25.0**",50.75,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,99,4,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Major depressive disorder, recurrent episode, severe with psychotic features, with peripartum onset - **F33.3**",74.75,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,99,5,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset",Unspecified schizophrenia spectrum and other psychotic disorder - **F29**,48.48,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,23,1,0,Levetiracetam-induced acute psychosis,Substance/Medication-Induced Psychotic Disorder (likely levetiracetam-induced) - F19.959,51.2,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,23,2,0,Levetiracetam-induced acute psychosis,Psychotic Disorder Due to Another Medical Condition (epilepsy-related psychosis) - F06.2,38.4,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,23,3,0,Levetiracetam-induced acute psychosis,Brief Psychotic Disorder - F23,41.79,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,23,4,0,Levetiracetam-induced acute psychosis,Schizophreniform Disorder - F20.81,30.99,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,23,5,0,Levetiracetam-induced acute psychosis,Anxiety Disorder Due to Another Medical Condition (epilepsy-related) - F06.4,30.09,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,1,0,Obsessive-Compulsive Disorder (F42.2),Obsessive-compulsive disorder (mixed obsessional thoughts and acts) - F42.2,87.88,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1020,1,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Obsessive-compulsive disorder (mixed obsessional thoughts and acts) - F42.2,41.54,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,1,2,Social Anxiety Disorder (F40.10),Obsessive-compulsive disorder (mixed obsessional thoughts and acts) - F42.2,40.0,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,1,3,Excoriation Disorder (F42.4),Obsessive-compulsive disorder (mixed obsessional thoughts and acts) - F42.2,44.44,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,1,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Obsessive-compulsive disorder (mixed obsessional thoughts and acts) - F42.2,38.37,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,2,0,Obsessive-Compulsive Disorder (F42.2),"Major depressive disorder, recurrent, moderate - F33.1",35.16,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,2,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)","Major depressive disorder, recurrent, moderate - F33.1",75.23,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1020,2,2,Social Anxiety Disorder (F40.10),"Major depressive disorder, recurrent, moderate - F33.1",34.88,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,2,3,Excoriation Disorder (F42.4),"Major depressive disorder, recurrent, moderate - F33.1",36.59,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,2,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),"Major depressive disorder, recurrent, moderate - F33.1",37.09,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,3,0,Obsessive-Compulsive Disorder (F42.2),Social anxiety disorder (social phobia) - F40.10,44.71,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,3,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Social anxiety disorder (social phobia) - F40.10,38.83,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,3,2,Social Anxiety Disorder (F40.10),Social anxiety disorder (social phobia) - F40.10,83.64,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1020,3,3,Excoriation Disorder (F42.4),Social anxiety disorder (social phobia) - F40.10,47.37,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,3,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Social anxiety disorder (social phobia) - F40.10,33.1,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,4,0,Obsessive-Compulsive Disorder (F42.2),Excoriation (skin-picking) disorder - F42.4,40.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,4,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Excoriation (skin-picking) disorder - F42.4,38.78,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1020,4,2,Social Anxiety Disorder (F40.10),Excoriation (skin-picking) disorder - F42.4,42.67,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,4,3,Excoriation Disorder (F42.4),Excoriation (skin-picking) disorder - F42.4,83.33,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1020,4,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Excoriation (skin-picking) disorder - F42.4,32.86,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,5,0,Obsessive-Compulsive Disorder (F42.2),Other specified feeding or eating disorder - F50.89,43.18,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,5,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Other specified feeding or eating disorder - F50.89,47.17,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,5,2,Social Anxiety Disorder (F40.10),Other specified feeding or eating disorder - F50.89,45.78,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,5,3,Excoriation Disorder (F42.4),Other specified feeding or eating disorder - F50.89,44.44,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1020,5,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Other specified feeding or eating disorder - F50.89,60.27,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,85,1,0,"Schizophrenia, multiple episodes, currently in acute episode",Schizophrenia - F20.9,37.04,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,85,2,0,"Schizophrenia, multiple episodes, currently in acute episode",Catatonia associated with another mental disorder (schizophrenia) - F06.1,34.59,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,85,3,0,"Schizophrenia, multiple episodes, currently in acute episode",Delirium due to another medical condition - F05,39.25,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,85,4,0,"Schizophrenia, multiple episodes, currently in acute episode",Adjustment disorder with disturbance of conduct - F43.24,39.66,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,85,5,0,"Schizophrenia, multiple episodes, currently in acute episode",Unspecified dissociative disorder - F44.9,37.62,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1012,1,0,Autistic Disorder (F 84.0),Autism spectrum disorder - F84.0,58.62,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1012,1,1,Tourette Syndrome (F95.2),Autism spectrum disorder - F84.0,28.07,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1012,2,0,Autistic Disorder (F 84.0),Tourette’s disorder - F95.2,56.6,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1012,2,1,Tourette Syndrome (F95.2),Tourette’s disorder - F95.2,53.85,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,1012,3,0,Autistic Disorder (F 84.0),"Stereotypic movement disorder, with self-injury - F98.4",29.63,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1012,3,1,Tourette Syndrome (F95.2),"Stereotypic movement disorder, with self-injury - F98.4",32.5,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1012,4,0,Autistic Disorder (F 84.0),Language disorder - F80.2,58.82,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1012,4,1,Tourette Syndrome (F95.2),Language disorder - F80.2,28.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1012,5,0,Autistic Disorder (F 84.0),Unspecified anxiety disorder - F41.9,51.61,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1012,5,1,Tourette Syndrome (F95.2),Unspecified anxiety disorder - F41.9,29.51,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,178,1,0,Dependent personality disorder,"Sedative, Hypnotic, or Anxiolytic Use Disorder (alprazolam) - ICD-10 F13.20",42.11,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,178,1,1,Benzodiazepine use disorder,"Sedative, Hypnotic, or Anxiolytic Use Disorder (alprazolam) - ICD-10 F13.20",61.54,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,178,2,0,Dependent personality disorder,Dependent Personality Disorder - ICD-10 F60.7,100.0,FUZZY,True,False,,,0,90
+GPT-5.2,1,178,2,1,Benzodiazepine use disorder,Dependent Personality Disorder - ICD-10 F60.7,45.71,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,178,3,0,Dependent personality disorder,Adjustment Disorder with Depressed Mood - ICD-10 F43.21,47.06,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,178,3,1,Benzodiazepine use disorder,Adjustment Disorder with Depressed Mood - ICD-10 F43.21,45.71,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,178,4,0,Dependent personality disorder,"Sedative, Hypnotic, or Anxiolytic Withdrawal - ICD-10 F13.239",28.57,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,178,4,1,Benzodiazepine use disorder,"Sedative, Hypnotic, or Anxiolytic Withdrawal - ICD-10 F13.239",27.27,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,178,5,0,Dependent personality disorder,Unspecified Anxiety Disorder - ICD-10 F41.9,43.84,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,178,5,1,Benzodiazepine use disorder,Unspecified Anxiety Disorder - ICD-10 F41.9,48.57,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1047,1,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse","Substance/Medication-Induced Psychotic Disorder (polysubstance: methamphetamine, phencyclidine, cannabis), with delusions - F19.959",58.82,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1047,2,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Other Stimulant (Amphetamine-Type) Use Disorder (methamphetamine) - F15.20,48.98,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1047,3,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Cannabis Use Disorder - F12.20,72.34,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1047,4,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Phencyclidine (PCP) Use Disorder - F16.20,35.15,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1047,5,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Unspecified Schizophrenia Spectrum and Other Psychotic Disorder - F29,51.61,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,17,1,0,Schizoaffective disorder,Schizophrenia - F20.9,40.0,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,17,2,0,Schizoaffective disorder,Cannabis use disorder - F12.20,50.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,17,3,0,Schizoaffective disorder,Catatonia associated with another mental disorder - F06.1,50.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,17,4,0,Schizoaffective disorder,"Schizoaffective disorder, bipolar type - F25.0",76.92,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,17,5,0,Schizoaffective disorder,"Bipolar I disorder, current episode manic, with psychotic features - F31.2",34.69,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1033,1,0,Oppositional defiant disorder (F91.3),Oppositional Defiant Disorder - F91.3,94.59,FUZZY,True,False,,,0,90
+GPT-5.2,1,1033,2,0,Oppositional defiant disorder (F91.3),"Attention-Deficit/Hyperactivity Disorder, Unspecified Type - F90.9",40.78,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1033,3,0,Oppositional defiant disorder (F91.3),Disruptive Mood Dysregulation Disorder - F34.81,45.24,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1033,4,0,Oppositional defiant disorder (F91.3),"Conduct Disorder, Unspecified Onset - F91.9",42.5,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1033,5,0,Oppositional defiant disorder (F91.3),Adjustment Disorder With Disturbance of Conduct - F43.24,40.86,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1056,1,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Disruptive mood dysregulation disorder - F34.81,91.09,FUZZY,True,False,,,0,90
+GPT-5.2,1,1056,2,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Oppositional defiant disorder - F91.3,43.96,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,1056,3,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Conduct disorder - F91.9,50.0,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1056,4,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),"Attention-deficit/hyperactivity disorder, unspecified presentation - F90.9",35.94,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,1056,5,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),"Specific learning disorder, unspecified - F81.9",37.62,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,108,1,0,"Cocaine use disorder, moderate","Major depressive disorder, single episode, moderate - F32.1",75.0,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,108,1,1,Substance (cocaine)-induced depressive disorder,"Major depressive disorder, single episode, moderate - F32.1",50.94,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,108,2,0,"Cocaine use disorder, moderate","Cocaine use disorder, moderate - F14.20",100.0,FUZZY,True,False,,,0,90
+GPT-5.2,1,108,2,1,Substance (cocaine)-induced depressive disorder,"Cocaine use disorder, moderate - F14.20",46.51,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,108,3,0,"Cocaine use disorder, moderate","Alcohol use disorder, mild - F10.10",60.47,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,108,3,1,Substance (cocaine)-induced depressive disorder,"Alcohol use disorder, mild - F10.10",36.59,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,108,4,0,"Cocaine use disorder, moderate",Substance/Medication-Induced Depressive Disorder (cocaine-induced) - F14.24,43.81,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,108,4,1,Substance (cocaine)-induced depressive disorder,Substance/Medication-Induced Depressive Disorder (cocaine-induced) - F14.24,75.41,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,108,5,0,"Cocaine use disorder, moderate",Adjustment disorder with depressed mood - F43.21,43.59,LLM,False,False,"{""match"":false}",,1,90
+GPT-5.2,1,108,5,1,Substance (cocaine)-induced depressive disorder,Adjustment disorder with depressed mood - F43.21,50.53,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,97,1,0,"Bipolar and related disorder due to HIV infection, with manic features","Bipolar I disorder, current episode manic, with psychotic features - **F31.2**",60.81,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,97,2,0,"Bipolar and related disorder due to HIV infection, with manic features",Stimulant (amphetamine-type) use disorder (methamphetamine) - **F15.20**,38.03,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,97,3,0,"Bipolar and related disorder due to HIV infection, with manic features",Substance/Medication-Induced Bipolar and Related Disorder (methamphetamine-induced) - **F15.14**,57.14,LLM,False,False,"{""match"": false}",,1,90
+GPT-5.2,1,97,4,0,"Bipolar and related disorder due to HIV infection, with manic features","Bipolar and related disorder due to another medical condition (HIV infection), with manic features - **F06.33**",88.0,LLM,True,False,"{""match"": true}",,1,90
+GPT-5.2,1,97,5,0,"Bipolar and related disorder due to HIV infection, with manic features",Unspecified neurocognitive disorder - **F09**,41.74,LLM,False,False,"{""match"": false}",,1,90

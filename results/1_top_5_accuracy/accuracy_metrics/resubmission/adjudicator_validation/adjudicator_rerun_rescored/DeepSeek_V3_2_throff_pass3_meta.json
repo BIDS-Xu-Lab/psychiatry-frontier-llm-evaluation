@@ -1,0 +1,19 @@
+{
+  "model_label": "DeepSeek-V3.2",
+  "input": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/2_evaluate_diagnostic_reasoning/adapted_acgme_guidelines_in_prompt/reasoning_samples_deepseek-reasoner_20251213_163054.json",
+  "fuzzy_threshold": "off",
+  "pass_id": "3",
+  "n_cases": 30,
+  "llm_model": "gpt-5-mini",
+  "llm_calls": 243,
+  "llm_errors_after_retry": 1,
+  "run_utc": "2026-10-02T03:02:34.385490+00:00",
+  "script_sha256": "63d93e3118637e64041aa0f6fb11a64e622ce7b1ae282778bf1d7cc0dca3a69c",
+  "summary": {
+    "top1": 0.6333,
+    "hit_rate": 0.7333,
+    "recall": 0.6211,
+    "mrr": 0.6694
+  },
+  "rescored_dropped_preambles": true
+}

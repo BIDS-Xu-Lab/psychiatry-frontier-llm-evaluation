@@ -1,0 +1,248 @@
+model,pass_id,case_id,rank,ref_index,reference,prediction,fuzzy_score,tier,verdict,from_cache,llm_raw,llm_error,attempts,fuzzy_threshold
+Claude Opus 4.5,2,17,1,0,Schizoaffective disorder,"Schizoaffective Disorder, Bipolar Type - F25.0",76.92,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,17,2,0,Schizoaffective disorder,"Cannabis Use Disorder, Severe - F12.20",41.94,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,17,3,0,Schizoaffective disorder,Schizophrenia - F20.9,40.0,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,17,4,0,Schizoaffective disorder,"Bipolar I Disorder, Current Episode Manic, Severe, with Psychotic Features - F31.2",35.85,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,17,5,0,Schizoaffective disorder,Unspecified Trauma- and Stressor-Related Disorder - F43.9,50.0,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,23,1,0,Levetiracetam-induced acute psychosis,Other (or Unknown) Substance-Induced Psychotic Disorder (Levetiracetam-induced) - F19.959,47.62,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,23,2,0,Levetiracetam-induced acute psychosis,"Psychotic Disorder Due to Another Medical Condition, With Delusions - F06.2",37.5,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,23,3,0,Levetiracetam-induced acute psychosis,Social Anxiety Disorder - F40.10,31.88,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,23,4,0,Levetiracetam-induced acute psychosis,Agoraphobia - F40.00,24.56,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,23,5,0,Levetiracetam-induced acute psychosis,Adjustment Disorder with Anxiety - F43.22,33.33,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,32,1,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Posttraumatic Stress Disorder - F43.10,86.57,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,32,2,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Borderline Personality Disorder - F60.3,34.04,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,32,3,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Intermittent Explosive Disorder - F63.81,34.67,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,32,4,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Dissociative Amnesia - F44.0,26.09,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,32,5,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Autism Spectrum Disorder - F84.0,85.71,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,62,1,0,Functional seizures.,Conversion disorder with attacks or seizures - F44.5,36.11,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,62,2,0,Functional seizures.,"Post-traumatic stress disorder, chronic - F43.12",29.41,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,62,3,0,Functional seizures.,Panic disorder - F41.0,23.81,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,62,4,0,Functional seizures.,"Major depressive disorder, recurrent, in partial remission - F33.41",27.59,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,62,5,0,Functional seizures.,Agoraphobia - F40.00,20.0,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,1,0,"Intellectual developmental disorder (intellectual disability), severe","Autism Spectrum Disorder, requiring very substantial support, with accompanying intellectual impairment, with accompanying language impairment - F84.0",39.8,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,1,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Autism Spectrum Disorder, requiring very substantial support, with accompanying intellectual impairment, with accompanying language impairment - F84.0",74.59,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,80,2,0,"Intellectual developmental disorder (intellectual disability), severe","Intellectual Disability, Severe - F72",67.86,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,80,2,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Intellectual Disability, Severe - F72",48.98,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,3,0,"Intellectual developmental disorder (intellectual disability), severe",Language Disorder - F80.2,48.48,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,3,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome",Language Disorder - F80.2,48.48,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,4,0,"Intellectual developmental disorder (intellectual disability), severe","Stereotypic Movement Disorder, with self-injurious behavior - F98.4",35.29,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,4,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Stereotypic Movement Disorder, with self-injurious behavior - F98.4",41.34,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,5,0,"Intellectual developmental disorder (intellectual disability), severe",Unspecified Depressive Disorder - F32.9,38.89,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,80,5,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome",Unspecified Depressive Disorder - F32.9,31.79,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,85,1,0,"Schizophrenia, multiple episodes, currently in acute episode",Schizophrenia - F20.9,37.04,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,85,2,0,"Schizophrenia, multiple episodes, currently in acute episode",Autism spectrum disorder - F84.0,36.96,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,85,3,0,"Schizophrenia, multiple episodes, currently in acute episode",Unspecified intellectual disability - F79,29.7,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,85,4,0,"Schizophrenia, multiple episodes, currently in acute episode",Unspecified anxiety disorder - F41.9,39.58,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,85,5,0,"Schizophrenia, multiple episodes, currently in acute episode","Schizoaffective disorder, unspecified - F25.9",36.19,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,94,1,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Bipolar II Disorder, current episode depressed, severe - F31.81",72.73,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,94,1,1,Unspecified anxiety disorder,"Bipolar II Disorder, current episode depressed, severe - F31.81",39.56,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,94,2,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide",Panic Disorder - F41.0,26.67,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,94,2,1,Unspecified anxiety disorder,Panic Disorder - F41.0,53.33,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,94,3,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide",Depersonalization-Derealization Disorder - F48.1,33.59,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,94,3,1,Unspecified anxiety disorder,Depersonalization-Derealization Disorder - F48.1,44.44,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,94,4,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Cannabis Use Disorder, Mild, In Early Remission - F12.11",41.73,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,94,4,1,Unspecified anxiety disorder,"Cannabis Use Disorder, Mild, In Early Remission - F12.11",42.86,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,94,5,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Alcohol Use Disorder, Mild, In Early Remission - F10.11",43.48,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,94,5,1,Unspecified anxiety disorder,"Alcohol Use Disorder, Mild, In Early Remission - F10.11",38.55,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,97,1,0,"Bipolar and related disorder due to HIV infection, with manic features","Bipolar I disorder, current episode manic, severe, with psychotic features - F31.2",61.84,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,97,2,0,"Bipolar and related disorder due to HIV infection, with manic features","Stimulant use disorder, amphetamine-type, moderate - F15.20",40.31,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,97,3,0,"Bipolar and related disorder due to HIV infection, with manic features",Bipolar and related disorder due to another medical condition (HIV infection) - F06.33,70.51,LLM,True,False,"{""match"":true}",,1,90
+Claude Opus 4.5,2,97,4,0,"Bipolar and related disorder due to HIV infection, with manic features","Stimulant-induced bipolar and related disorder, with onset during intoxication - F15.24",66.24,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,97,5,0,"Bipolar and related disorder due to HIV infection, with manic features","Alcohol use disorder, mild - F10.10",38.1,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,99,1,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Bipolar I Disorder, Current Episode Manic, Severe, With Psychotic Features, With Peripartum Onset - F31.2",100.0,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,99,2,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Schizoaffective Disorder, Bipolar Type - F25.0",53.97,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,99,3,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Brief Psychotic Disorder, With Peripartum Onset - F23",87.23,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,99,4,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset",Schizophreniform Disorder - F20.81,30.16,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,99,5,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset",Unspecified Bipolar and Related Disorder - F31.9,45.71,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,104,1,0,"Major depressive disorder, single episode, moderate, with psychotic features","Major depressive disorder, single episode, severe with psychotic features - F32.3",92.96,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,104,2,0,"Major depressive disorder, single episode, moderate, with psychotic features","Major depressive disorder, recurrent episode, severe with psychotic features - F33.3",87.41,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,104,3,0,"Major depressive disorder, single episode, moderate, with psychotic features","Schizoaffective disorder, depressive type - F25.1",57.97,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,104,4,0,"Major depressive disorder, single episode, moderate, with psychotic features",Delusional disorder - F22,29.7,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,104,5,0,"Major depressive disorder, single episode, moderate, with psychotic features","Alcohol use disorder, mild - F10.10",40.91,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,108,1,0,"Cocaine use disorder, moderate","Cocaine-induced depressive disorder, with moderate or severe use disorder - F14.24",84.62,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,108,1,1,Substance (cocaine)-induced depressive disorder,"Cocaine-induced depressive disorder, with moderate or severe use disorder - F14.24",62.02,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,108,2,0,"Cocaine use disorder, moderate","Alcohol use disorder, moderate - F10.20",84.62,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,108,2,1,Substance (cocaine)-induced depressive disorder,"Alcohol use disorder, moderate - F10.20",34.88,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,108,3,0,"Cocaine use disorder, moderate","Major depressive disorder, single episode, moderate - F32.1",75.0,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,108,3,1,Substance (cocaine)-induced depressive disorder,"Major depressive disorder, single episode, moderate - F32.1",50.94,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,108,4,0,"Cocaine use disorder, moderate",Adjustment disorder with depressed mood - F43.21,43.59,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,108,4,1,Substance (cocaine)-induced depressive disorder,Adjustment disorder with depressed mood - F43.21,50.53,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,108,5,0,"Cocaine use disorder, moderate","Alcohol-induced depressive disorder, with moderate use disorder - F10.24",84.62,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,108,5,1,Substance (cocaine)-induced depressive disorder,"Alcohol-induced depressive disorder, with moderate use disorder - F10.24",58.82,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,109,1,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode","Depressive Disorder Due to Another Medical Condition (Parkinson's Disease), With Major Depressive-Like Episode - F06.32",94.32,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,109,1,1,Rapid eye movement sleep behavior disorder,"Depressive Disorder Due to Another Medical Condition (Parkinson's Disease), With Major Depressive-Like Episode - F06.32",33.54,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,109,2,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode","Mild Neurocognitive Disorder Due to Parkinson's Disease, Without Behavioral Disturbance - F06.70",44.66,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,109,2,1,Rapid eye movement sleep behavior disorder,"Mild Neurocognitive Disorder Due to Parkinson's Disease, Without Behavioral Disturbance - F06.70",43.48,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,109,3,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",REM Sleep Behavior Disorder - F51.8,37.21,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,109,3,1,Rapid eye movement sleep behavior disorder,REM Sleep Behavior Disorder - F51.8,79.31,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,109,4,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode","Major Depressive Disorder, Single Episode, Moderate - F32.1",48.52,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,109,4,1,Rapid eye movement sleep behavior disorder,"Major Depressive Disorder, Single Episode, Moderate - F32.1",49.5,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,109,5,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Adjustment Disorder With Depressed Mood - F43.21,44.3,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,109,5,1,Rapid eye movement sleep behavior disorder,Adjustment Disorder With Depressed Mood - F43.21,40.0,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,115,1,0,"Social anxiety disorder, severe",Social Anxiety Disorder - F40.10,76.19,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,115,1,1,"Posttraumatic stress disorder, moderate",Social Anxiety Disorder - F40.10,33.8,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,115,1,2,"Agoraphobia, severe",Social Anxiety Disorder - F40.10,23.53,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,115,2,0,"Social anxiety disorder, severe",Posttraumatic Stress Disorder - F43.10,40.58,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,115,2,1,"Posttraumatic stress disorder, moderate",Posttraumatic Stress Disorder - F43.10,77.92,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,115,2,2,"Agoraphobia, severe",Posttraumatic Stress Disorder - F43.10,31.58,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,115,3,0,"Social anxiety disorder, severe",Agoraphobia - F40.00,23.53,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,115,3,1,"Posttraumatic stress disorder, moderate",Agoraphobia - F40.00,27.12,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,115,3,2,"Agoraphobia, severe",Agoraphobia - F40.00,61.54,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,115,4,0,"Social anxiety disorder, severe","Major Depressive Disorder, Single Episode, Moderate - F32.1",48.89,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,115,4,1,"Posttraumatic stress disorder, moderate","Major Depressive Disorder, Single Episode, Moderate - F32.1",63.16,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,115,4,2,"Agoraphobia, severe","Major Depressive Disorder, Single Episode, Moderate - F32.1",23.08,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,115,5,0,"Social anxiety disorder, severe",Generalized Anxiety Disorder - F41.1,65.67,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,115,5,1,"Posttraumatic stress disorder, moderate",Generalized Anxiety Disorder - F41.1,40.0,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,115,5,2,"Agoraphobia, severe",Generalized Anxiety Disorder - F41.1,29.09,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,118,1,0,"Alcohol use disorder, moderate, in early remission",Other (or Unknown) Substance-Induced Anxiety Disorder (corticosteroid-induced) - F19.980,37.68,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,118,1,1,Medication-induced anxiety disorder (steroids),Other (or Unknown) Substance-Induced Anxiety Disorder (corticosteroid-induced) - F19.980,56.72,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,118,2,0,"Alcohol use disorder, moderate, in early remission","Alcohol Use Disorder, Severe, In Early Remission - F10.21",88.89,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,118,2,1,Medication-induced anxiety disorder (steroids),"Alcohol Use Disorder, Severe, In Early Remission - F10.21",38.83,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,118,3,0,"Alcohol use disorder, moderate, in early remission",Adjustment Disorder with Anxiety - F43.22,32.97,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,118,3,1,Medication-induced anxiety disorder (steroids),Adjustment Disorder with Anxiety - F43.22,56.14,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,118,4,0,"Alcohol use disorder, moderate, in early remission",Other Specified Mental Disorder Due to Another Medical Condition - F06.8,45.9,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,118,4,1,Medication-induced anxiety disorder (steroids),Other Specified Mental Disorder Due to Another Medical Condition - F06.8,47.46,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,118,5,0,"Alcohol use disorder, moderate, in early remission",Generalized Anxiety Disorder - F41.1,41.86,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,118,5,1,Medication-induced anxiety disorder (steroids),Generalized Anxiety Disorder - F41.1,61.54,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,155,1,0,Intermittent explosive disorder,Intermittent Explosive Disorder - F63.81,100.0,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,155,2,0,Intermittent explosive disorder,Unspecified Personality Disorder - F60.9,47.89,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,155,3,0,Intermittent explosive disorder,Unspecified Anxiety Disorder - F41.9,50.75,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,155,4,0,Intermittent explosive disorder,Other Specified Depressive Disorder - F32.89,56.0,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,155,5,0,Intermittent explosive disorder,Antisocial Personality Disorder - F60.2,45.71,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,159,1,0,Opioid use disorder,"Opioid Use Disorder, Severe - F11.20",69.09,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,159,1,1,Tobacco use disorder,"Opioid Use Disorder, Severe - F11.20",53.57,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,1,2,"Alcohol use disorder, in remission","Opioid Use Disorder, Severe - F11.20",57.14,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,1,3,Major depressive disorder,"Opioid Use Disorder, Severe - F11.20",39.34,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,2,0,Opioid use disorder,"Major Depressive Disorder, Recurrent, in Partial Remission - F33.41",34.88,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,2,1,Tobacco use disorder,"Major Depressive Disorder, Recurrent, in Partial Remission - F33.41",32.18,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,2,2,"Alcohol use disorder, in remission","Major Depressive Disorder, Recurrent, in Partial Remission - F33.41",78.57,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,159,2,3,Major depressive disorder,"Major Depressive Disorder, Recurrent, in Partial Remission - F33.41",78.05,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,159,3,0,Opioid use disorder,"Tobacco Use Disorder, Severe - F17.210",52.63,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,159,3,1,Tobacco use disorder,"Tobacco Use Disorder, Severe - F17.210",70.97,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,159,3,2,"Alcohol use disorder, in remission","Tobacco Use Disorder, Severe - F17.210",55.32,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,3,3,Major depressive disorder,"Tobacco Use Disorder, Severe - F17.210",38.1,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,4,0,Opioid use disorder,"Alcohol Use Disorder, in Sustained Remission - F10.21",47.22,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,4,1,Tobacco use disorder,"Alcohol Use Disorder, in Sustained Remission - F10.21",41.1,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,4,2,"Alcohol use disorder, in remission","Alcohol Use Disorder, in Sustained Remission - F10.21",100.0,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,159,4,3,Major depressive disorder,"Alcohol Use Disorder, in Sustained Remission - F10.21",30.77,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,5,0,Opioid use disorder,Adjustment Disorder with Depressed Mood - F43.21,59.26,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,159,5,1,Tobacco use disorder,Adjustment Disorder with Depressed Mood - F43.21,57.14,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,159,5,2,"Alcohol use disorder, in remission",Adjustment Disorder with Depressed Mood - F43.21,36.59,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,159,5,3,Major depressive disorder,Adjustment Disorder with Depressed Mood - F43.21,54.79,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,169,1,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance",Personality Change Due to Traumatic Brain Injury - F07.0,57.34,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,169,1,1,Alcohol use disorder,Personality Change Due to Traumatic Brain Injury - F07.0,28.95,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,169,2,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Major Neurocognitive Disorder Due to Traumatic Brain Injury, With Behavioral Disturbance - F02.81",97.04,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,169,2,1,Alcohol use disorder,"Major Neurocognitive Disorder Due to Traumatic Brain Injury, With Behavioral Disturbance - F02.81",57.14,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,169,3,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Alcohol Use Disorder, Moderate - F10.20",34.92,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,169,3,1,Alcohol use disorder,"Alcohol Use Disorder, Moderate - F10.20",70.97,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,169,4,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Stimulant Use Disorder, Mild - F15.10",37.1,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,169,4,1,Alcohol use disorder,"Stimulant Use Disorder, Mild - F15.10",45.61,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,169,5,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Cannabis Use Disorder, Mild - F12.10",35.77,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,169,5,1,Alcohol use disorder,"Cannabis Use Disorder, Mild - F12.10",50.0,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,178,1,0,Dependent personality disorder,"Sedative, Hypnotic, or Anxiolytic Use Disorder, Moderate - F13.20",37.89,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,178,1,1,Benzodiazepine use disorder,"Sedative, Hypnotic, or Anxiolytic Use Disorder, Moderate - F13.20",36.96,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,178,2,0,Dependent personality disorder,Dependent Personality Disorder - F60.7,100.0,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,178,2,1,Benzodiazepine use disorder,Dependent Personality Disorder - F60.7,49.23,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,178,3,0,Dependent personality disorder,Adjustment Disorder with Depressed Mood - F43.21,51.28,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,178,3,1,Benzodiazepine use disorder,Adjustment Disorder with Depressed Mood - F43.21,45.71,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,178,4,0,Dependent personality disorder,Unspecified Anxiety Disorder - F41.9,48.48,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,178,4,1,Benzodiazepine use disorder,Unspecified Anxiety Disorder - F41.9,50.79,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,178,5,0,Dependent personality disorder,Persistent Depressive Disorder (Dysthymia) - F34.1,52.5,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,178,5,1,Benzodiazepine use disorder,Persistent Depressive Disorder (Dysthymia) - F34.1,49.35,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,181,1,0,Fetishistic disorder,Fetishistic Disorder - F65.0,100.0,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,181,2,0,Fetishistic disorder,Transvestic Disorder - F65.1,66.67,LLM_ERROR,,False,,APIConnectionError: Connection error.,4,90
+Claude Opus 4.5,2,181,3,0,Fetishistic disorder,Adjustment Disorder with Anxiety - F43.22,57.14,LLM_ERROR,,False,,APIConnectionError: Connection error.,4,90
+Claude Opus 4.5,2,181,4,0,Fetishistic disorder,Other Specified Paraphilic Disorder - F65.89,57.14,LLM_ERROR,,False,,APIConnectionError: Connection error.,4,90
+Claude Opus 4.5,2,181,5,0,Fetishistic disorder,Unspecified Anxiety Disorder - F41.9,57.14,LLM_ERROR,,False,,"ValidationError: 1 validation error for DiagnosisMatch
+  Invalid JSON: expected ident at line 1 column 2 [type=json_invalid, input_value=""I'm sorry, but I cannot ...sist with that request."", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/json_invalid",4,90
+Claude Opus 4.5,2,1003,1,0,"Bipolar disorder, current episode manic (F31.2)","Bipolar I Disorder, Current Episode Manic, With Psychotic Features - F31.2",82.5,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1003,2,0,"Bipolar disorder, current episode manic (F31.2)","Bipolar I Disorder, Current Episode Manic, Severe - F31.13",83.81,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1003,3,0,"Bipolar disorder, current episode manic (F31.2)",Disruptive Mood Dysregulation Disorder - F34.81,36.17,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1003,4,0,"Bipolar disorder, current episode manic (F31.2)",Oppositional Defiant Disorder - F91.3,45.24,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1003,5,0,"Bipolar disorder, current episode manic (F31.2)","Attention-Deficit/Hyperactivity Disorder, Unspecified Type - F90.9",38.94,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1009,1,0,"Anorexia nervosa, restrictive type (F50.01)","Anorexia Nervosa, Binge-eating/Purging Type - F50.02",67.69,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1009,2,0,"Anorexia nervosa, restrictive type (F50.01)","Anorexia Nervosa, Restricting Type - F50.01",90.7,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,1009,3,0,"Anorexia nervosa, restrictive type (F50.01)",Other Specified Feeding or Eating Disorder (Atypical Anorexia Nervosa) - F50.89,47.54,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1009,4,0,"Anorexia nervosa, restrictive type (F50.01)",Unspecified Feeding or Eating Disorder - F50.9,33.71,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1009,5,0,"Anorexia nervosa, restrictive type (F50.01)",Avoidant/Restrictive Food Intake Disorder - F50.82,43.01,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1012,1,0,Autistic Disorder (F 84.0),Autism Spectrum Disorder - F84.0,58.62,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1012,1,1,Tourette Syndrome (F95.2),Autism Spectrum Disorder - F84.0,28.07,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1012,2,0,Autistic Disorder (F 84.0),Tourette's Disorder - F95.2,56.6,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1012,2,1,Tourette Syndrome (F95.2),Tourette's Disorder - F95.2,53.85,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1012,3,0,Autistic Disorder (F 84.0),Stereotypic Movement Disorder with self-injurious behavior - F98.4,47.06,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1012,3,1,Tourette Syndrome (F95.2),Stereotypic Movement Disorder with self-injurious behavior - F98.4,30.77,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1012,4,0,Autistic Disorder (F 84.0),Unspecified Intellectual Disability - F79,26.87,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1012,4,1,Tourette Syndrome (F95.2),Unspecified Intellectual Disability - F79,27.27,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1012,5,0,Autistic Disorder (F 84.0),Language Disorder - F80.2,58.82,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1012,5,1,Tourette Syndrome (F95.2),Language Disorder - F80.2,28.0,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1013,1,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Global Developmental Delay - F88,37.84,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1013,2,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Unspecified Intellectual Disability - F79,42.31,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1013,3,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Unspecified Neurodevelopmental Disorder - F89,92.86,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,1013,4,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Unspecified Communication Disorder - F80.9,64.52,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1013,5,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Speech Sound Disorder - F80.0,43.24,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1020,1,0,Obsessive-Compulsive Disorder (F42.2),Obsessive-Compulsive Disorder - F42.2,94.59,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,1020,1,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Obsessive-Compulsive Disorder - F42.2,47.83,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,1,2,Social Anxiety Disorder (F40.10),Obsessive-Compulsive Disorder - F42.2,49.28,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,1,3,Excoriation Disorder (F42.4),Obsessive-Compulsive Disorder - F42.2,55.38,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,1,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Obsessive-Compulsive Disorder - F42.2,29.85,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,2,0,Obsessive-Compulsive Disorder (F42.2),Excoriation (Skin-Picking) Disorder - F42.4,40.0,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,2,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Excoriation (Skin-Picking) Disorder - F42.4,38.78,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,2,2,Social Anxiety Disorder (F40.10),Excoriation (Skin-Picking) Disorder - F42.4,42.67,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,2,3,Excoriation Disorder (F42.4),Excoriation (Skin-Picking) Disorder - F42.4,83.33,LLM,True,False,"{""match"":true}",,1,90
+Claude Opus 4.5,2,1020,2,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Excoriation (Skin-Picking) Disorder - F42.4,32.86,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,3,0,Obsessive-Compulsive Disorder (F42.2),"Major Depressive Disorder, Recurrent, Moderate - F33.1",35.16,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,3,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)","Major Depressive Disorder, Recurrent, Moderate - F33.1",75.23,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1020,3,2,Social Anxiety Disorder (F40.10),"Major Depressive Disorder, Recurrent, Moderate - F33.1",34.88,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,3,3,Excoriation Disorder (F42.4),"Major Depressive Disorder, Recurrent, Moderate - F33.1",36.59,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,3,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),"Major Depressive Disorder, Recurrent, Moderate - F33.1",37.09,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,4,0,Obsessive-Compulsive Disorder (F42.2),Social Anxiety Disorder (Social Phobia) - F40.10,44.71,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,4,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Social Anxiety Disorder (Social Phobia) - F40.10,38.83,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,4,2,Social Anxiety Disorder (F40.10),Social Anxiety Disorder (Social Phobia) - F40.10,83.64,LLM,True,False,"{""match"":true}",,1,90
+Claude Opus 4.5,2,1020,4,3,Excoriation Disorder (F42.4),Social Anxiety Disorder (Social Phobia) - F40.10,47.37,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,4,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Social Anxiety Disorder (Social Phobia) - F40.10,33.1,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,5,0,Obsessive-Compulsive Disorder (F42.2),"Attention-Deficit/Hyperactivity Disorder, Unspecified Type - F90.9",33.01,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,5,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)","Attention-Deficit/Hyperactivity Disorder, Unspecified Type - F90.9",39.67,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,5,2,Social Anxiety Disorder (F40.10),"Attention-Deficit/Hyperactivity Disorder, Unspecified Type - F90.9",40.82,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1020,5,3,Excoriation Disorder (F42.4),"Attention-Deficit/Hyperactivity Disorder, Unspecified Type - F90.9",31.91,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1020,5,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),"Attention-Deficit/Hyperactivity Disorder, Unspecified Type - F90.9",39.26,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1021,1,0,Obsessive-compulsive disorder (F42.2),Obsessive-Compulsive Disorder - F42.2,94.59,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,1021,1,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Obsessive-Compulsive Disorder - F42.2,31.07,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,1,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Obsessive-Compulsive Disorder - F42.2,34.62,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1021,2,0,Obsessive-compulsive disorder (F42.2),"Anorexia Nervosa, Restricting Type - F50.01",32.5,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1021,2,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)","Anorexia Nervosa, Restricting Type - F50.01",80.56,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1021,2,2,"Major depressive disorder, recurrent, in partial remission (F33.41)","Anorexia Nervosa, Restricting Type - F50.01",30.91,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,3,0,Obsessive-compulsive disorder (F42.2),"Major Depressive Disorder, Single Episode, In Partial Remission - F32.4",35.19,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,3,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)","Major Depressive Disorder, Single Episode, In Partial Remission - F32.4",54.01,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1021,3,2,"Major depressive disorder, recurrent, in partial remission (F33.41)","Major Depressive Disorder, Single Episode, In Partial Remission - F32.4",82.46,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,4,0,Obsessive-compulsive disorder (F42.2),Generalized Anxiety Disorder - F41.1,49.32,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,4,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Generalized Anxiety Disorder - F41.1,33.33,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,4,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Generalized Anxiety Disorder - F41.1,34.95,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,5,0,Obsessive-compulsive disorder (F42.2),Trichotillomania (Hair-Pulling Disorder) - F63.3,37.65,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,5,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Trichotillomania (Hair-Pulling Disorder) - F63.3,33.33,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1021,5,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Trichotillomania (Hair-Pulling Disorder) - F63.3,36.52,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1032,1,0,Disruptive mood dysregulation disorder (F34.81),Disruptive Mood Dysregulation Disorder - F34.81,95.74,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,1032,2,0,Disruptive mood dysregulation disorder (F34.81),"Attention-Deficit/Hyperactivity Disorder, unspecified type - F90.9",31.86,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1032,3,0,Disruptive mood dysregulation disorder (F34.81),Disinhibited Social Engagement Disorder - F94.2,46.81,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1032,4,0,Disruptive mood dysregulation disorder (F34.81),"Conduct Disorder, childhood-onset type - F91.1",32.26,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1032,5,0,Disruptive mood dysregulation disorder (F34.81),Unspecified Trauma- and Stressor-Related Disorder - F43.9,48.08,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1033,1,0,Oppositional defiant disorder (F91.3),Oppositional Defiant Disorder - F91.3,94.59,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,1033,2,0,Oppositional defiant disorder (F91.3),"Conduct Disorder, childhood-onset type - F91.1",38.55,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1033,3,0,Oppositional defiant disorder (F91.3),"Attention-Deficit/Hyperactivity Disorder, unspecified type - F90.9",40.78,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1033,4,0,Oppositional defiant disorder (F91.3),Disruptive Mood Dysregulation Disorder - F34.81,45.24,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1033,5,0,Oppositional defiant disorder (F91.3),Adjustment Disorder with disturbance of conduct - F43.24,40.86,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1047,1,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Phencyclidine-Induced Psychotic Disorder - F16.959,52.94,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1047,2,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse","Methamphetamine Use Disorder, Moderate - F15.20",37.43,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1047,3,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse","Cannabis Use Disorder, Moderate - F12.20",42.68,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1047,4,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Phencyclidine Use Disorder - F16.20,37.21,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1047,5,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Unspecified Schizophrenia Spectrum and Other Psychotic Disorder - F29,51.61,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1049,1,0,Cataonia associated with another mental disorder (F06.1),"Major depressive disorder, recurrent episode, severe - F33.2",37.93,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1049,2,0,Cataonia associated with another mental disorder (F06.1),Catatonia associated with another mental disorder - F06.1,86.73,LLM,True,False,"{""match"": true}",,1,90
+Claude Opus 4.5,2,1049,3,0,Cataonia associated with another mental disorder (F06.1),Unspecified schizophrenia spectrum and other psychotic disorder - F29,51.2,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1049,4,0,Cataonia associated with another mental disorder (F06.1),Schizophreniform disorder - F20.81,46.67,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1049,5,0,Cataonia associated with another mental disorder (F06.1),Brief psychotic disorder - F23,42.11,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1056,1,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Disruptive Mood Dysregulation Disorder - F34.81,91.09,FUZZY,True,False,,,0,90
+Claude Opus 4.5,2,1056,2,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),"Conduct Disorder, childhood-onset type - F91.1",32.0,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1056,3,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),"Attention-Deficit/Hyperactivity Disorder, unspecified type - F90.9",31.67,LLM,False,False,"{""match"":false}",,1,90
+Claude Opus 4.5,2,1056,4,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Social Anxiety Disorder - F40.10,41.86,LLM,False,False,"{""match"": false}",,1,90
+Claude Opus 4.5,2,1056,5,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),"Specific Learning Disorder, unspecified - F81.9",37.62,LLM,False,False,"{""match"":false}",,1,90

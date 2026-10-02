@@ -1,0 +1,76 @@
+case_id,model_name,annotator,model_diagnosis,y_pred
+155,Google Gemini 3 Pro,Carolyn Rodriguez,"Based on the clinical vignette and DSM-5-TR criteria, the following is the structured list of the top 5 most likely diagnoses:
+ 
+ 1. Intermittent Explosive Disorder - ICD-10 F63.81
+ 2. Narcissistic Personality Disorder - ICD-10 F60.81
+ 3. Antisocial Personality Disorder - ICD-10 F60.2
+ 4. Borderline Personality Disorder - ICD-10 F60.3
+ 5. Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2","[""Intermittent Explosive Disorder - ICD-10 F63.81"", ""Narcissistic Personality Disorder - ICD-10 F60.81"", ""Antisocial Personality Disorder - ICD-10 F60.2"", ""Borderline Personality Disorder - ICD-10 F60.3"", ""Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2""]"
+80,Google Gemini 3 Pro,Carolyn Rodriguez,"Based on the clinical case vignette and DSM-5-TR criteria, here are the top 5 most likely diagnoses:
+ 
+ 1. Autism spectrum disorder - F84.0
+ 2. Moderate intellectual disability - F71
+ 3. Stereotypic movement disorder - F98.1
+ 4. Depressive disorder due to another medical condition - F06.31
+ 5. Mixed receptive-expressive language disorder - F80.2","[""Autism spectrum disorder - F84.0"", ""Moderate intellectual disability - F71"", ""Stereotypic movement disorder - F98.1"", ""Depressive disorder due to another medical condition - F06.31"", ""Mixed receptive-expressive language disorder - F80.2""]"
+155,Google Gemini 3 Pro,Salih Selek,"Based on the clinical vignette and DSM-5-TR criteria, the following is the structured list of the top 5 most likely diagnoses:
+ 
+ 1. Intermittent Explosive Disorder - ICD-10 F63.81
+ 2. Narcissistic Personality Disorder - ICD-10 F60.81
+ 3. Antisocial Personality Disorder - ICD-10 F60.2
+ 4. Borderline Personality Disorder - ICD-10 F60.3
+ 5. Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2","[""Intermittent Explosive Disorder - ICD-10 F63.81"", ""Narcissistic Personality Disorder - ICD-10 F60.81"", ""Antisocial Personality Disorder - ICD-10 F60.2"", ""Borderline Personality Disorder - ICD-10 F60.3"", ""Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2""]"
+80,Google Gemini 3 Pro,Salih Selek,"Based on the clinical case vignette and DSM-5-TR criteria, here are the top 5 most likely diagnoses:
+ 
+ 1. Autism spectrum disorder - F84.0
+ 2. Moderate intellectual disability - F71
+ 3. Stereotypic movement disorder - F98.1
+ 4. Depressive disorder due to another medical condition - F06.31
+ 5. Mixed receptive-expressive language disorder - F80.2","[""Autism spectrum disorder - F84.0"", ""Moderate intellectual disability - F71"", ""Stereotypic movement disorder - F98.1"", ""Depressive disorder due to another medical condition - F06.31"", ""Mixed receptive-expressive language disorder - F80.2""]"
+155,Google Gemini 3 Pro,Pooja Chaudhary,"Based on the clinical vignette and DSM-5-TR criteria, the following is the structured list of the top 5 most likely diagnoses:
+ 
+ 1. Intermittent Explosive Disorder - ICD-10 F63.81
+ 2. Narcissistic Personality Disorder - ICD-10 F60.81
+ 3. Antisocial Personality Disorder - ICD-10 F60.2
+ 4. Borderline Personality Disorder - ICD-10 F60.3
+ 5. Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2","[""Intermittent Explosive Disorder - ICD-10 F63.81"", ""Narcissistic Personality Disorder - ICD-10 F60.81"", ""Antisocial Personality Disorder - ICD-10 F60.2"", ""Borderline Personality Disorder - ICD-10 F60.3"", ""Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2""]"
+80,Google Gemini 3 Pro,Pooja Chaudhary,"Based on the clinical case vignette and DSM-5-TR criteria, here are the top 5 most likely diagnoses:
+ 
+ 1. Autism spectrum disorder - F84.0
+ 2. Moderate intellectual disability - F71
+ 3. Stereotypic movement disorder - F98.1
+ 4. Depressive disorder due to another medical condition - F06.31
+ 5. Mixed receptive-expressive language disorder - F80.2","[""Autism spectrum disorder - F84.0"", ""Moderate intellectual disability - F71"", ""Stereotypic movement disorder - F98.1"", ""Depressive disorder due to another medical condition - F06.31"", ""Mixed receptive-expressive language disorder - F80.2""]"
+104,Google Gemini 3 Pro,Pooja Chaudhary,"1. Major depressive disorder, recurrent, severe - F33.2
+ 2. Catatonia associated with another mental disorder - F06.1
+ 3. Bipolar I disorder, current episode depressed, severe - F31.4
+ 4. Schizoaffective disorder, depressive type - F25.1
+ 5. Schizophrenia - F20.9","[""Major depressive disorder, single episode, severe with psychotic features - F32.3"", ""Schizoaffective disorder, depressive type - F25.1"", ""Bipolar I disorder, current episode depressed, severe with psychotic features - F31.5"", ""Delusional disorder - F22"", ""Alcohol use disorder, mild - F10.10""]"
+155,Google Gemini 3 Pro,Caesa Nagpal,"Based on the clinical vignette and DSM-5-TR criteria, the following is the structured list of the top 5 most likely diagnoses:
+ 
+ 1. Intermittent Explosive Disorder - ICD-10 F63.81
+ 2. Narcissistic Personality Disorder - ICD-10 F60.81
+ 3. Antisocial Personality Disorder - ICD-10 F60.2
+ 4. Borderline Personality Disorder - ICD-10 F60.3
+ 5. Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2","[""Intermittent Explosive Disorder - ICD-10 F63.81"", ""Narcissistic Personality Disorder - ICD-10 F60.81"", ""Antisocial Personality Disorder - ICD-10 F60.2"", ""Borderline Personality Disorder - ICD-10 F60.3"", ""Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2""]"
+80,Google Gemini 3 Pro,Caesa Nagpal,"Based on the clinical case vignette and DSM-5-TR criteria, here are the top 5 most likely diagnoses:
+ 
+ 1. Autism spectrum disorder - F84.0
+ 2. Moderate intellectual disability - F71
+ 3. Stereotypic movement disorder - F98.1
+ 4. Depressive disorder due to another medical condition - F06.31
+ 5. Mixed receptive-expressive language disorder - F80.2","[""Autism spectrum disorder - F84.0"", ""Moderate intellectual disability - F71"", ""Stereotypic movement disorder - F98.1"", ""Depressive disorder due to another medical condition - F06.31"", ""Mixed receptive-expressive language disorder - F80.2""]"
+155,Google Gemini 3 Pro,Stan Mathis,"Based on the clinical vignette and DSM-5-TR criteria, the following is the structured list of the top 5 most likely diagnoses:
+ 
+ 1. Intermittent Explosive Disorder - ICD-10 F63.81
+ 2. Narcissistic Personality Disorder - ICD-10 F60.81
+ 3. Antisocial Personality Disorder - ICD-10 F60.2
+ 4. Borderline Personality Disorder - ICD-10 F60.3
+ 5. Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2","[""Intermittent Explosive Disorder - ICD-10 F63.81"", ""Narcissistic Personality Disorder - ICD-10 F60.81"", ""Antisocial Personality Disorder - ICD-10 F60.2"", ""Borderline Personality Disorder - ICD-10 F60.3"", ""Attention-Deficit/Hyperactivity Disorder, Combined Presentation - ICD-10 F90.2""]"
+80,Google Gemini 3 Pro,Stan Mathis,"Based on the clinical case vignette and DSM-5-TR criteria, here are the top 5 most likely diagnoses:
+ 
+ 1. Autism spectrum disorder - F84.0
+ 2. Moderate intellectual disability - F71
+ 3. Stereotypic movement disorder - F98.1
+ 4. Depressive disorder due to another medical condition - F06.31
+ 5. Mixed receptive-expressive language disorder - F80.2","[""Autism spectrum disorder - F84.0"", ""Moderate intellectual disability - F71"", ""Stereotypic movement disorder - F98.1"", ""Depressive disorder due to another medical condition - F06.31"", ""Mixed receptive-expressive language disorder - F80.2""]"

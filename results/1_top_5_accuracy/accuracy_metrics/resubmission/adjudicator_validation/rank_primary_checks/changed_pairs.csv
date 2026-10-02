@@ -1,0 +1,11 @@
+case_id,model_name,n_yes,clin_majority,rank_any,rank_primary,top1_any,top1_primary
+80,Anthropic Claude Opus 4.5,4,1,1.0,2.0,1,0
+108,Anthropic Claude Opus 4.5,5,1,1.0,,1,0
+108,Google Gemini 3 Pro,3,1,1.0,,1,0
+118,Anthropic Claude Opus 4.5,4,1,1.0,,1,0
+118,DeepSeek-V3.2,2,0,1.0,,1,0
+118,Google Gemini 3 Pro,5,1,1.0,,1,0
+118,OpenAI GPT-5.2,5,1,1.0,,1,0
+178,Anthropic Claude Opus 4.5,4,1,1.0,2.0,1,0
+178,DeepSeek-V3.2,4,1,1.0,2.0,1,0
+178,OpenAI GPT-5.2,4,1,1.0,2.0,1,0

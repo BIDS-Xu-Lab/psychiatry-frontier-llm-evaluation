@@ -1,0 +1,5 @@
+model_name,clin_rater_mean,clin_majority,adj_top1_any,adj_top1_primary
+Anthropic Claude Opus 4.5,0.827,0.833,0.7,0.567
+DeepSeek-V3.2,0.827,0.8,0.8,0.733
+Google Gemini 3 Pro,0.82,0.833,0.667,0.6
+OpenAI GPT-5.2,0.767,0.767,0.633,0.567

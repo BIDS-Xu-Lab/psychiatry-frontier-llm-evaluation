@@ -1,0 +1,4 @@
+where,pairs,clinician_yes_rate,majority_yes
+rank 1,74,0.957,0.959
+rank 2+,21,0.343,0.333
+no match,25,0.768,0.76

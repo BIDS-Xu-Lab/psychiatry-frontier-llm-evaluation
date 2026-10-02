@@ -1,0 +1,3 @@
+[DeepSeek-V3.2 | run1 | case 181] ... The response must perform at Level 5 for both, meaning extracting subtle cues and constructing a nuanced differential. The answer provided lists five diagnoses with ICD-10 codes, so the thinking should reflect how those were prioritized.
+
+Looking at the vignette, Terry is a 65-year-old man with a paraphilic interest i...

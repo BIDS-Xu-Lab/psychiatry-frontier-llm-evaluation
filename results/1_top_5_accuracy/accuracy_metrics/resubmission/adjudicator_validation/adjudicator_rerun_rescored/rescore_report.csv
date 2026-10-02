@@ -1,0 +1,13 @@
+run,case_id,status
+Google_Gemini_3_Pro_thr90_pass1,155,"re-scored: first match rank 3.0 -> 1, top1 0.0 -> 1.0"
+Google_Gemini_3_Pro_thr90_pass1,80,"re-scored: first match rank nan -> None, top1 0.0 -> 0.0"
+Google_Gemini_3_Pro_thr90_pass2,155,"re-scored: first match rank 3.0 -> 1, top1 0.0 -> 1.0"
+Google_Gemini_3_Pro_thr90_pass2,80,"re-scored: first match rank nan -> None, top1 0.0 -> 0.0"
+Google_Gemini_3_Pro_thr90_pass3,155,"re-scored: first match rank 3.0 -> 1, top1 0.0 -> 1.0"
+Google_Gemini_3_Pro_thr90_pass3,80,"re-scored: first match rank nan -> None, top1 0.0 -> 0.0"
+Google_Gemini_3_Pro_throff_pass1,155,"re-scored: first match rank 3.0 -> 1, top1 0.0 -> 1.0"
+Google_Gemini_3_Pro_throff_pass1,80,"re-scored: first match rank nan -> None, top1 0.0 -> 0.0"
+Google_Gemini_3_Pro_throff_pass2,155,"re-scored: first match rank 3.0 -> 1, top1 0.0 -> 1.0"
+Google_Gemini_3_Pro_throff_pass2,80,"re-scored: first match rank nan -> None, top1 0.0 -> 0.0"
+Google_Gemini_3_Pro_throff_pass3,155,"re-scored: first match rank 3.0 -> 1, top1 0.0 -> 1.0"
+Google_Gemini_3_Pro_throff_pass3,80,"re-scored: first match rank nan -> None, top1 0.0 -> 0.0"

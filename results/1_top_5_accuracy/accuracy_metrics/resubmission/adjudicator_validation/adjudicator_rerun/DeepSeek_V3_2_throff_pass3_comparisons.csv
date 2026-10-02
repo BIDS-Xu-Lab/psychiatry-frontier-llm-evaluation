@@ -1,0 +1,248 @@
+model,pass_id,case_id,rank,ref_index,reference,prediction,fuzzy_score,tier,verdict,from_cache,llm_raw,llm_error,attempts,fuzzy_threshold
+DeepSeek-V3.2,3,181,1,0,Fetishistic disorder,Fetishistic Disorder - ICD-10 F65.0,100.0,LLM,True,False,"{""match"":true}",,1,off
+DeepSeek-V3.2,3,181,2,0,Fetishistic disorder,"Adjustment Disorder, With Anxiety - ICD-10 F43.22",37.68,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,181,3,0,Fetishistic disorder,Other Specified Sexual Disorder - ICD-10 F65.89,57.14,LLM_ERROR,,False,,"ValidationError: 1 validation error for DiagnosisMatch
+  Invalid JSON: expected ident at line 1 column 2 [type=json_invalid, input_value=""I'm sorry, but I cannot ...sist with that request."", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/json_invalid",4,off
+DeepSeek-V3.2,3,181,4,0,Fetishistic disorder,Unspecified Anxiety Disorder - ICD-10 F41.9,57.14,LLM,False,False,"{""match"":false}",,2,off
+DeepSeek-V3.2,3,181,5,0,Fetishistic disorder,Unspecified Paraphilic Disorder - ICD-10 F65.9,57.14,LLM,False,False,"{""match"":false}",,3,off
+DeepSeek-V3.2,3,62,1,0,Functional seizures.,Functional Neurological Symptom Disorder (Conversion Disorder) with Attacks or Seizures - ICD-10 F44.5,66.67,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,62,2,0,Functional seizures.,"Post-Traumatic Stress Disorder, Chronic - ICD-10 F43.10",29.33,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,62,3,0,Functional seizures.,Panic Disorder with Agoraphobia - ICD-10 F41.0,21.21,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,62,4,0,Functional seizures.,Adjustment Disorder - ICD-10 F43.20,29.09,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,62,5,0,Functional seizures.,Somatic Symptom Disorder - ICD-10 F45.1,20.34,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,169,1,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Major Neurocognitive Disorder Due to Traumatic Brain Injury, With Behavioral Disturbance - ICD-10 F02.84",97.04,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,169,1,1,Alcohol use disorder,"Major Neurocognitive Disorder Due to Traumatic Brain Injury, With Behavioral Disturbance - ICD-10 F02.84",57.14,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,169,2,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Alcohol Use Disorder, Moderate to Severe - ICD-10 F10.20",40.56,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,169,2,1,Alcohol use disorder,"Alcohol Use Disorder, Moderate to Severe - ICD-10 F10.20",70.97,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,169,3,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Stimulant Use Disorder, Moderate - ICD-10 F15.20",38.52,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,169,3,1,Alcohol use disorder,"Stimulant Use Disorder, Moderate - ICD-10 F15.20",38.24,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,169,4,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Sedative, Hypnotic, or Anxiolytic Use Disorder, Moderate - ICD-10 F13.20",41.51,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,169,4,1,Alcohol use disorder,"Sedative, Hypnotic, or Anxiolytic Use Disorder, Moderate - ICD-10 F13.20",34.78,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,169,5,0,"Mild neurocognitive disorder due to traumatic brain injury, with behavioral disturbance","Cannabis Use Disorder, Moderate - ICD-10 F12.20",38.81,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,169,5,1,Alcohol use disorder,"Cannabis Use Disorder, Moderate - ICD-10 F12.20",41.79,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,155,1,0,Intermittent explosive disorder,Intermittent Explosive Disorder - F63.81,100.0,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,155,2,0,Intermittent explosive disorder,"Other Specified Disruptive, Impulse-Control, and Conduct Disorder - F91.8",42.31,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,155,3,0,Intermittent explosive disorder,"Unspecified Disruptive, Impulse-Control, and Conduct Disorder - F91.9",42.0,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,155,4,0,Intermittent explosive disorder,Borderline Personality Disorder - F60.3,51.43,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,155,5,0,Intermittent explosive disorder,Adjustment Disorder with Disturbance of Conduct - F43.24,41.38,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,32,1,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Borderline Personality Disorder - ICD-10 F60.3,33.33,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,32,2,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Post-Traumatic Stress Disorder - ICD-10 F43.10,49.18,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,32,3,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Intermittent Explosive Disorder - ICD-10 F63.81,35.67,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,32,4,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Other Specified Dissociative Disorder (with dissociative amnesia) - ICD-10 F44.89,47.19,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,32,5,0,"Autism Spectrum Disorder, Major Depressive Disorder (MDD), Unspecified Anxiety Disorder, and Posttraumatic Stress Disorder (PTSD)",Adjustment Disorder with mixed disturbance of emotions and conduct - ICD-10 F43.25,40.62,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1013,1,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Global Developmental Delay - ICD-10 F88,38.98,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1013,2,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Feeding Disorder of Infancy or Early Childhood - ICD-10 F98.2,38.57,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1013,3,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Unspecified Intellectual Disability (Intellectual Developmental Disorder) - ICD-10 F79,46.06,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1013,4,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Other Specified Neurodevelopmental Disorder - ICD-10 F88,69.63,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1013,5,0,Cri-du-chat Syndrome (Q93.4) vs Unspecified neurodevelopmental disorder (F89.0),Psychological Factors Affecting Other Medical Conditions - ICD-10 F54,29.73,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,94,1,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Bipolar II Disorder, Current Episode Depressed, Severe - ICD-10 F31.4",71.05,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,94,1,1,Unspecified anxiety disorder,"Bipolar II Disorder, Current Episode Depressed, Severe - ICD-10 F31.4",39.18,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,94,2,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Major Depressive Disorder, Single Episode, Severe, With Suicidal Ideation - ICD-10 F32.2",51.46,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,94,2,1,Unspecified anxiety disorder,"Major Depressive Disorder, Single Episode, Severe, With Suicidal Ideation - ICD-10 F32.2",32.76,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,94,3,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide",Borderline Personality Disorder - ICD-10 F60.3,37.21,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,94,3,1,Unspecified anxiety disorder,Borderline Personality Disorder - ICD-10 F60.3,44.44,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,94,4,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide",Panic Disorder - ICD-10 F41.0,26.79,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,94,4,1,Unspecified anxiety disorder,Panic Disorder - ICD-10 F41.0,45.61,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,94,5,0,"Bipolar II disorder, current episode depressed; high level of concern about suicide","Cannabis Use Disorder, In Sustained Remission - ICD-10 F12.21",41.67,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,94,5,1,Unspecified anxiety disorder,"Cannabis Use Disorder, In Sustained Remission - ICD-10 F12.21",42.7,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1032,1,0,Disruptive mood dysregulation disorder (F34.81),Disruptive Mood Dysregulation Disorder - F34.8,94.62,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1032,2,0,Disruptive mood dysregulation disorder (F34.81),Oppositional Defiant Disorder - F91.3,45.24,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1032,3,0,Disruptive mood dysregulation disorder (F34.81),Intermittent Explosive Disorder - F63.81,48.28,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1032,4,0,Disruptive mood dysregulation disorder (F34.81),Other Specified Trauma- and Stressor-Related Disorder - F43.8,50.0,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1032,5,0,Disruptive mood dysregulation disorder (F34.81),"Other Specified Disruptive, Impulse-Control, and Conduct Disorder - F91.8",46.67,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1003,1,0,"Bipolar disorder, current episode manic (F31.2)","Bipolar I Disorder, current manic episode with irritable mood - ICD-10 F31.1",90.7,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1003,2,0,"Bipolar disorder, current episode manic (F31.2)",Other Specified Bipolar and Related Disorder - ICD-10 F31.89,48.6,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1003,3,0,"Bipolar disorder, current episode manic (F31.2)",Oppositional Defiant Disorder - ICD-10 F91.3,41.76,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1003,4,0,"Bipolar disorder, current episode manic (F31.2)",Intermittent Explosive Disorder - ICD-10 F63.81,36.17,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1003,5,0,"Bipolar disorder, current episode manic (F31.2)","Unspecified Disruptive, Impulse-Control, and Conduct Disorder - ICD-10 F91.9",37.4,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,1,0,"Intellectual developmental disorder (intellectual disability), severe","Intellectual Developmental Disorder, Severe - F72",80.49,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,80,1,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Intellectual Developmental Disorder, Severe - F72",61.97,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,2,0,"Intellectual developmental disorder (intellectual disability), severe",Autism Spectrum Disorder - F84.0,40.0,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,2,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome",Autism Spectrum Disorder - F84.0,63.83,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,3,0,"Intellectual developmental disorder (intellectual disability), severe",Depressive Disorder Due to Another Medical Condition (Kleefstra syndrome) - F06.31,43.71,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,3,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome",Depressive Disorder Due to Another Medical Condition (Kleefstra syndrome) - F06.31,40.21,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,4,0,"Intellectual developmental disorder (intellectual disability), severe","Other Specified Disruptive, Impulse-Control, and Conduct Disorder - F91.8",43.66,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,4,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome","Other Specified Disruptive, Impulse-Control, and Conduct Disorder - F91.8",44.32,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,80,5,0,"Intellectual developmental disorder (intellectual disability), severe",Unspecified Anxiety Disorder - F41.9,36.36,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,80,5,1,"Autism spectrum disorder, with accompanying intellectual and language impairments, associated with Kleefstra syndrome",Unspecified Anxiety Disorder - F41.9,32.43,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,109,1,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode","Depressive Disorder Due to Parkinson's Disease, With Depressive Features - ICD-10 F06.31",57.41,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,109,1,1,Rapid eye movement sleep behavior disorder,"Depressive Disorder Due to Parkinson's Disease, With Depressive Features - ICD-10 F06.31",38.66,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,109,2,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Mild Neurocognitive Disorder Due to Parkinson's Disease - ICD-10 F06.7,42.22,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,109,2,1,Rapid eye movement sleep behavior disorder,Mild Neurocognitive Disorder Due to Parkinson's Disease - ICD-10 F06.7,39.29,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,109,3,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Insomnia Disorder - ICD-10 F51.01,39.02,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,109,3,1,Rapid eye movement sleep behavior disorder,Insomnia Disorder - ICD-10 F51.01,40.0,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,109,4,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Other Specified Anxiety Disorder - ICD-10 F41.8,33.12,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,109,4,1,Rapid eye movement sleep behavior disorder,Other Specified Anxiety Disorder - ICD-10 F41.8,47.19,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,109,5,0,"Depressive disorder due to another medical condition (Parkinson’s disease), with major depressive–like episode",Adjustment Disorder With Depressed Mood - ICD-10 F43.21,46.06,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,109,5,1,Rapid eye movement sleep behavior disorder,Adjustment Disorder With Depressed Mood - ICD-10 F43.21,39.18,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,1,0,"Alcohol use disorder, moderate, in early remission",Substance/Medication-Induced Anxiety Disorder - ICD-10 F19.980,41.07,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,1,1,Medication-induced anxiety disorder (steroids),Substance/Medication-Induced Anxiety Disorder - ICD-10 F19.980,70.37,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,118,2,0,"Alcohol use disorder, moderate, in early remission","Alcohol Use Disorder, Severe - ICD-10 F10.20",64.62,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,2,1,Medication-induced anxiety disorder (steroids),"Alcohol Use Disorder, Severe - ICD-10 F10.20",37.78,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,3,0,"Alcohol use disorder, moderate, in early remission",Mild Neurocognitive Disorder Due to Hepatic Encephalopathy - ICD-10 F02.84,40.32,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,3,1,Medication-induced anxiety disorder (steroids),Mild Neurocognitive Disorder Due to Hepatic Encephalopathy - ICD-10 F02.84,43.33,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,4,0,"Alcohol use disorder, moderate, in early remission","Sedative, Hypnotic, or Anxiolytic Withdrawal - ICD-10 F13.239",32.43,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,4,1,Medication-induced anxiety disorder (steroids),"Sedative, Hypnotic, or Anxiolytic Withdrawal - ICD-10 F13.239",35.51,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,5,0,"Alcohol use disorder, moderate, in early remission",Adjustment Disorder With Mixed Anxiety and Depressed Mood - ICD-10 F43.23,32.52,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,118,5,1,Medication-induced anxiety disorder (steroids),Adjustment Disorder With Mixed Anxiety and Depressed Mood - ICD-10 F43.23,51.61,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,1,0,Opioid use disorder,"Opioid Use Disorder, Severe - ICD-10 F11.20",68.97,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,159,1,1,Tobacco use disorder,"Opioid Use Disorder, Severe - ICD-10 F11.20",47.62,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,1,2,"Alcohol use disorder, in remission","Opioid Use Disorder, Severe - ICD-10 F11.20",55.32,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,1,3,Major depressive disorder,"Opioid Use Disorder, Severe - ICD-10 F11.20",35.29,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,2,0,Opioid use disorder,"Depressive Disorder Due to Another Medical Condition, With Depressive Features (specify: chronic pain due to knee injury), OR Substance/Medication-Induced Depressive Disorder (specify: opioid-induced) - ICD-10 F06.31 or F11.94",59.26,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,2,1,Tobacco use disorder,"Depressive Disorder Due to Another Medical Condition, With Depressive Features (specify: chronic pain due to knee injury), OR Substance/Medication-Induced Depressive Disorder (specify: opioid-induced) - ICD-10 F06.31 or F11.94",57.14,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,2,2,"Alcohol use disorder, in remission","Depressive Disorder Due to Another Medical Condition, With Depressive Features (specify: chronic pain due to knee injury), OR Substance/Medication-Induced Depressive Disorder (specify: opioid-induced) - ICD-10 F06.31 or F11.94",25.84,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,2,3,Major depressive disorder,"Depressive Disorder Due to Another Medical Condition, With Depressive Features (specify: chronic pain due to knee injury), OR Substance/Medication-Induced Depressive Disorder (specify: opioid-induced) - ICD-10 F06.31 or F11.94",86.36,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,3,0,Opioid use disorder,"Tobacco Use Disorder, Severe - ICD-10 F17.200",46.88,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,3,1,Tobacco use disorder,"Tobacco Use Disorder, Severe - ICD-10 F17.200",70.97,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,159,3,2,"Alcohol use disorder, in remission","Tobacco Use Disorder, Severe - ICD-10 F17.200",55.32,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,3,3,Major depressive disorder,"Tobacco Use Disorder, Severe - ICD-10 F17.200",34.29,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,4,0,Opioid use disorder,"Alcohol Use Disorder, In sustained remission - ICD-10 F10.11",43.04,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,4,1,Tobacco use disorder,"Alcohol Use Disorder, In sustained remission - ICD-10 F10.11",37.5,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,4,2,"Alcohol use disorder, in remission","Alcohol Use Disorder, In sustained remission - ICD-10 F10.11",100.0,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,159,4,3,Major depressive disorder,"Alcohol Use Disorder, In sustained remission - ICD-10 F10.11",28.24,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,5,0,Opioid use disorder,"Major Depressive Disorder, Recurrent, In partial remission (by history) - ICD-10 F33.41",30.19,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,5,1,Tobacco use disorder,"Major Depressive Disorder, Recurrent, In partial remission (by history) - ICD-10 F33.41",29.91,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,159,5,2,"Alcohol use disorder, in remission","Major Depressive Disorder, Recurrent, In partial remission (by history) - ICD-10 F33.41",78.57,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,159,5,3,Major depressive disorder,"Major Depressive Disorder, Recurrent, In partial remission (by history) - ICD-10 F33.41",78.05,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1021,1,0,Obsessive-compulsive disorder (F42.2),Obsessive-Compulsive Disorder - ICD-10 F42,87.88,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1021,1,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Obsessive-Compulsive Disorder - ICD-10 F42,31.48,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1021,1,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Obsessive-Compulsive Disorder - ICD-10 F42,34.86,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1021,2,0,Obsessive-compulsive disorder (F42.2),Anorexia Nervosa - ICD-10 F50.00,28.99,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1021,2,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Anorexia Nervosa - ICD-10 F50.00,48.98,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1021,2,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Anorexia Nervosa - ICD-10 F50.00,24.24,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1021,3,0,Obsessive-compulsive disorder (F42.2),Persistent Depressive Disorder (Dysthymia) - ICD-10 F34.1,48.94,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1021,3,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Persistent Depressive Disorder (Dysthymia) - ICD-10 F34.1,34.15,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1021,3,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Persistent Depressive Disorder (Dysthymia) - ICD-10 F34.1,50.0,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1021,4,0,Obsessive-compulsive disorder (F42.2),Borderline Personality Disorder - ICD-10 F60.3,43.37,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1021,4,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Borderline Personality Disorder - ICD-10 F60.3,33.93,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1021,4,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Borderline Personality Disorder - ICD-10 F60.3,42.48,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1021,5,0,Obsessive-compulsive disorder (F42.2),Generalized Anxiety Disorder - ICD-10 F41.1,45.0,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1021,5,1,"Anorexia nervosa, restricting type, in partial remission (F50.014)",Generalized Anxiety Disorder - ICD-10 F41.1,31.19,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1021,5,2,"Major depressive disorder, recurrent, in partial remission (F33.41)",Generalized Anxiety Disorder - ICD-10 F41.1,36.36,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,104,1,0,"Major depressive disorder, single episode, moderate, with psychotic features","Major Depressive Disorder, Single Episode, Severe With Psychotic Features - ICD-10 F32.3",92.96,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,104,2,0,"Major depressive disorder, single episode, moderate, with psychotic features","Bipolar Disorder, Current Episode Depressed, Severe With Psychotic Features - ICD-10 F31.5",67.47,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,104,3,0,"Major depressive disorder, single episode, moderate, with psychotic features","Schizoaffective Disorder, Depressive Type - ICD-10 F25.1",53.03,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,104,4,0,"Major depressive disorder, single episode, moderate, with psychotic features",Delusional Disorder - ICD-10 F22,33.33,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,104,5,0,"Major depressive disorder, single episode, moderate, with psychotic features",Adjustment Disorder With Depressed Mood - ICD-10 F43.21,45.8,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1049,1,0,Cataonia associated with another mental disorder (F06.1),"Major depressive disorder, recurrent, with catatonic features - F33.3",44.8,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1049,2,0,Cataonia associated with another mental disorder (F06.1),"Schizophrenia, catatonic type - F20.2",38.71,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1049,3,0,Cataonia associated with another mental disorder (F06.1),"Schizoaffective disorder, depressive type - F25.1",40.0,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1049,4,0,Cataonia associated with another mental disorder (F06.1),Catatonic disorder due to another medical condition - F06.1,57.39,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1049,5,0,Cataonia associated with another mental disorder (F06.1),Unspecified catatonia - F06.1,32.94,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,1,0,"Social anxiety disorder, severe",Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,62.22,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,115,1,1,"Posttraumatic stress disorder, moderate",Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,34.04,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,1,2,"Agoraphobia, severe",Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,29.73,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,115,2,0,"Social anxiety disorder, severe",Posttraumatic Stress Disorder - ICD-10 F43.10,36.84,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,115,2,1,"Posttraumatic stress disorder, moderate",Posttraumatic Stress Disorder - ICD-10 F43.10,73.81,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,115,2,2,"Agoraphobia, severe",Posttraumatic Stress Disorder - ICD-10 F43.10,28.12,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,3,0,"Social anxiety disorder, severe",Agoraphobia - ICD-10 F40.00,20.69,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,115,3,1,"Posttraumatic stress disorder, moderate",Agoraphobia - ICD-10 F40.00,27.27,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,115,3,2,"Agoraphobia, severe",Agoraphobia - ICD-10 F40.00,52.17,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,115,4,0,"Social anxiety disorder, severe",Persistent Depressive Disorder (Dysthymia) - ICD-10 F34.1,38.64,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,4,1,"Posttraumatic stress disorder, moderate",Persistent Depressive Disorder (Dysthymia) - ICD-10 F34.1,35.42,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,4,2,"Agoraphobia, severe",Persistent Depressive Disorder (Dysthymia) - ICD-10 F34.1,23.68,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,5,0,"Social anxiety disorder, severe","Other Specified Trauma- and Stressor-Related Disorder (Prolonged bullying and racial harassment, with predominant fear and avoidance) - ICD-10 F43.8",29.24,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,5,1,"Posttraumatic stress disorder, moderate","Other Specified Trauma- and Stressor-Related Disorder (Prolonged bullying and racial harassment, with predominant fear and avoidance) - ICD-10 F43.8",32.4,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,115,5,2,"Agoraphobia, severe","Other Specified Trauma- and Stressor-Related Disorder (Prolonged bullying and racial harassment, with predominant fear and avoidance) - ICD-10 F43.8",18.87,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1009,1,0,"Anorexia nervosa, restrictive type (F50.01)","Anorexia Nervosa, Restricting Type - ICD-10 F50.01",83.87,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1009,2,0,"Anorexia nervosa, restrictive type (F50.01)",Other Specified Feeding or Eating Disorder - ICD-10 F50.8,32.0,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1009,3,0,"Anorexia nervosa, restrictive type (F50.01)",Laxative Abuse - ICD-10 F50.8,36.11,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1009,4,0,"Anorexia nervosa, restrictive type (F50.01)","Gastroesophageal reflux disease, with sleep disturbance - ICD-10 F50.8",31.86,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1009,5,0,"Anorexia nervosa, restrictive type (F50.01)",Amenorrhea - ICD-10 F50.8,32.35,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,99,1,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Bipolar I Disorder, current episode manic, with psychotic features, with peripartum onset - ICD-10 F31.2",95.45,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,99,2,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Brief Psychotic Disorder, with peripartum onset - ICD-10 F23",81.19,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,99,3,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Schizoaffective Disorder, bipolar type - ICD-10 F25.0",48.57,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,99,4,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset","Major Depressive Disorder, with psychotic features, with peripartum onset - ICD-10 F32.3",76.12,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,99,5,0,"Bipolar I disorder, current episode manic, severe, with psychotic features, with peripartum onset",Other Specified Schizophrenia Spectrum and Other Psychotic Disorder (Postpartum Psychosis) - ICD-10 F28,48.68,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,23,1,0,Levetiracetam-induced acute psychosis,Substance/medication-induced psychotic disorder - ICD-10 F06.8,32.32,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,23,2,0,Levetiracetam-induced acute psychosis,Anxiety disorder due to another medical condition (epilepsy) - ICD-10 F06.4,30.36,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,23,3,0,Levetiracetam-induced acute psychosis,Adjustment disorder with anxiety - ICD-10 F43.23,35.29,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,23,4,0,Levetiracetam-induced acute psychosis,Brief psychotic disorder - ICD-10 F23,43.24,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,23,5,0,Levetiracetam-induced acute psychosis,Schizophrenia - ICD-10 F20.9,30.77,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,1,0,Obsessive-Compulsive Disorder (F42.2),Obsessive-Compulsive Disorder - ICD-10 F42,87.88,LLM,True,True,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1020,1,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Obsessive-Compulsive Disorder - ICD-10 F42,45.36,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,1,2,Social Anxiety Disorder (F40.10),Obsessive-Compulsive Disorder - ICD-10 F42,48.65,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,1,3,Excoriation Disorder (F42.4),Obsessive-Compulsive Disorder - ICD-10 F42,48.57,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,1,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Obsessive-Compulsive Disorder - ICD-10 F42,33.09,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,2,0,Obsessive-Compulsive Disorder (F42.2),"Major Depressive Disorder, Recurrent Episode - ICD-10 F33",36.17,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,2,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)","Major Depressive Disorder, Recurrent Episode - ICD-10 F33",69.64,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1020,2,2,Social Anxiety Disorder (F40.10),"Major Depressive Disorder, Recurrent Episode - ICD-10 F33",38.2,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,2,3,Excoriation Disorder (F42.4),"Major Depressive Disorder, Recurrent Episode - ICD-10 F33",37.65,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,2,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),"Major Depressive Disorder, Recurrent Episode - ICD-10 F33",37.66,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,3,0,Obsessive-Compulsive Disorder (F42.2),Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,41.3,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,3,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,38.18,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,3,2,Social Anxiety Disorder (F40.10),Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,83.64,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1020,3,3,Excoriation Disorder (F42.4),Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,45.78,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,3,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Social Anxiety Disorder (Social Phobia) - ICD-10 F40.10,35.53,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,4,0,Obsessive-Compulsive Disorder (F42.2),Excoriation (Skin-Picking) Disorder - ICD-10 F42.4,39.08,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,4,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)",Excoriation (Skin-Picking) Disorder - ICD-10 F42.4,38.1,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,4,2,Social Anxiety Disorder (F40.10),Excoriation (Skin-Picking) Disorder - ICD-10 F42.4,41.46,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,4,3,Excoriation Disorder (F42.4),Excoriation (Skin-Picking) Disorder - ICD-10 F42.4,83.33,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1020,4,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),Excoriation (Skin-Picking) Disorder - ICD-10 F42.4,35.37,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,5,0,Obsessive-Compulsive Disorder (F42.2),"Bulimia Nervosa, In partial remission - ICD-10 F50.2",33.71,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,5,1,"Major Depressive Disorder (moderate, recurrent) (F33.1)","Bulimia Nervosa, In partial remission - ICD-10 F50.2",33.64,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,5,2,Social Anxiety Disorder (F40.10),"Bulimia Nervosa, In partial remission - ICD-10 F50.2",33.33,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1020,5,3,Excoriation Disorder (F42.4),"Bulimia Nervosa, In partial remission - ICD-10 F50.2",35.0,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1020,5,4,Other Specified Eating Disorder: bulimia nervosa (of low frequency and limited duration) (F50.89),"Bulimia Nervosa, In partial remission - ICD-10 F50.2",42.95,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,85,1,0,"Schizophrenia, multiple episodes, currently in acute episode","Schizophrenia, Paranoid Type, Childhood-Onset, Treatment-Resistant - ICD-10 F20.0",48.23,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,85,2,0,"Schizophrenia, multiple episodes, currently in acute episode","Unspecified Disruptive, Impulse-Control, and Conduct Disorder - ICD-10 F63.9",42.65,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,85,3,0,"Schizophrenia, multiple episodes, currently in acute episode",Unspecified Anxiety Disorder - ICD-10 F41.9,38.83,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,85,4,0,"Schizophrenia, multiple episodes, currently in acute episode",Unspecified Intellectual Disability - ICD-10 F79,33.33,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,85,5,0,"Schizophrenia, multiple episodes, currently in acute episode",Unspecified Neurodevelopmental Disorder - ICD-10 F89,35.71,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1012,1,0,Autistic Disorder (F 84.0),"Autism Spectrum Disorder, With accompanying intellectual impairment, Without accompanying language impairment, Requiring substantial support - ICD-10 F84.0",21.79,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,1012,1,1,Tourette Syndrome (F95.2),"Autism Spectrum Disorder, With accompanying intellectual impairment, Without accompanying language impairment, Requiring substantial support - ICD-10 F84.0",18.06,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1012,2,0,Autistic Disorder (F 84.0),Tourette's Disorder - ICD-10 F95.2,53.33,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1012,2,1,Tourette Syndrome (F95.2),Tourette's Disorder - ICD-10 F95.2,54.24,LLM,True,False,"{""match"":true}",,1,off
+DeepSeek-V3.2,3,1012,3,0,Autistic Disorder (F 84.0),Persistent (Chronic) Motor or Vocal Tic Disorder - ICD-10 F95.1,47.06,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1012,3,1,Tourette Syndrome (F95.2),Persistent (Chronic) Motor or Vocal Tic Disorder - ICD-10 F95.1,31.82,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1012,4,0,Autistic Disorder (F 84.0),Provisional Tic Disorder - ICD-10 F95.0,55.38,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1012,4,1,Tourette Syndrome (F95.2),Provisional Tic Disorder - ICD-10 F95.0,31.25,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1012,5,0,Autistic Disorder (F 84.0),Other Specified Neurodevelopmental Disorder - ICD-10 F88,47.06,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1012,5,1,Tourette Syndrome (F95.2),Other Specified Neurodevelopmental Disorder - ICD-10 F88,29.63,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,178,1,0,Dependent personality disorder,"Sedative, Hypnotic, or Anxiolytic Use Disorder (Benzodiazepine Use Disorder) - ICD-10 F13.20",42.11,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,178,1,1,Benzodiazepine use disorder,"Sedative, Hypnotic, or Anxiolytic Use Disorder (Benzodiazepine Use Disorder) - ICD-10 F13.20",61.54,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,178,2,0,Dependent personality disorder,Dependent Personality Disorder - ICD-10 F60.7,100.0,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,178,2,1,Benzodiazepine use disorder,Dependent Personality Disorder - ICD-10 F60.7,45.71,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,178,3,0,Dependent personality disorder,Adjustment Disorder with Depressed Mood - ICD-10 F43.21,47.06,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,178,3,1,Benzodiazepine use disorder,Adjustment Disorder with Depressed Mood - ICD-10 F43.21,45.71,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,178,4,0,Dependent personality disorder,Unspecified Anxiety Disorder - ICD-10 F41.9,43.84,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,178,4,1,Benzodiazepine use disorder,Unspecified Anxiety Disorder - ICD-10 F41.9,48.57,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,178,5,0,Dependent personality disorder,Unspecified Depressive Disorder - ICD-10 F32.9,47.37,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,178,5,1,Benzodiazepine use disorder,Unspecified Depressive Disorder - ICD-10 F32.9,49.32,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1047,1,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse","Substance/Medication-Induced Psychotic Disorder, With onset during intoxication (Phencyclidine, Methamphetamine, Cannabis) - ICD-10 F16.950",53.23,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1047,2,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Phencyclidine Intoxication - ICD-10 F16.929,27.54,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1047,3,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse","Methamphetamine Use Disorder, Moderate or Severe - ICD-10 F15.20",39.36,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1047,4,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse","Cannabis Use Disorder, Moderate or Severe - ICD-10 F12.20",47.51,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1047,5,0,"F19.150 other psychoactive substance abuse with psychoactive substance induced psychotic disorder with delusions, F15.10 Other stimulant abuse, F12.1 Cannabis abuse",Schizophrenia (Rule-Out) - ICD-10 F20.9,26.99,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,17,1,0,Schizoaffective disorder,"Schizoaffective Disorder, Bipolar Type - F25.0",76.92,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,17,2,0,Schizoaffective disorder,"Cannabis Use Disorder, Moderate - F12.20",40.62,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,17,3,0,Schizoaffective disorder,Posttraumatic Stress Disorder - F43.10,50.0,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,17,4,0,Schizoaffective disorder,Other Specified Schizophrenia Spectrum and Other Psychotic Disorder - F28,50.0,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,17,5,0,Schizoaffective disorder,"Bipolar I Disorder, With Psychotic Features, Most Recent Episode Manic - F31.2",35.29,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1033,1,0,Oppositional defiant disorder (F91.3),Oppositional Defiant Disorder - ICD-10 F91.3,87.88,LLM,True,False,"{""match"":true}",,1,off
+DeepSeek-V3.2,3,1033,2,0,Oppositional defiant disorder (F91.3),"Conduct Disorder, Childhood-Onset Type - ICD-10 F91.1",37.78,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1033,3,0,Oppositional defiant disorder (F91.3),Intermittent Explosive Disorder - ICD-10 F63.81,45.24,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1033,4,0,Oppositional defiant disorder (F91.3),Adjustment Disorder With Disturbance of Conduct - ICD-10 F43.24,40.0,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1033,5,0,Oppositional defiant disorder (F91.3),Parent-Child Relational Problem - ICD-10 Z62.820,37.65,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1056,1,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Disruptive Mood Dysregulation Disorder - ICD-10 F34.8,85.98,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1056,2,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Oppositional Defiant Disorder - ICD-10 F91.3,42.86,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1056,3,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Intermittent Explosive Disorder - ICD-10 F63.81,45.54,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,1056,4,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Social (Pragmatic) Communication Disorder - ICD-10 F80.89,41.44,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,1056,5,0,Disruptive Mood Dysregulation Disorder (DMDD) (F34.81),Other Specified Neurodevelopmental Disorder - ICD-10 F88,41.82,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,108,1,0,"Cocaine use disorder, moderate","Cocaine Use Disorder, Severe - ICD-10 F14.20",82.35,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,108,1,1,Substance (cocaine)-induced depressive disorder,"Cocaine Use Disorder, Severe - ICD-10 F14.20",46.15,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,108,2,0,"Cocaine use disorder, moderate","Alcohol Use Disorder, Moderate - ICD-10 F10.20",84.62,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,108,2,1,Substance (cocaine)-induced depressive disorder,"Alcohol Use Disorder, Moderate - ICD-10 F10.20",34.41,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,108,3,0,"Cocaine use disorder, moderate",Substance/Medication-Induced Depressive Disorder - ICD-10 F14.24,38.3,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,108,3,1,Substance (cocaine)-induced depressive disorder,Substance/Medication-Induced Depressive Disorder - ICD-10 F14.24,61.26,LLM,True,False,"{""match"": true}",,1,off
+DeepSeek-V3.2,3,108,4,0,"Cocaine use disorder, moderate","Major Depressive Disorder, Single Episode, Moderate - ICD-10 F32.1",75.0,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,108,4,1,Substance (cocaine)-induced depressive disorder,"Major Depressive Disorder, Single Episode, Moderate - ICD-10 F32.1",47.79,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,108,5,0,"Cocaine use disorder, moderate",Adjustment Disorder with Depressed Mood - ICD-10 F43.21,40.0,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,108,5,1,Substance (cocaine)-induced depressive disorder,Adjustment Disorder with Depressed Mood - ICD-10 F43.21,47.06,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,97,1,0,"Bipolar and related disorder due to HIV infection, with manic features","Bipolar I Disorder, Current Episode Manic, Severe - ICD-10 F31.13",54.81,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,97,2,0,"Bipolar and related disorder due to HIV infection, with manic features","Stimulant Use Disorder, Methamphetamine, in Early Remission - ICD-10 F15.21",42.76,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,97,3,0,"Bipolar and related disorder due to HIV infection, with manic features","Alcohol Use Disorder, Mild - ICD-10 F10.10",41.07,LLM,False,False,"{""match"": false}",,1,off
+DeepSeek-V3.2,3,97,4,0,"Bipolar and related disorder due to HIV infection, with manic features","Major Depressive Disorder, Single Episode, In Partial Remission (by history) - ICD-10 F32.4",43.48,LLM,False,False,"{""match"":false}",,1,off
+DeepSeek-V3.2,3,97,5,0,"Bipolar and related disorder due to HIV infection, with manic features","HIV-Related Neurocognitive Disorder, Mild (Suspected) - ICD-10 F02.80",41.73,LLM,False,False,"{""match"": false}",,1,off

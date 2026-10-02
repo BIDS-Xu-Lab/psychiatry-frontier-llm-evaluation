@@ -1,0 +1,18 @@
+RUN-TO-RUN STABILITY — study hybrid evaluator (fuzzy>=90, then gpt-5-mini)
+======================================================================
+
+Claude Opus 4.5   (n=20 scorable, 10 excluded)
+  Top-1     : run1 0.800   run2 0.600   flipped 4/20 (20.0%)
+  Top-5/hit : run1 0.900   run2 0.800   flipped 2/20 (10.0%)
+  Recall@5  : run1 0.850   run2 0.725
+  MRR       : run1 0.842   run2 0.692
+
+OVERALL
+  Top-1 flipped     : 4/20 (20.0%)
+  Top-5 flipped     : 2/20 (10.0%)
+
+ADJUDICATION TIERS
+  Matches from fuzzy tier : 14
+  Matches from LLM tier   : 29
+  LLM calls made          : 221
+  LLM errors              : 4   <-- scored as non-match; the original pipeline did this silently

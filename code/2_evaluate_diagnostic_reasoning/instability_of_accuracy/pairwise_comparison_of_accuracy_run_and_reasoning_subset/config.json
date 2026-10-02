@@ -1,0 +1,15 @@
+{
+  "run1_label": "accuracy_run_196",
+  "run2_label": "reasoning_subset_30",
+  "files": {
+    "DeepSeek-V3.2":   {"run1": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/1_top_5_accuracy/model_generated_diagnoses/main_experiment/predicted_diagnoses_deepseek-reasoner_20251215_215332.json","run2": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/2_evaluate_diagnostic_reasoning/adapted_acgme_guidelines_in_prompt/reasoning_samples_deepseek-reasoner_20251213_163054.json"},
+    "Claude Opus 4.5": {"run1": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/1_top_5_accuracy/model_generated_diagnoses/main_experiment/predicted_diagnoses_claude-opus-4-5-20251101_20251215_225418.json",   "run2": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/2_evaluate_diagnostic_reasoning/adapted_acgme_guidelines_in_prompt/reasoning_samples_claude-opus-4-5-20251101_20251213_170323.json"},
+    "Gemini 3 Pro":    {"run1": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/1_top_5_accuracy/model_generated_diagnoses/main_experiment/predicted_diagnoses_gemini-3-pro-preview_20251217_184205.json",   "run2": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/2_evaluate_diagnostic_reasoning/adapted_acgme_guidelines_in_prompt/reasoning_samples_gemini-3-pro-preview_20251213_161610.json"},
+    "GPT-5.2":         {"run1": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/1_top_5_accuracy/model_generated_diagnoses/main_experiment/predicted_diagnoses_gpt-5.2_20251218_122902.json",    "run2": "/Users/kevin/Documents/School/PhD (Yale)/PhD/xu_lab/Repositories/psychiatry-frontier-llm-evaluation/results/2_evaluate_diagnostic_reasoning/adapted_acgme_guidelines_in_prompt/reasoning_samples_gpt-5.2_20251213_191442.json"}
+  },
+  "id_field": "case_id",
+  "reference_field": "diagnosis",
+  "output_field": "model_diagnosis",
+  "trace_field": "model_thoughts",
+  "source_field": "source"
+}

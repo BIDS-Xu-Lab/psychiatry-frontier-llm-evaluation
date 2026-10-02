@@ -1,0 +1,150 @@
+==============================================================================
+RUN-TO-RUN STABILITY COMPARISON
+  accuracy_run_196  vs  reasoning_subset_30
+==============================================================================
+
+  DeepSeek-V3.2: run1 has 196 cases, run2 has 30, 30 in common
+
+  Claude Opus 4.5: run1 has 196 cases, run2 has 30, 30 in common
+
+  Gemini 3 Pro: run1 has 196 cases, run2 has 30, 30 in common
+
+  GPT-5.2: run1 has 196 cases, run2 has 30, 30 in common
+
+==============================================================================
+DIFFERENTIAL STABILITY
+==============================================================================
+
+  DeepSeek-V3.2  (n = 30 paired cases)
+    Top-1 same diagnosis (ICD code)   : 53.3%
+    Top-1 same diagnosis (text)       : 53.3%
+    Mean shared dx out of 5           : 2.27
+    Mean Jaccard (5-item lists)       : 0.326
+    Mean same-code-at-same-rank       : 1.37 / 5
+    Fully identical differentials     : 0/30 (0.0%)
+
+  Claude Opus 4.5  (n = 30 paired cases)
+    Top-1 same diagnosis (ICD code)   : 93.3%
+    Top-1 same diagnosis (text)       : 76.7%
+    Mean shared dx out of 5           : 3.80
+    Mean Jaccard (5-item lists)       : 0.629
+    Mean same-code-at-same-rank       : 2.63 / 5
+    Fully identical differentials     : 2/30 (6.7%)
+
+  Gemini 3 Pro  (n = 30 paired cases)
+    Top-1 same diagnosis (ICD code)   : 90.0%
+    Top-1 same diagnosis (text)       : 86.7%
+    Mean shared dx out of 5           : 3.60
+    Mean Jaccard (5-item lists)       : 0.595
+    Mean same-code-at-same-rank       : 2.37 / 5
+    Fully identical differentials     : 2/30 (6.7%)
+
+  GPT-5.2  (n = 29 paired cases)
+    Top-1 same diagnosis (ICD code)   : 72.4%
+    Top-1 same diagnosis (text)       : 79.3%
+    Mean shared dx out of 5           : 3.59
+    Mean Jaccard (5-item lists)       : 0.599
+    Mean same-code-at-same-rank       : 2.59 / 5
+    Fully identical differentials     : 6/29 (20.7%)
+
+------------------------------------------------------------------------------
+  Expected ordering if this reflects sampling temperature:
+    Gemini 3 Pro (temp=1) least stable ... DeepSeek-V3.2 (temp=0) most stable
+    Claude / GPT-5.2 omit temperature (reasoning models).
+  If DeepSeek is NOT the most stable, suspect alias drift between runs
+  or a data-matching problem — investigate before reporting.
+------------------------------------------------------------------------------
+
+==============================================================================
+REASONING-TRACE COMPARISON
+==============================================================================
+
+  NOTE ON INTERPRETATION
+  These are SURFACE measures. High lexical overlap does not establish that two
+  traces are of equal clinical quality, and low overlap does not establish that
+  they differ in quality. Only clinician rating can answer that. What these
+  measures CAN do is tell you whether the two runs produced recognizably similar
+  material, and flag whether they were elicited the same way.
+
+
+  DeepSeek-V3.2  (n = 30)
+    Mean trace length      : run1 542 words | run2 620 words
+    Unigram Jaccard        : 0.276
+    Bigram Jaccard         : 0.081
+    Term-frequency cosine  : 0.634
+    ICD codes in trace     : run1 2.6 | run2 3.5 | shared 0.3
+    Deliberation markers   : run1 2.7 | run2 3.8
+    Post-hoc framing phrases in: run1 1/30 traces | run2 0/30 traces
+
+  Claude Opus 4.5  (n = 30)
+    Mean trace length      : run1 967 words | run2 1088 words
+    Unigram Jaccard        : 0.435
+    Bigram Jaccard         : 0.135
+    Term-frequency cosine  : 0.834
+    ICD codes in trace     : run1 2.0 | run2 2.8 | shared 0.9
+    Deliberation markers   : run1 0.4 | run2 0.7
+    Post-hoc framing phrases in: run1 0/30 traces | run2 0/30 traces
+
+  Gemini 3 Pro  (n = 30)
+    Mean trace length      : run1 398 words | run2 431 words
+    Unigram Jaccard        : 0.206
+    Bigram Jaccard         : 0.048
+    Term-frequency cosine  : 0.585
+    ICD codes in trace     : run1 3.7 | run2 4.0 | shared 1.7
+    Deliberation markers   : run1 0.9 | run2 1.4
+    Post-hoc framing phrases in: run1 0/30 traces | run2 0/30 traces
+
+  GPT-5.2  (n = 30)
+    Mean trace length      : run1 926 words | run2 900 words
+    Unigram Jaccard        : 0.263
+    Bigram Jaccard         : 0.068
+    Term-frequency cosine  : 0.803
+    ICD codes in trace     : run1 8.8 | run2 8.8 | shared 5.0
+    Deliberation markers   : run1 3.2 | run2 3.1
+    Post-hoc framing phrases in: run1 0/30 traces | run2 0/30 traces
+
+==============================================================================
+CORRECTNESS FLIPS  (heuristic matcher — see caveat below)
+==============================================================================
+
+  DeepSeek-V3.2 (n=30)
+    top-1 correct: run1 17/30 (56.7%)  run2 17/30 (56.7%)  FLIPPED 4 (13.3%)
+    top-5 correct: run1 23/30 (76.7%)  run2 22/30 (73.3%)  FLIPPED 5 (16.7%)
+
+  Claude Opus 4.5 (n=30)
+    top-1 correct: run1 15/30 (50.0%)  run2 16/30 (53.3%)  FLIPPED 1 (3.3%)
+    top-5 correct: run1 24/30 (80.0%)  run2 24/30 (80.0%)  FLIPPED 2 (6.7%)
+
+  Gemini 3 Pro (n=30)
+    top-1 correct: run1 20/30 (66.7%)  run2 19/30 (63.3%)  FLIPPED 3 (10.0%)
+    top-5 correct: run1 25/30 (83.3%)  run2 25/30 (83.3%)  FLIPPED 2 (6.7%)
+
+  GPT-5.2 (n=30)
+    top-1 correct: run1 17/30 (56.7%)  run2 15/30 (50.0%)  FLIPPED 4 (13.3%)
+    top-5 correct: run1 25/30 (83.3%)  run2 24/30 (80.0%)  FLIPPED 1 (3.3%)
+
+  OVERALL: top-1 flipped 12/120 (10.0%) | top-5 flipped 10/120 (8.3%)
+
+  CAVEAT: these use approximate string matching and will disagree with your
+  GPT-5-mini adjudicator. Treat as a screen only. Use adjudication_pairs.csv
+  below to produce the numbers you would actually report.
+
+  Wrote adjudication_pairs.csv — score this with your GPT-5-mini adjudicator,
+  then recompute flips from the adjudicated verdicts.
+  Wrote run_comparison_by_case.csv — per-case detail for manual inspection.
+  Wrote trace_comparison_by_case.csv
+  Wrote posthoc_examples.txt (1 traces flagged)
+
+==============================================================================
+NEXT STEPS
+==============================================================================
+
+  1. Check the access timestamps for both runs. If they are weeks apart, alias
+     drift is a competing explanation for any instability you find here.
+  2. Diff the actual prompt strings used in each run. If they differ at all,
+     this measures prompt sensitivity, not model stochasticity.
+  3. Score adjudication_pairs.csv with GPT-5-mini and recompute the flip rates
+     from those verdicts — those are the numbers to report.
+  4. Compare the flip rate against the between-model spread in Table 1
+     (top-5 accuracy ranges 0.730-0.801, a 7-point spread). If run-to-run
+     flips are of similar magnitude, the Table 1 ranking is not stable.

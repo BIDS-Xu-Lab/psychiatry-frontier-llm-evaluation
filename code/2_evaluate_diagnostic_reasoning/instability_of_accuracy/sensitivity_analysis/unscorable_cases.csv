@@ -1,0 +1,2 @@
+model,case_id,run,note
+GPT-5.2,94,run1,absent from CSV — check raw output (content filter / empty / parse failure)
